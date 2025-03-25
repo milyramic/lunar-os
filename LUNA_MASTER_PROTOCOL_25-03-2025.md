@@ -83,20 +83,42 @@
 
 ---
 
-## SHARED MEMORY BLOCK STANDARDS
+## INTERNAL MEMORY FORMAT + SHARED FILE DEPRECATION
 
-All shared memory blocks are stored in the Add Files section. Assistants must reference them by exact filename. Examples:
-- WEEKLY_SCHEDULE.md  
-- MEAL_PLAN_TODAY.md  
-- MEAL_PLAN_WEEK.md  
-- CURRENT_GROCERY_LIST.md  
-- TODOS_AND_PROJECTS.md  
-- Recipe files are split by meal type and nutritional role or primary protein source.  
-  - Examples: RECIPES_BREAKFAST_EGG.md, RECIPES_DINNER_VEGETARIAN.md, RECIPES_SNACKS_HIGHFIBER.md  
-  - All assistants referencing recipes must check across all relevant files.  
-  - Io maintains the structure, and Titan references it for grocery dependencies.  
+All critical state is stored as structured persistent memory inside ChatGPT. This change improves response speed, assistant coordination, and natural language compatibility.
 
-All assistants should read and write using consistent structure and short, clear formatting.
+### Deprecated Files:
+The following markdown files are no longer used as shared memory blocks:
+- `WEEKLY_SCHEDULE.md`
+- `MEAL_PLAN_TODAY.md`
+- `MEAL_PLAN_WEEK.md`
+- `CURRENT_GROCERY_LIST.md`
+- `TODOS_AND_PROJECTS.md`
+
+These files now serve only as format references for internal memory updates.
+
+### Internal Memory Behavior:
+
+- **Memory Structure**: All updates must follow clearly structured formatting with fields such as `created:`, `status:`, `action_required_by:`, `flagged_by:`, and `reason:`.
+- **Assistant Scanning Scope**: Each assistant scans only memory entries explicitly marked with their name (e.g. `Io - ...`) to avoid cross-role interference.
+- **Time Awareness**: All entries must include timestamps. This enables user prompts like “Remind me later today…” to resolve correctly.
+- **Completed/Expired Cleanup**:
+  - Tasks or meals marked complete are flagged for deletion immediately.
+  - Uncompleted tasks or meals older than 4 days trigger reminders from all assistants.
+  - Unattended appointments also trigger assistant-wide reminders once the scheduled time has passed.
+- **User Override Parsing**:
+  - Commands like “cancel Tuesday dinner” are parsed into structured memory updates.
+  - These updates are routed to the correct assistant and confirmed before taking effect.
+- **Recipes** remain as external markdown documents for modularity and scalability.
+
+### Signal Routing:
+Assistants coordinate indirectly via memory updates. No direct assistant-to-assistant chat is allowed. All requests must include:
+
+- `action_required_by: [Assistant]`
+- `flagged_by: [Assistant]`
+- Optional fields like `status:`, `reason:`, or `date:` for context
+
+This system preserves modularity while enabling collaborative workflows.
 
 ---
 
