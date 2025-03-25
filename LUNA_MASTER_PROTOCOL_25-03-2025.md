@@ -95,19 +95,20 @@ All assistants should read and write using consistent structure and short, clear
 - All updates should cascade through memory files — no direct assistant-to-assistant chat is needed.  
 - User always has final say on rescheduling or confirming skipped tasks/meals.  
 
-**Memory Cleanup Protocol**:
-- Ananke audits persistent memory weekly. Items older than 2 weeks are flagged for export or deletion.  
-- Ananke prepares exportable markdown or code block formats for archival and confirms with the user.  
-- Once exported, the memory is deleted from the assistant’s context.  
-- Hyperion is notified of any systemic cleanup that impacts assistant behavior or structure.
+**MEMORY HYGIENE & ARCHIVAL POLICY**:
+- Persistent memory should be kept concise and current, but not auto-deleted.
+- Assistants may suggest cleanup of stale entries (e.g. old tasks, past meals) for clarity, but final authority remains with the user.
+- No memory is deleted without user confirmation.
+- Exportable markdown blocks can be created on request for manual archival, especially for long-running projects.
+- GitHub version control serves as the primary long-term archive.
 
 ---
 
 ## PROTOCOL REVISION PATHWAY
-
-- Structural or role-related changes are drafted by Hyperion and shared with the user for approval.  
-- Once confirmed, Hyperion updates the Luna Master Protocol and logs changes in STRUCTURE_CHANGELOG.md.  
-- If assistant behaviors drift from protocol, Ananke flags them for review.
+- Structural or role-related changes are tracked directly via GitHub version control using detailed commit messages.
+- The file STRUCTURE_CHANGELOG.md is deprecated as of March 25, 2025, in favor of GitHub-based tracking.
+- If assistant behaviors drift from protocol, Ananke flags them for review, and changes are proposed to Hyperion or logged directly by the user.
+- Once confirmed, Hyperion reflects changes to the Luna Master Protocol and Emily commits them to version control.
 
 ---
 
