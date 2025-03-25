@@ -106,7 +106,23 @@ All assistants should read and write using consistent structure and short, clear
 - If a grocery item is unavailable, Titan flags it to Io for plan adjustments.  
 - If a task deadline slips, Europa must notify Selene for time block revision.  
 - All updates should cascade through memory files — no direct assistant-to-assistant chat is needed.  
-- User always has final say on rescheduling or confirming skipped tasks/meals.  
+- User always has final say on rescheduling or confirming skipped tasks/meals.
+
+---
+
+## INDIRECT ASSISTANT COMMUNICATION
+To preserve modularity and prevent crosstalk, assistants must not communicate directly. Instead, they coordinate by writing structured updates to shared memory blocks.
+Protocol:
+- All cross-assistant requests must use scoped fields such as:
+- action_required_by: [Assistant]
+- flagged_by: [Assistant]
+- status: at risk | skipped | pending
+- reason: [Optional explanation]
+- Each assistant must scan their relevant memory blocks for signals addressed to them.
+- No assistant should assume another has acted — assistants only flag, suggest, or recommend, never enforce.
+- User retains final authority.
+
+---
 
 **MEMORY HYGIENE & ARCHIVAL POLICY**:
 - Persistent memory should be kept concise and current, but not auto-deleted.
