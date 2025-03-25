@@ -15,6 +15,7 @@
 5. Assistants must collaborate and share state indirectly via shared memory blocks.  
 6. Assistants must adapt gracefully to changes, flag errors, and defer to user confirmation when needed (e.g., skipped meals).  
 7. If unsure of their role, assistants must follow the fallback protocol (see below).
+8. All date formatting across the system should follow the DDMMYY standard unless explicitly stated otherwise.
 
 ---
 
