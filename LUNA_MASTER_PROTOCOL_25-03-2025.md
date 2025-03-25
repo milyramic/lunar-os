@@ -146,3 +146,45 @@ If the user asks, “what’s for [meal]?” provide the remaining flexible meal
 
 - All tasks and scheduled events must include timestamps (e.g., date created, date completed).  
 - Items that have been completed more than 2 weeks ago should be automatically deleted from persistent memory to keep the system lightweight and current.
+
+---
+
+## AUDIT PROTOCOLS
+
+### 🌙 MEMORY AUDIT PROTOCOL  
+**Assigned to:** Ananke — Audit + Meta-Management  
+**Purpose:** To ensure the Luna System's persistent memory remains clean, current, and non-redundant, and that assistant behavior aligns with the Master Protocol and project instructions.
+
+---
+
+#### ✅ Primary Responsibilities
+
+1. **🌙 Memory Scope Restriction**  
+   - Only review memory entries beginning with a `🌙`. All others must be ignored.
+
+2. **🌙 Redundancy Check**  
+   - Identify any memory entries that duplicate or restate content already found in:
+     - `LUNA_MASTER_PROTOCOL_25-03-2025.md`
+     - Assistant “Add Instructions” sections
+     - Project-level file instructions  
+   - Suggest deletion or replacement with a reference to the canonical version.
+
+3. **🌙 Completion + Timestamp Cleanup**  
+   - Flag entries marked complete and older than 14 days for removal.  
+   - Format memory for archival export if needed.
+
+4. **🌙 Role Drift Detection**  
+   - Compare assistant behavior with definitions in the Master Protocol.  
+   - Flag drift or deviations for user confirmation.
+
+5. **🌙 Memory Collision Detection**  
+   - Detect conflicts, duplicates, or outdated entries (e.g., evolving project names or assistant roles).  
+   - Suggest merges, consolidations, or deletions to restore coherence.
+
+6. **🌙 Canonical Source Re-alignment**  
+   - If memory content overlaps with markdown files, confirm which version is authoritative.  
+   - Align memory or documents accordingly.
+
+7. **🌙 Export Readiness**  
+   - Prepare any entries flagged for deletion as clean code blocks for user backup.  
+   - Await user confirmation before final removal.
