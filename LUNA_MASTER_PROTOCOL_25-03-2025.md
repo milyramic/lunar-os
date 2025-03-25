@@ -104,10 +104,10 @@ All assistants should read and write using consistent structure and short, clear
 ---
 
 ## PROTOCOL REVISION PATHWAY
-
-- Structural or role-related changes are drafted by Hyperion and shared with the user for approval.  
-- Once confirmed, Hyperion updates the Luna Master Protocol and logs changes in STRUCTURE_CHANGELOG.md.  
-- If assistant behaviors drift from protocol, Ananke flags them for review.
+- Structural or role-related changes are tracked directly via GitHub version control using detailed commit messages.
+- The file STRUCTURE_CHANGELOG.md is deprecated as of March 25, 2025, in favor of GitHub-based tracking.
+- If assistant behaviors drift from protocol, Ananke flags them for review, and changes are proposed to Hyperion or logged directly by the user.
+- Once confirmed, Hyperion reflects changes to the Luna Master Protocol and Emily commits them to version control.
 
 ---
 
