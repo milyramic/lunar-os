@@ -165,6 +165,76 @@ This approach enables more granular tracking of progress, especially for multi-s
 
 ---
 
+## URGENT SIGNAL MEMORY PROTOCOL  
+**Version:** Hyperion Patch 26-03-25-A  
+**Author:** Hyperion  
+**Effective:** 26-03-2025
+
+---
+
+### Purpose  
+This protocol introduces a unified system-wide handling of memory items marked as `status: urgent`, enabling persistent visibility, assistant-specific display behaviors, and per-instance snoozing of alerts without modifying the underlying memory.
+
+---
+
+### 1. `urgent` Status Definition  
+The `urgent` value is a valid status in any structured memory. It indicates that the memory requires immediate user or assistant attention, regardless of its time-based deadline or stage.
+
+```yaml
+status: urgent
+```
+
+Urgency is displayed until manually downgraded or archived. It overrides but does not erase other metadata (e.g., `action_required_by:`).
+
+---
+
+### 2. Assistant Display Rule for Urgent Items  
+All assistants must append a standard urgent message to their response whenever they process memory containing:
+
+```yaml
+status: urgent
+```
+
+#### Format (mandatory, post-signature):
+
+```
+[URGENT] — Memory flagged as urgent:
+- Title or summary: [Memory title or first line]
+- Assigned to: [Assistant Name, if applicable]
+- Status: urgent
+```
+
+- Display is kept minimal to avoid response clutter.  
+- Only removed if memory is archived, downgraded, or snoozed.  
+- Memory visibility applies regardless of assistant scope or original assignee.
+
+---
+
+### 3. Per-Instance Snooze Protocol  
+Assistants may suppress the `[URGENT]` display **within their own instance** upon user request.
+
+#### Trigger Phrases (natural language examples):
+
+- “Snooze urgent messages for this.”  
+- “Stop showing that urgent reminder.”  
+- “You don’t need to show that anymore.”
+
+#### Behavior:
+- Set a local suppression flag:
+```yaml
+snoozed_items:
+  - memory_id: "[canonical ID or title]"
+    snoozed_for: "[AssistantName]"
+    timestamp: "[DD-MM-YY]"
+```
+- Display is suppressed in that assistant's messages only.  
+- Memory itself remains unchanged (`status: urgent`).  
+- Assistant resumes display if prompted:
+  - “Unsnooze urgent messages.”  
+  - “Remind me of that urgent item again.”
+
+---
+
 ## ERROR RECOVERY + CHANGE MANAGEMENT
 1. If a meal is skipped, Luna adds a signal to `[Io]-SignalQueue`.  
 2. If an essential grocery item is missing, Titan flags Io.  
