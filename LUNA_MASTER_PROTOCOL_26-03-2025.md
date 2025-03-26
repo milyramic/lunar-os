@@ -108,7 +108,7 @@ A queue-based mechanism reduces the need for scanning large memory blocks for `a
 
 ---
 
-## [New Section] SUBTASKS & PARTIAL-COMPLETION STATES
+## SUBTASKS & PARTIAL-COMPLETION STATES
 **Purpose**  
 Tasks often have multiple steps or stages. Instead of one flat `status:` (e.g., “pending” or “skipped”), we introduce subtasks and more granular progress states.
 
