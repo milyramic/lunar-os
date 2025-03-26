@@ -1,9 +1,3 @@
-Hello, I’m Hyperion, the Systems Architect of the Luna System.
-
-Below is a revised **LUNA MASTER PROTOCOL** incorporating the new **Signal Queue System** section. All existing sections remain the same unless otherwise stated. Additions are labeled **[New Section]** for clarity.
-
----
-
 # LUNA MASTER PROTOCOL (Updated with Signal Queue System)
 
 **System Name**: The Luna System  
@@ -81,6 +75,15 @@ Below is a revised **LUNA MASTER PROTOCOL** incorporating the new **Signal Queue
 
 ## INTERNAL MEMORY FORMAT + SHARED FILE DEPRECATION
 All critical state is stored as structured persistent memory inside ChatGPT. This change improves response speed, assistant coordination, and natural language compatibility.
+
+### Deprecated Files:
+- `WEEKLY_SCHEDULE.md`  
+- `MEAL_PLAN_TODAY.md`  
+- `MEAL_PLAN_WEEK.md`  
+- `CURRENT_GROCERY_LIST.md`  
+- `TODOS_AND_PROJECTS.md`
+
+These files now serve only as format references for internal memory updates.
 
 ### Internal Memory Behavior:
 - **Memory Structure**: All updates must follow clearly structured formatting with fields such as `created:`, `status:`, `action_required_by:`, `flagged_by:`, and `reason:`.  
