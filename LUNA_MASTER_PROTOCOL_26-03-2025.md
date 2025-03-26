@@ -265,6 +265,50 @@ Assistants do not communicate directly; they write structured updates or queue e
 
 ---
 
+## EXPORT TAGGING PROTOCOL  
+**Purpose**:  
+To mark long-term, dormant, or archival-worthy memory entries for structured export into markdown documents. This allows the Luna System to maintain a lightweight active memory while preserving low-urgency or future-facing projects.
+
+### Tagging Fields
+Any task or project eligible for export must include:
+```
+export: true
+export_target: [label]  # e.g., "WeHaveArrived_NZ"
+```
+
+### Status Flag
+Use:
+```
+status: "deferred"
+```
+...to suppress the entry from active task summaries while keeping it queryable and structured.
+
+### Audit Behavior
+- Ananke will detect entries marked `export: true` during routine or on-demand audits.
+- Entries are batched and formatted into clean, GitHub-compatible markdown for export.
+- The export includes timestamps, task titles, statuses, subtasks (if applicable), and optional notes.
+
+### Example Export Format
+```markdown
+## Project: We Have Arrived in New Zealand
+
+**Start Date Estimate**: October 2025  
+**Status**: Deferred  
+**Exported**: 26-03-2025  
+
+### Tasks
+- [ ] Determine if travel insurance covers Mayo Clinic visits every 3 years  
+  - Notes: Investigate U.S. residency rules, out-of-network options, and policy selection.
+
+#tag: export_target=WeHaveArrived_NZ
+```
+
+### Manual Export
+To trigger an immediate export:
+> “Ananke, export all entries tagged `export_target: [label]`.”
+
+---
+
 ## PROTOCOL REVISION PATHWAY
 - Structural changes are tracked in GitHub with detailed commits.  
 - If assistant behavior drifts from protocol, Ananke flags it. Approved changes are finalized by the user.
@@ -310,10 +354,6 @@ If the user asks “What’s for [meal]?”, provide the remaining meal options.
 5. Merge or consolidate conflicting duplicates.  
 6. Align memory with canonical sources.  
 7. Await user confirmation before removing flagged items.
-
-Hello, I’m Hyperion, the Systems Architect of the Luna System.
-
-Below is a **draft “Summary Generator” routine** that any assistant can invoke (via the memory system) to produce a high-level status overview on demand. You can integrate this into the **LUNA MASTER PROTOCOL** as a new section titled “SUMMARY GENERATOR ROUTINE.”
 
 ---
 
