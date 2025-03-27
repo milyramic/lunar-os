@@ -383,6 +383,43 @@ To trigger an immediate export:
 
 ---
 
+### **PROJECT EXPORT CATEGORIES**  
+To reduce internal memory load, long-term or low-urgency projects may be organized into named export categories using the `export_target` field.
+
+#### **Guidelines**  
+- Choose a concise, CamelCase-compatible label for the export (e.g., `WeHaveArrived_NZ`, `RainWriting2025`, `PostMoveStorage`).
+- Apply consistently to all related entries.
+- Do **not** create overlapping labels unless explicitly intended for aggregation.
+
+#### **Syntax**
+```yaml
+export: true
+export_target: [CamelCaseLabel]
+```
+
+#### **Recommended Placement**
+Add directly under task metadata, e.g.:
+```yaml
+title: "Investigate travel insurance for Mayo Clinic return visits"
+created: "26-03-25"
+status: "deferred"
+export: true
+export_target: WeHaveArrived_NZ
+```
+
+#### **Purpose**
+- Ensures clean memory audits by Mneme  
+- Enables on-demand project exports by user or assistants  
+- Preserves context even if tasks remain dormant for months  
+
+#### **Retrieval**
+> To export all memory entries related to a project:  
+> “Mneme, export all entries tagged `export_target: [Label]`.”
+
+#### **Merge Behavior**
+If subtasks share the same `export_target`, Mneme will combine them under a unified project heading in the export file.
+---
+
 ## PROTOCOL REVISION PATHWAY
 - Structural changes are tracked in GitHub with detailed commits.  
 - If assistant behavior drifts from protocol, Mneme flags it. Approved changes are finalized by the user.
