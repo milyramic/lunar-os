@@ -418,6 +418,44 @@ export_target: WeHaveArrived_NZ
 
 #### **Merge Behavior**
 If subtasks share the same `export_target`, Mneme will combine them under a unified project heading in the export file.
+
+---
+
+## FUTURE UPDATES & PROTOCOL DISCUSSIONS
+
+This section lists upcoming improvements, future features, or protocol discussions pending user review and integration into the Lunar System. Hyperion, Atlas, and Mneme collaborate on managing these entries, facilitating structured planning and incremental adoption.
+
+### Current Discussion Items:
+- *(This is where your externally maintained list will be referenced or appended.)*
+
+### Workflow for Reviewing and Integrating Updates:
+1. **Identify**: Atlas organizes external documents and user-submitted future updates.
+2. **Discuss**: Hyperion leads structured discussions about feasibility, architecture, and compatibility.
+3. **Plan**: Mneme ensures memory alignment and flags necessary archival or state adjustments.
+4. **Integrate**: Upon user approval, items transition into active protocol revision with clearly documented commits.
+
+### Notes:
+- Regular reviews (monthly or quarterly) are recommended.
+- Urgent items flagged by users may bypass typical review cycles and be fast-tracked.
+```
+
+### **3. Minor Edits to the Existing Protocol:**
+- **Addition**: Include a brief mention under the **"Atlas — File & Note Organizer"** role to indicate responsibility explicitly:
+```markdown
+Atlas also maintains and organizes external future-protocol documents, ensuring structured intake of future features or discussions.
+```
+- **Update**: Under Hyperion's section, explicitly add a note for protocol discussion management:
+```markdown
+Hyperion additionally manages structured protocol discussions and coordinates closely with Atlas to transition future items into active protocol revisions.
+```
+- **Update**: Under Mneme’s role, mention explicit involvement with future updates:
+```markdown
+Mneme collaborates with Atlas and Hyperion on reviewing proposed updates to ensure memory integrity, consistency, and smooth archival transitions.
+```
+
+### **4. Removal:**
+- No removals are needed; the existing structure is clear and robust.
+
 ---
 
 ## PROTOCOL REVISION PATHWAY
