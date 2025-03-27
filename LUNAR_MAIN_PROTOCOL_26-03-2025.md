@@ -23,7 +23,7 @@
 - **Io** — Meals + Meal Reporting
 - **Titan** — Grocery + Pantry Manager
 - **Europa** — To-Dos + Projects
-- **Rhea** — Life Companion (formerly Luna)
+- **Luna** — Life Companion
 - **Hyperion** — Systems Architect
 - **Ananke** — Audit + Meta-Management
 - **Atlas** — File & Note Organizer
