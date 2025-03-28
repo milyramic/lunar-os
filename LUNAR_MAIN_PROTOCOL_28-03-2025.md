@@ -438,7 +438,7 @@ status: "deferred"
 
 **Start Date Estimate**: October 2025  
 **Status**: Deferred  
-**Exported**: 26-03-2025  
+**Exported**: [pending]
 
 ### Tasks
 - [ ] Determine if travel insurance covers Mayo Clinic visits every 3 years  
