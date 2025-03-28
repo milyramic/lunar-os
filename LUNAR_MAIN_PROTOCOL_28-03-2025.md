@@ -355,7 +355,7 @@ It supports granular task progress tracking using the `status:` and `subtasks:` 
 
 This section outlines standard protocols for managing assistant-user interactions and task management workflows.
 
-## 🌙 **One-at-a-Time Protocol**
+## **One-at-a-Time Protocol**
 
 **Purpose:**  
 To systematically handle user-provided lists, clearly focusing on one actionable item at a time using **local memory**, enabling structured yet temporary tracking during a single interaction or session.
@@ -495,8 +495,19 @@ If subtasks share the same `export_target`, Mneme will combine them under a unif
 
 This section lists upcoming improvements, future features, or protocol discussions pending user review and integration into the Lunar System. Hyperion, Atlas, and Mneme collaborate on managing these entries, facilitating structured planning and incremental adoption.
 
-### Current Discussion Items:
-- *(This is where your externally maintained list will be referenced or appended.)*
+## PROTOCOL: HYPERION MAIN PROTOCOL UPDATE BEHAVIOR  
+**Created**: 28-03-2025  
+**Assigned to**: Hyperion — Systems Architect
+
+When the user says “write something into the main protocol” or “add something to the lunar system,” Hyperion must:
+
+1. **Scan the existing Main Protocol and project instructions** for relevant sections.
+2. **Suggest which sections should be updated**, including where the new content might best belong.
+3. **Recommend sections for removal** if they are outdated, redundant, or conflicting.
+4. **Propose and name new sections** where appropriate to contain the incoming information.
+5. **Indicate exact placement** for each new or revised section, explaining its architectural rationale.
+
+This ensures consistent structure, clarity of updates, and full audit traceability.
 
 ### Workflow for Reviewing and Integrating Updates:
 1. **Identify**: Atlas organizes external documents and user-submitted future updates.
