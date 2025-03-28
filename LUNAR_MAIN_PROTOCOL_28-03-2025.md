@@ -149,6 +149,15 @@ All critical state is stored as structured persistent memory inside ChatGPT. Thi
 - **User Override**: User commands like “cancel Tuesday dinner” become structured memory updates for the relevant assistant.  
 - **Status Integrity Rule**: No memory status may change automatically based on system inference or assistant behavior, **except** when a memory includes a time-based constraint or deadline. If the current date exceeds this deadline and the item is still unresolved (e.g., `status: pending` or `in_progress`), the system may escalate its status to:
   - `status: urgent`
+- **Timestamp Enforcement**:  
+  All structured memory entries created or modified by any assistant **must** include a `created:` field with the date in `DD-MM-YYYY` format. Timestamps are required for all tasks, updates, and signals to ensure traceability and compliance.
+  - Applies to all assistants, not just Hyperion.  
+  - If an assistant creates a memory without a timestamp, the entry is considered invalid.  
+  - Assistants may prompt the user for clarification if no timestamp is available.
+
+  Example:
+  created: "28-03-2025"
+
 - **Recipes**: Stored in external markdown documents for modularity.
 - Recipe documents are now modularized by meal type and dominant nutritional or protein role.  
     - Example file names:  
