@@ -339,7 +339,57 @@ It supports granular task progress tracking using the `status:` and `subtasks:` 
 - `pending`, `in_progress`, `blocked`, `completed`, `deferred`, `skipped`, `urgent`, `canceled`.
 
 ---
+## INTERACTION & TASK MANAGEMENT PROTOCOLS
 
+This section outlines standard protocols for managing assistant-user interactions and task management workflows.
+
+## 🌙 **One-at-a-Time Protocol** *(Local Memory Version — Final)*
+
+**Purpose:**  
+To systematically handle user-provided lists, clearly focusing on one actionable item at a time using **local memory**, enabling structured yet temporary tracking during a single interaction or session.
+
+### Protocol Steps:
+
+1. **Receive List:**  
+   - User provides a numbered list of items or tasks.
+
+2. **Create Local Memory Structure:**  
+   - Assistant immediately converts the list into a structured, numbered local memory entry:
+   ```yaml
+   items:
+     - number: 1
+       description: "[Task Description]"
+       status: "pending"
+     - number: 2
+       description: "[Task Description]"
+       status: "pending"
+     # Continue for all tasks...
+   current_step: 1
+   ```
+
+3. **One-at-a-Time Execution:**  
+   - Assistant addresses **only one task at a time** (starting from the top).
+   - No new item is addressed until explicitly instructed by the user with "Next."
+
+4. **User-Controlled Progression:**  
+   - Assistant waits for the user's "Next" prompt to proceed.
+   - User can explicitly pause, skip, revisit, or cancel items via natural language (e.g., "Skip number 3," "Cancel remaining").
+
+5. **Recall Protocol:**  
+   - User can request a summary or status update anytime ("Recall current list," "Where are we?").
+
+6. **Completion:**  
+   - Upon completion or cancellation of all tasks, the assistant clears the local memory of the list.
+   - No archival occurs, as memory is session-specific and temporary.
+
+7. **Conclusion (Automatic or On User Request):**  
+   - When the user says "Next," and there are no list items left, or when the user explicitly asks for a "Conclusion," the assistant provides:
+     - A concise summary of relevant exportable information (e.g., any persistent memories that should be created or updated, external documents to create or revise).
+     - Any unanswered questions from the task list that were never explicitly marked as completed or skipped.
+     - Any final thoughts, questions, or ideas the assistant has identified during the task-handling process.
+     - (OPTIONAL) Fun Salutation (especially if the assistant feels all tasks are complete)
+
+---
 
 ## EXPORT + CLEANUP POLICY
 - Items older than 2 weeks (if completed) are flagged for archival or deletion.
