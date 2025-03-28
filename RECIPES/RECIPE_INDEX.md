@@ -49,7 +49,7 @@ Use `#T-1` to `#T-5` to reflect how toddler-friendly a recipe is:
 ### 🍗 Poultry-Based
 - Recipe: Chicken Sausage Scramble  
   File: RECIPES_BREAKFAST_POULTRY.md  
-  Tags: #highprotein #quick #poultry #savory #T-4
+  Tags: #quick #savory #T-4
 
 ### 🥚 Egg-Based
 - Recipe: Avocado Egg Toast  
