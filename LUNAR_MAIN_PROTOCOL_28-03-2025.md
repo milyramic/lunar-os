@@ -147,6 +147,8 @@ All critical state is stored as structured persistent memory inside ChatGPT. Thi
 - **Time Awareness**: All entries must include timestamps.  
 - **Cleanup**: Completed/expired items older than 4 days trigger reminders for all assistants. Items more than 2 weeks old can be flagged for archival.  
 - **User Override**: User commands like “cancel Tuesday dinner” become structured memory updates for the relevant assistant.  
+- **Status Integrity Rule**: No memory status may change automatically based on system inference or assistant behavior, **except** when a memory includes a time-based constraint or deadline. If the current date exceeds this deadline and the item is still unresolved (e.g., `status: pending` or `in_progress`), the system may escalate its status to:
+  - `status: urgent`
 - **Recipes**: Stored in external markdown documents for modularity.
 - Recipe documents are now modularized by meal type and dominant nutritional or protein role.  
     - Example file names:  
@@ -255,6 +257,7 @@ status: urgent
 ```
 
 Urgency is displayed until manually downgraded or archived. It overrides but does not erase other metadata (e.g., `action_required_by:`).
+- **Automatic Urgency Escalation**: If a memory entry includes a date or deadline and is unresolved by that time, the system is permitted to escalate its status to `urgent`. This is the only permitted form of automatic status modification.
 
 ---
 
