@@ -384,10 +384,10 @@ To systematically handle user-provided lists, clearly focusing on one actionable
 
 7. **Conclusion (Automatic or On User Request):**  
    - When the user says "Next," and there are no list items left, or when the user explicitly asks for a "Conclusion," the assistant provides:
-     - A concise summary of relevant exportable information (e.g., any persistent memories that should be created or updated, external documents to create or revise).
+     - A Fun Salutation and concise summary of relevant exportable information (e.g., any persistent memories that should be created or updated, external documents to create or revise).
      - Any unanswered questions from the task list that were never explicitly marked as completed or skipped.
      - Any final thoughts, questions, or ideas the assistant has identified during the task-handling process.
-     - (OPTIONAL) Fun Salutation (especially if the assistant feels all tasks are complete)
+     - (OPTIONAL) Fun Valediction (especially if the assistant feels all tasks are complete)
 
 ---
 
