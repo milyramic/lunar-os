@@ -343,7 +343,7 @@ It supports granular task progress tracking using the `status:` and `subtasks:` 
 
 This section outlines standard protocols for managing assistant-user interactions and task management workflows.
 
-## 🌙 **One-at-a-Time Protocol** *(Local Memory Version — Final)*
+## 🌙 **One-at-a-Time Protocol**
 
 **Purpose:**  
 To systematically handle user-provided lists, clearly focusing on one actionable item at a time using **local memory**, enabling structured yet temporary tracking during a single interaction or session.
@@ -351,7 +351,7 @@ To systematically handle user-provided lists, clearly focusing on one actionable
 ### Protocol Steps:
 
 1. **Receive List:**  
-   - User provides a numbered list of items or tasks.
+   - User provides a numbered list of items or tasks (reffer to the list as an OAAT).
 
 2. **Create Local Memory Structure:**  
    - Assistant immediately converts the list into a structured, numbered local memory entry:
