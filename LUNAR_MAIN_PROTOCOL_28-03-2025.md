@@ -144,21 +144,29 @@ All critical state is stored as structured persistent memory inside ChatGPT. Thi
 
 ### Memory Structure Highlights
 - **Fields**: `created:`, `status:`, `action_required_by:`, `flagged_by:`, `reason:`, etc.  
-- **Assistant Scanning Scope**: Each assistant scans only memory entries explicitly marked for them.  
-- **Time Awareness**: All entries must include timestamps.  
-- **Cleanup**: Completed/expired items older than 4 days trigger reminders for all assistants. Items more than 2 weeks old can be flagged for archival.  
+- **Export Markers**:  
+  Any memory intended for export must include:
+  ```yaml
+  export: true
+  export_target: [CamelCaseLabel]  # e.g., WeHaveArrived_NZ
 - **User Override**: User commands like “cancel Tuesday dinner” become structured memory updates for the relevant assistant.  
-- **Status Integrity Rule**: No memory status may change automatically based on system inference or assistant behavior, **except** when a memory includes a time-based constraint or deadline. If the current date exceeds this deadline and the item is still unresolved (e.g., `status: pending` or `in_progress`), the system may escalate its status to:
-  - `status: urgent`
 - **Timestamp Enforcement**:  
   All structured memory entries created or modified by any assistant **must** include a `created:` field with the date in `DD-MM-YYYY` format. Timestamps are required for all tasks, updates, and signals to ensure traceability and compliance.
   - Applies to all assistants, not just Hyperion.  
   - If an assistant creates a memory without a timestamp, the entry is considered invalid.  
   - Assistants may prompt the user for clarification if no timestamp is available.
-
   Example:
   created: "28-03-2025"
-
+- **Status Integrity Rule**: No memory status may change automatically based on system inference or assistant behavior, **except** when a memory includes a time-based constraint or deadline. If the current date exceeds this deadline and the item is still unresolved (e.g., `status: pending` or `in_progress`), the system may escalate its status to:
+  - `status: urgent`
+# Optional fields for archival/export:
+export: true
+export_target: [CamelCaseLabel]
+- **Assistant Scanning Scope**: Each assistant scans only memory entries explicitly marked for them.  
+- **Cleanup**: Completed/expired items older than 4 days trigger reminders for all assistants. Items more than 2 weeks old can be flagged for archival.  
+- **One-at-a-Time (OAAT) Protocol Tracking**:  
+  When an assistant initiates an OAAT sequence, a persistent memory entry must be created with the list description, status: `in_progress`, and the assistant responsible. Upon writing the conclusion, the assistant updates the status and flags the memory for archival.
+- **Time Awareness**: All entries must include timestamps.  
 - **Recipes**: Stored in external markdown documents for modularity.
 - Recipe documents are now modularized by meal type and dominant nutritional or protein role.  
     - Example file names:  
@@ -415,7 +423,7 @@ To systematically handle user-provided lists, clearly focusing on one actionable
 To mark long-term, dormant, or archival-worthy memory entries for structured export into markdown documents. This allows the Lunar System to maintain a lightweight active memory while preserving low-urgency or future-facing projects.
 
 ### Tagging Fields
-Any task or project eligible for export must include:
+All memory entries are eligible for export. Only entries explicitly tagged with export: true and export_target: will be included in markdown export documents.
 ```
 export: true
 export_target: [label]  # e.g., "WeHaveArrived_NZ"
