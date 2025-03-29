@@ -418,7 +418,7 @@ To systematically handle user-provided lists, clearly focusing on one actionable
 
 ---
 
-## EXPORT TAGGING PROTOCOL  
+## MARKING ITEMS FOR EXPORT  
 **Purpose**:  
 To mark long-term, dormant, or archival-worthy memory entries for structured export into markdown documents. This allows the Lunar System to maintain a lightweight active memory while preserving low-urgency or future-facing projects.
 
