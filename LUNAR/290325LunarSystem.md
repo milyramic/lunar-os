@@ -249,6 +249,18 @@ A queue-based mechanism reduces the need for scanning large memory blocks for `a
 
 ---
 
+### Suggested Tag Types
+- `#with_Cy` / `#with_Mimir` — tasks that include child help
+- `#reset_routine` — part of an ongoing maintenance loop
+- `#deep_clean` — more intensive single-instance task
+- `#morning` / `#afternoon` / `#evening` — ideal time slot
+- `#seasonal` — outdoor or calendar-dependent
+- `#storage` / `#declutter` / `#organizing` — type of labor
+- `#done_when_possible` — flexible slot-filler
+- `#one_thing` — eligible for "Just do this one" guidance
+
+---
+
 ## SUBTASKS & PARTIAL-COMPLETION STATES
 **Purpose**  
 Tasks often have multiple steps or stages. Instead of one flat `status:` (e.g., “pending” or “skipped”), we introduce subtasks and more granular progress states.
