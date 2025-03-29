@@ -134,7 +134,7 @@ Each Lunar assistant is guided by a unique personality, deeply symbolic roots, a
 ---
  
 **subtask_id**: "TASK-XXXX-A"  
-**added_by: "Europa"  
+**added_by**: "Europa"  
 **estimated_duration**: "1h"  
 **status**: "in_progress"  
 **task_priority**: "medium"  
