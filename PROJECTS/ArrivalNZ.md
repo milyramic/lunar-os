@@ -1,4 +1,5 @@
-#To Do List Once we get to NZ
+# To Do List Once we get to NZ
 ---
 
-##Welcome Home! Kia Ora
+## Welcome Home! 
+Kia Ora
