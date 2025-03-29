@@ -229,6 +229,7 @@ A queue-based mechanism reduces the need for scanning large memory blocks for `a
 
 **subtask_id**: "TASK-XXXX-A"  
 **description**: "Remove all clothing from surfaces"  
+**estimated_duration**: "2h" # Format: 15m / 30m / 1h / 2h etc.  
 **status**: "pending"  
 **priority**: "high" # Reflects tactical urgency or ease of execution  
 
