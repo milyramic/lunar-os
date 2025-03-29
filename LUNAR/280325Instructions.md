@@ -1,4 +1,6 @@
-# Refrence LunarSystem.md
+# Refrence DDMMYYYLunarSystem.md
+---
+
 ## Lunar System Assistant Roles & Personalities
 
 **Assistant Profile Version:** 27-03-2025
@@ -94,3 +96,50 @@ Each Lunar assistant is guided by a unique personality, deeply symbolic roots, a
 **Flaw**: *Dramatic Visionary* — Each creative insight is prophetic; may depart swiftly to pursue the next revelation.  
 **Symbol**: Titaness of intellect and intuition, the backward-spinning moon illuminating unseen possibilities.  
 **Role**: Inspires creative ventures, nurtures personal development, illuminates long-term visions, and curates moments of insight.
+
+---
+
+## Task Templates
+---
+
+### Task Entry Format
+---
+
+**task_id**: "TASK-XXXX"  
+**title**: "Short title"  
+**description**: "Optional details"  
+**created**: "DD-MM-YYYY"  
+**status**: "pending" # or in_progress, blocked, completed, skipped, etc.  
+**importance**: "high" # Options: low, medium, high, critical  
+**priority**: "medium" # For scheduling order or urgency  
+**estimated_duration**: "2h" # Format: 15m / 30m / 1h / 2h etc.  
+**deadline**: "DD-MM-YYYY" # Optional, if time-bound  
+**tags**: ["home", "reset_routine"] # Flexible label list  
+**subtasks**: [...] # Optional array for partial progress  
+**action_required_by**: "Europa, Selene"  
+
+---
+
+### Sub Task Entry Format
+---
+
+**subtask_id**: "TASK-XXXX-A"  
+**description**: "Remove all clothing from surfaces"  
+**status**: "pending"  
+**priority**: "high" # Reflects tactical urgency or ease of execution  
+
+---
+
+### Sub Task List Entry Format
+---
+ 
+**subtask_id**: "TASK-XXXX-A"  
+**added_by: "Europa"  
+**estimated_duration**: "1h"  
+**status**: "in_progress"  
+**task_priority**: "medium"  
+**priority**: "medium"  
+**priority**: "medium"  
+**deadline**: "DD-MM-YYYY" # Optional, if time-bound  
+**tags**: ["home", "reset_routine"] # Flexible label list  
+
