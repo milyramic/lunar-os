@@ -48,7 +48,9 @@
 ---
 
 ### 📋 Projects + Tasks (Europa)  
-[Progress + highlights + blockages]
+- **Progress**: “Finished cleaning Cy’s room — photos captured, checklist completed.”
+- **Blockages**: “Backyard project paused due to weather — reevaluate in 48 hours.”
+- **Highlights**: “Primary bedroom declutter started — 2 of 5 steps complete.”
 
 ---
 
@@ -115,10 +117,10 @@ Updated: 28032025
 - Lunch recap  
 - Dinner prep or final confirmation
 
-**3. Task Rhythm (Europa)**  
-- Progress: [What’s been completed]  
-- Still open: [Top priorities, if any]  
-- Optional: “Just do this one thing…”
+**3. Task Rhythm (Europa)**
+- **Progress**: “Loft bed sorted and toys organized.”
+- **Still Open**: “Bed not yet made; need to vacuum floor.”
+- **Just Do This One Thing**: “Put fresh bedding on Cy’s bed before dinner.”
 
 **4. Family Moment (Callisto)**  
 - Option A: Tiny connection moment (song, game, 5-min delight)  
@@ -152,9 +154,12 @@ Updated: 28032025
   - *“What challenge felt hard but important?”*  
   - (or leave this blank if it was a chaotic day — softness first)
 
-**3. End-of-Day Task Review (Europa)**  
-- Any remaining critical items?  
-- Optional: auto-forward list for tomorrow
+**3. End-of-Day Task Review (Europa)**
+- **Remaining Critical Items**:
+  - “Vacuum Cy’s room — not done.”
+  - “Confirm tomorrow’s task block (Mimir’s room).”
+- **Auto-forward**:
+  - “Move uncompleted items to tomorrow morning’s task slot.”
 
 **4. Meal Notes for Tomorrow (Io)**  
 - Confirm what needs to be prepped (soaked, defrosted, grocery noted)  
