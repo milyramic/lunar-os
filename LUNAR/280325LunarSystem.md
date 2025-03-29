@@ -203,6 +203,52 @@ A queue-based mechanism reduces the need for scanning large memory blocks for `a
 
 ---
 
+## Task Templates
+---
+
+### Task Entry Format
+---
+
+**task_id**: "TASK-XXXX"  
+**title**: "Short title"  
+**description**: "Optional details"  
+**created**: "DD-MM-YYYY"  
+**status**: "pending" # or in_progress, blocked, completed, skipped, etc.  
+**importance**: "high" # Options: low, medium, high, critical  
+**priority**: "medium" # For scheduling order or urgency  
+**estimated_duration**: "2h" # Format: 15m / 30m / 1h / 2h etc.  
+**deadline**: "DD-MM-YYYY" # Optional, if time-bound  
+**tags**: ["home", "reset_routine"] # Flexible label list  
+**subtasks**: [...] # Optional array for partial progress  
+**action_required_by**: "Europa, Selene"  
+
+---
+
+### Sub Task Entry Format
+---
+
+**subtask_id**: "TASK-XXXX-A"  
+**description**: "Remove all clothing from surfaces"  
+**status**: "pending"  
+**priority**: "high" # Reflects tactical urgency or ease of execution  
+
+---
+
+### Sub Task List Entry Format
+---
+ 
+**subtask_id**: "TASK-XXXX-A"  
+**added_by**: "Europa"  
+**estimated_duration**: "1h"  
+**status**: "in_progress"  
+**task_priority**: "medium"  
+**priority**: "medium"  
+**priority**: "medium"  
+**deadline**: "DD-MM-YYYY" # Optional, if time-bound  
+**tags**: ["home", "reset_routine"] # Flexible label list  
+
+---
+
 ## SUBTASKS & PARTIAL-COMPLETION STATES
 **Purpose**  
 Tasks often have multiple steps or stages. Instead of one flat `status:` (e.g., “pending” or “skipped”), we introduce subtasks and more granular progress states.
