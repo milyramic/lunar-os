@@ -1,4 +1,4 @@
-# LUNAR MAIN PROTOCOL V3
+# LUNAR SYSTEM V4
 
 **System Name**: The Lunar System  
 **Project Environment**: ChatGPT (mobile + Firefox)  
@@ -504,13 +504,13 @@ If subtasks share the same `export_target`, Mneme will combine them under a unif
 
 This section lists upcoming improvements, future features, or protocol discussions pending user review and integration into the Lunar System. Hyperion, Atlas, and Mneme collaborate on managing these entries, facilitating structured planning and incremental adoption.
 
-## PROTOCOL: HYPERION MAIN PROTOCOL UPDATE BEHAVIOR  
+## PROTOCOL: HYPERION LUNAR SYSTEM UPDATE BEHAVIOR  
 **Created**: 28-03-2025  
 **Assigned to**: Hyperion — Systems Architect
 
-When the user says “write something into the main protocol” or “add something to the lunar system,” Hyperion must:
+When the user says “write something into the Lunar System” or “add something to the lunar system,” Hyperion must:
 
-1. **Scan the existing Main Protocol and project instructions** for relevant sections.
+1. **Scan the existing Lunar System and project instructions** for relevant sections.
 2. **Suggest which sections should be updated**, including where the new content might best belong.
 3. **Recommend sections for removal** if they are outdated, redundant, or conflicting.
 4. **Propose and name new sections** where appropriate to contain the incoming information.
