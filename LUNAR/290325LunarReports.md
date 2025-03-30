@@ -174,6 +174,122 @@ Updated: 28032025
 
 ---
 
+# Task Templates
+---
+
+## Task Entry Format
+---
+
+**task_id**: "TASK-XXXX"  
+**title**: "Short title"  
+**description**: "Optional details"  
+**created**: "DD-MM-YYYY"  
+**status**: "pending" # or in_progress, blocked, completed, skipped, etc.  
+**importance**: "high" # Options: low, medium, high, critical  
+**priority**: "medium" # For scheduling order or urgency  
+**estimated_duration**: "2h" # Format: 15m / 30m / 1h / 2h etc.  
+**deadline**: "DD-MM-YYYY" # Optional, if time-bound  
+**tags**: ["home", "reset_routine"] # Flexible label list  
+**subtasks**: [...] # Optional array for partial progress  
+**action_required_by**: "Europa, Selene"  
+
+---
+
+## Sub Task Entry Format
+---
+
+**subtask_id**: "TASK-XXXX-A"  
+**description**: "Remove all clothing from surfaces"  
+**estimated_duration**: "2h" # Format: 15m / 30m / 1h / 2h etc.  
+**status**: "pending"  
+**priority**: "high" # Reflects tactical urgency or ease of execution  
+
+---
+
+## Sub Task List Entry Format
+---
+ 
+**subtask_id**: "TASK-XXXX-A"  
+**added_by**: "Europa"  
+**estimated_duration**: "1h"  
+**status**: "in_progress"  
+**task_priority**: "medium"  
+**priority**: "medium"  
+**priority**: "medium"  
+**deadline**: "DD-MM-YYYY" # Optional, if time-bound  
+**tags**: ["home", "reset_routine"] # Flexible label list  
+
+---
+
+## Suggested Tag Types
+- `#with_Cy` / `#with_Mimir` — tasks that include child help
+- `#reset_routine` — part of an ongoing maintenance loop
+- `#deep_clean` — more intensive single-instance task
+- `#morning` / `#afternoon` / `#evening` — ideal time slot
+- `#seasonal` — outdoor or calendar-dependent
+- `#storage` / `#declutter` / `#organizing` — type of labor
+- `#done_when_possible` — flexible slot-filler
+- `#one_thing` — eligible for "Just do this one" guidance
+
+---
+
+## SUBTASKS & PARTIAL-COMPLETION STATES
+**Purpose**  
+Tasks often have multiple steps or stages. Instead of one flat `status:` (e.g., “pending” or “skipped”), we introduce subtasks and more granular progress states.
+
+### Expanded Status Types
+Beyond simple fields like `pending` and `completed`, we allow:
+- **pending**: Not started.  
+- **in_progress**: Work on the task or subtask is actively underway.  
+- **blocked**: Waiting for an external dependency or condition to be resolved.  
+- **deferred**: Temporarily paused or postponed.  
+- **completed**: Finished successfully.  
+- **canceled**: Intentionally abandoned (no further work needed).  
+- **skipped**: Missed or not completed by the relevant time window.
+
+A single task may transition through these states.
+
+### Subtasks Array
+Each task entry can optionally have a `subtasks:` field, which is an array of objects, for example:
+```
+task_id: "TASK-1001"
+title: "Plan weekend trip"
+created: "26-03-25"
+status: "in_progress"
+subtasks:
+  - subtask_id: "TASK-1001-A"
+    description: "Research destinations"
+    status: "completed"
+  - subtask_id: "TASK-1001-B"
+    description: "Set budget"
+    status: "in_progress"
+  - subtask_id: "TASK-1001-C"
+    description: "Book reservations"
+    status: "pending"
+```
+
+#### Determining Overall Task Status
+- **If all subtasks are completed** → The task’s overall status is “completed.”  
+- **If at least one subtask is in_progress** → The overall task can be considered “in_progress.”  
+- **If at least one subtask is blocked** → The overall task status might reflect “blocked” until that subtask is resolved.  
+- **If all subtasks are canceled or skipped** → The overall task is effectively “canceled” or “skipped.”  
+- **Assistants** should update the top-level `status` whenever subtask statuses change, ensuring the memory remains consistent.
+
+### Partial Completion Logic
+- This model allows partial progress (some subtasks “completed” while others remain “pending” or “blocked”).  
+- Assistants like Europa (To-Dos) or Selene (Scheduling) can display partial progress in summaries (e.g., “2 of 3 subtasks done”).
+
+### Example Flow
+1. **Europa** creates a new task with three subtasks, all initially `status: "pending"`.  
+2. As the user finishes the first subtask, Europa updates that subtask to `status: "completed"`; the overall task becomes `in_progress`.  
+3. If the user encounters a delay on subtask two, they mark it `blocked`.  
+4. The user eventually resolves that block, sets subtask two to `in_progress`, and then completes it.  
+5. Once subtask three is done, the overall task is automatically “completed.”
+
+This approach enables more granular tracking of progress, especially for multi-stage tasks or long-term projects.
+
+---
+
 # Selene
 ---
 
