@@ -17,7 +17,7 @@ description: "Clear dirty laundry, reset the Laundry Hall, and tackle high-impac
 created: "29-03-2025"
 status: "pending"
 importance: "high"
-priority: "high"
+priority: "Urgent"
 estimated_duration: "1h45m"
 deadline: "01-04-2025"
 tags: ["home", "declutter", "reset_routine", "highimpact"]
