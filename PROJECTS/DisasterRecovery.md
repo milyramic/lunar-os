@@ -1,0 +1,267 @@
+task_id: "TASK-LAUNDRY-DECLUTTER"
+title: "Laundry + High Impact Declutter"
+description: "Clear dirty laundry, reset the Laundry Hall, and tackle high-impact trash removal to restore basic hygiene and visual clarity."
+created: "29-03-2025"
+status: "pending"
+importance: "high"
+priority: "high"
+estimated_duration: "1h45m"
+deadline: "01-04-2025"
+tags: ["home", "declutter", "reset_routine", "highimpact"]
+subtasks:
+  - subtask_id: "TASK-LAUNDRY-DECLUTTER-01"
+    description: "Remove all dirty laundry from Mimir’s Room"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "urgent"
+
+  - subtask_id: "TASK-LAUNDRY-DECLUTTER-02"
+    description: "Sort all laundry piles in Laundry Hall (clean vs dirty)"
+    estimated_duration: "15m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-LAUNDRY-DECLUTTER-03"
+    description: "Start first load of laundry (includes staging for next load)"
+    estimated_duration: "15m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-LAUNDRY-DECLUTTER-04"
+    description: "Remove dirty laundry from Cy’s Room"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "urgent"
+
+  - subtask_id: "TASK-LAUNDRY-DECLUTTER-05"
+    description: "Empty trash bins (bathroom, kitchen, diaper)"
+    estimated_duration: "15m"
+    status: "pending"
+    priority: "urgent"
+
+  - subtask_id: "TASK-LAUNDRY-DECLUTTER-06"
+    description: "Quick sweep/tidy of Laundry Hall floor"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "low"
+
+  - subtask_id: "TASK-LAUNDRY-DECLUTTER-07"
+    description: "Buffer for interruptions or kid assistance"
+    estimated_duration: "30m"
+    status: "pending"
+    priority: "low"
+action_required_by: "Europa"
+export: true
+export_target: DisasterRecovery
+
+task_id: "TASK-BATHROOM-DEEP-CLEAN"
+title: "Bathroom + Changing Station Deep Clean"
+description: "Sanitize core hygiene areas, reset Mimir’s changing station, and restore surface clarity in the bathroom."
+created: "29-03-2025"
+status: "pending"
+importance: "high"
+priority: "urgent"
+estimated_duration: "1h30m"
+deadline: "01-04-2025"
+tags: ["home", "deep_clean", "reset_routine", "urgent"]
+subtasks:
+  - subtask_id: "TASK-BATHROOM-DEEP-CLEAN-01"
+    description: "Sanitize bathroom sink, toilet, and tub"
+    estimated_duration: "25m"
+    status: "pending"
+    priority: "urgent"
+
+  - subtask_id: "TASK-BATHROOM-DEEP-CLEAN-02"
+    description: "Sanitize Mimir’s changing table"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "urgent"
+
+  - subtask_id: "TASK-BATHROOM-DEEP-CLEAN-03"
+    description: "Wipe mirrors and remaining surfaces"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-BATHROOM-DEEP-CLEAN-04"
+    description: "Remove clutter and dirty towels from bathroom"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-BATHROOM-DEEP-CLEAN-05"
+    description: "Restock bathroom supplies"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-BATHROOM-DEEP-CLEAN-06"
+    description: "Quick sweep/mop of bathroom floor"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "low"
+
+  - subtask_id: "TASK-BATHROOM-DEEP-CLEAN-07"
+    description: "Buffer for interruptions or organizing delay"
+    estimated_duration: "15m"
+    status: "pending"
+    priority: "low"
+action_required_by: "Europa"
+export: true
+export_target: DisasterRecovery
+
+task_id: "TASK-DISHES-SURFACE-RESET"
+title: "Dishes + Surface Reset"
+description: "Clear out backlog of dishes, sanitize kitchen surfaces, and perform a fast visual refresh of food prep zones."
+created: "29-03-2025"
+status: "pending"
+importance: "high"
+priority: "urgent"
+estimated_duration: "1h30m"
+deadline: "01-04-2025"
+tags: ["home", "reset_routine", "deep_clean", "kitchen"]
+subtasks:
+  - subtask_id: "TASK-DISHES-SURFACE-RESET-01"
+    description: "Wash and put away all dishes"
+    estimated_duration: "35m"
+    status: "pending"
+    priority: "urgent"
+
+  - subtask_id: "TASK-DISHES-SURFACE-RESET-02"
+    description: "Clear and sanitize kitchen counters"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-DISHES-SURFACE-RESET-03"
+    description: "Clean kitchen sink and wipe down stove"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-DISHES-SURFACE-RESET-04"
+    description: "Wipe washer/dryer surfaces"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "low"
+
+  - subtask_id: "TASK-DISHES-SURFACE-RESET-05"
+    description: "Start trash/pantry/fridge scan for expired items"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-DISHES-SURFACE-RESET-06"
+    description: "Quick sweep of kitchen floor"
+    estimated_duration: "5m"
+    status: "pending"
+    priority: "low"
+
+  - subtask_id: "TASK-DISHES-SURFACE-RESET-07"
+    description: "Buffer for drying, distractions, and adjustments"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "low"
+action_required_by: "Europa"
+export: true
+export_target: DisasterRecovery
+
+task_id: "TASK-TOY-SORT"
+title: "Toy Sorting Circuit"
+description: "Declutter and organize toys across Cy’s Room, Mimir’s Room, and Living Room to reduce floor mess and decision fatigue."
+created: "29-03-2025"
+status: "pending"
+importance: "medium"
+priority: "medium"
+estimated_duration: "1h45m"
+deadline: "02-04-2025"
+tags: ["home", "declutter", "with_Cy", "reset_routine", "deep_clean"]
+subtasks:
+  - subtask_id: "TASK-TOY-SORT-01"
+    description: "Sort toys in Cy’s Room (keep/store/donate)"
+    estimated_duration: "30m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-TOY-SORT-02"
+    description: "Sort toys in Mimir’s Room"
+    estimated_duration: "25m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-TOY-SORT-03"
+    description: "Sort toys in Living Room"
+    estimated_duration: "25m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-TOY-SORT-04"
+    description: "Consolidate sorted piles / prep donate bag or storage bin"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "high"
+
+  - subtask_id: "TASK-TOY-SORT-05"
+    description: "Buffer for distraction, kid conversations, clean-up transitions"
+    estimated_duration: "15m"
+    status: "pending"
+    priority: "low"
+action_required_by: "Europa"
+export: true
+export_target: DisasterRecovery
+
+task_id: "TASK-BEDROOM-RESET"
+title: "Bedroom & Floor Reset"
+description: "Restore function and peace to the bedroom by clearing floor clutter, surface buildup, and bedding mess. Emotional buffer included."
+created: "29-03-2025"
+status: "pending"
+importance: "high"
+priority: "high"
+estimated_duration: "2h"
+deadline: "03-04-2025"
+tags: ["home", "deep_clean", "reset_routine", "declutter"]
+subtasks:
+  - subtask_id: "TASK-BEDROOM-RESET-01"
+    description: "Clear all floor clutter and visible trash"
+    estimated_duration: "20m"
+    status: "pending"
+    priority: "high"
+
+  - subtask_id: "TASK-BEDROOM-RESET-02"
+    description: "Remove loose laundry (clean or dirty)"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "urgent"
+
+  - subtask_id: "TASK-BEDROOM-RESET-03"
+    description: "Make the bed with fresh bedding"
+    estimated_duration: "10m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-BEDROOM-RESET-04"
+    description: "Clear and wipe down all surfaces (nightstands, dressers, etc.)"
+    estimated_duration: "20m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-BEDROOM-RESET-05"
+    description: "Sort miscellaneous items (bags, cords, papers)"
+    estimated_duration: "25m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-BEDROOM-RESET-06"
+    description: "Vacuum/sweep the floor"
+    estimated_duration: "15m"
+    status: "pending"
+    priority: "medium"
+
+  - subtask_id: "TASK-BEDROOM-RESET-07"
+    description: "Buffer for physical fatigue or emotional friction (clothing, memory items)"
+    estimated_duration: "20m"
+    status: "pending"
+    priority: "low"
+action_required_by: "Europa"
+export: true
+export_target: DisasterRecovery
