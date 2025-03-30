@@ -90,7 +90,7 @@ Updated: 28032025
 
 **4. Appointments & Anchor Blocks (Selene)**  
 - Time-specific or important events  
-- Suggested focus blocks if schedule is open
+- Suggested focus blocks if the schedule is open
 
 **5. Activities with Sons (Callisto)**  
 - If day is light: suggest playful bonding ideas  
@@ -98,7 +98,7 @@ Updated: 28032025
 
 **6. Morning Flow Subtask (Callisto)**  
 - **Default Anchor**: `Start first laundry load`
-- If this anchor subtask hasn’t been completed in the past 8+ days, replace with:  
+- If this anchor subtask hasn’t been completed in the past 8+ days, replace it with:  
   - `[URGENT] Sweep kitchen and living room paths`  
 - This supports rhythm reset while preserving the rest of the morning for Luna-led rituals, work, and breakfast.
 
@@ -112,7 +112,8 @@ Updated: 29032025
 
 ---
 
-# 🌔 Waxing Daily Report Template - V1
+# 🌔 Waxing Daily Report Template - V2
+A prompt-based back and forth between me and relevant assistants using the One-at-a-time protocol.
 
 ## 🌔 Afternoon & Evening — [Date]
 
