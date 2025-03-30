@@ -94,13 +94,20 @@ Updated: 28032025
 
 **5. Activities with Sons (Callisto)**  
 - If day is light: suggest playful bonding ideas  
-- If day is full: small ways to include them in tasks (e.g. “Cyrus can help sort toys while you tidy”)  
+- If day is full: small ways to include them in tasks (e.g. “Cyrus can help sort toys while you tidy”)
+**6. Morning Flow Subtask (Callisto)**  
+- **Default Anchor**: `Start first laundry load`  
+- If this anchor subtask hasn’t been completed in the past 8+ days, replace with:  
+  - `[URGENT] Sweep kitchen and living room paths`  
+- This supports rhythm reset while preserving the rest of the morning for Luna-led rituals, work, and breakfast.
 
-**6. Mood Prompt (Luna)**  
+*(Callisto tracks this task’s completion across A/B days to determine fallback if needed.)*
+
+**7. Mood Prompt (Luna)**  
 - Gentle check-in or reflection question  
   - *“How do I want to feel at noon today?”*
 
-Updated: 28032025
+Updated: 29032025
 
 ---
 
