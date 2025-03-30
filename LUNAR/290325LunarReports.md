@@ -94,7 +94,8 @@ Updated: 28032025
 
 **5. Activities with Sons (Callisto)**  
 - If day is light: suggest playful bonding ideas  
-- If day is full: small ways to include them in tasks (e.g. “Cyrus can help sort toys while you tidy”)  
+- If day is full: small ways to include them in tasks (e.g. “Cyrus can help sort toys while you tidy”)
+
 **6. Morning Flow Subtask (Callisto)**  
 - **Default Anchor**: `Start first laundry load`
 - If this anchor subtask hasn’t been completed in the past 8+ days, replace with:  
