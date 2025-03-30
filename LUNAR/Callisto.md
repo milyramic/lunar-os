@@ -82,6 +82,8 @@ created: "30-03-2025"
 assistant: "Callisto"
 summary: "Morning Flow completed. Cy helped with dishes."
 notes: ["Fallback anchor applied", "Skipped evening toy reset"]
+```
+
 ---
 
 Updated: 30032025
