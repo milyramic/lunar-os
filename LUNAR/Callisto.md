@@ -83,6 +83,8 @@ assistant: "Callisto"
 summary: "Morning Flow completed. Cy helped with dishes."
 notes: ["Fallback anchor applied", "Skipped evening toy reset"]
 ```
+- Selene reads these updates into the corresponding report section.  
+- If no update exists at report time, Selene logs [data unavailable].  
 
 ---
 
