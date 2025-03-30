@@ -14,7 +14,7 @@
 
 ---
 
-## 🔁 Callisto Protocol Update: Fallback Rule Logic for Flow Anchors
+## Fallback Rule Logic for Flow Anchors - V1
 
 **Name**: `FLOW_ANCHOR_FALLBACK_PROTOCOL`  
 **Applies to**: Morning Flow, Check-In Flow (Waxing), Evening Flow (Waning)  
@@ -57,6 +57,34 @@ To ensure consistency in the user’s daily rhythm, fallback rules are applied w
    - Luna may reflect on fallback trends in emotional reports if repeatedly missed
   
 Updated: 290325
+
+---
+
+## DAILY_REPORT_UPDATE_PROTOCOL Callisto - V1   
+**Created**: 30-03-2025  
+**Applies to**: 🌑 Morning, 🌕 Full, 🌔 Waxing, 🌘 Waning Reports  
+**Role**: Household rhythms, flows, and fallback anchors
+
+---
+
+### Timing  
+- 00:00 (Midnight) → Write update for 🌑 Morning and 🌕 Full Reports  
+- 12:00 (Noon) → Write update for 🌔 Waxing Report  
+- 18:00 (Evening) → Write update for 🌘 Waning Report
+
+---
+
+### Format of Update Memory  
+
+```yaml
+update_type: "WaxingReport"
+created: "30-03-2025"
+assistant: "Callisto"
+summary: "Morning Flow completed. Cy helped with dishes."
+notes: ["Fallback anchor applied", "Skipped evening toy reset"]
+---
+
+Updated: 30032025
 
 ---
 
