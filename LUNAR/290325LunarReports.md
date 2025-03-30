@@ -400,12 +400,66 @@ A short morning flow designed to reset the space without consuming the full morn
 
 ---
 
-## ✅ Default Check-In MUST-DO
+## ✅ Default MUST-DO's
+---
 
+### 🌑 New
+
+
+### 🌘 Waning
 - **Default**: `Tidy toy bins in shared zones`  
 - **Fallback (if not completed in 8+ days)**:  
   → `[URGENT] Light bathroom mirror + sink wipe`
 
+### 🌔 Waxing
+- **Default**: `Clear all floors for robot vacuum`  
+- **Fallback (if not done in 8+ days)**:  
+  → `[URGENT] Quick fridge scan`
+
+---
+
+## Task: Evening Flow Reset (Callisto-led)
+
+**task_id**: TASK-EVENING-003  
+**created**: 29-03-2025  
+**status**: pending  
+**importance**: high  
+**priority**: medium  
+**estimated_duration**: 25m  
+**tags**: [#evening, #reset_routine, #robo_vac_prep, #prep_next_day, #hygiene]  
+**action_required_by**: Callisto, Europa, Selene  
+
+**description**:  
+End-of-day reset that prepares the home for rest, memory-building, and a smooth morning. Evening Flow runs after dinner and is added to the task list daily at 6PM. Robot vacuum requires cleared floors; fridge scan supports Titan’s grocery logic; brushing the boys’ teeth is essential for bedtime rhythm.
+
+---
+
+### Subtasks
+
+- **subtask_id**: TASK-EVENING-003-A  
+  **description**: Clear all floors for robot vacuum  
+  **estimated_duration**: 7m  
+  **priority**: high  
+  **status**: pending  
+
+- **subtask_id**: TASK-EVENING-003-B  
+  **description**: Quick fridge scan (note anything for tomorrow’s groceries)  
+  **estimated_duration**: 5m  
+  **priority**: medium  
+  **status**: pending  
+
+- **subtask_id**: TASK-EVENING-003-C  
+  **description**: Reset dining table for breakfast ease  
+  **estimated_duration**: 5m  
+  **priority**: medium  
+  **status**: pending  
+
+- **subtask_id**: TASK-EVENING-003-D  
+  **description**: Brush both boys’ teeth after dinner  
+  **estimated_duration**: 5m  
+  **priority**: high  
+  **status**: pending  
+  
 ---
 
 # Europa
