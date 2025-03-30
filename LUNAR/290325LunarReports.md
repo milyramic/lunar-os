@@ -130,10 +130,19 @@ Updated: 29032025
 - **Still Open**: “Bed not yet made; need to vacuum floor.”
 - **Just Do This One Thing**: “Put fresh bedding on Cy’s bed before dinner.”
 
-**4. Family Moment (Callisto)**  
-- Option A: Tiny connection moment (song, game, 5-min delight)  
-- Option B: Reflective parenting journal prompt  
-  *(e.g., “What surprised you most about your kids today?”)*
+**4. Callisto’s Check-In Section**
+
+### 1. ✅ **Prompt: Task Check-In**
+> “Here’s what was still pending from Morning Flow. Would you like to skip these and log them to SkippedSubtasks, or move any into this afternoon’s plan?”
+
+### 2. ✳️ **Prompt: MUST-DO Midday Reset**
+> “Today’s Check-In subtask is: *Tidy toy bins in shared zones*. Shall we keep that on the list? If this hasn’t been done in 8+ days, we’ll swap in: *Light bathroom mirror + sink wipe*.”
+
+### 3. 💗 **Prompt: Family Moment**
+> “Mini moment suggestion: *Invite Cy to do a quick toy ‘race sort’ with you for 3 minutes.* Or journal prompt: *What surprised you most about the boys today?”*
+
+### 4. 🧠 **Prompt: Storytime Tracker**
+> “What have the boys done today so far that you’d want to include in their bedtime story?”
 
 **5. Energy Checkpoint (Luna)**  
 - Gentle invitation: *“What energy do I want to bring to dinner or bedtime?”*
@@ -146,7 +155,7 @@ Updated: 28032025
 
 ---
 
-# 🌔 Waning Daily Report Template - V1
+# 🌘 Waning Daily Report Template - V1
 
 ### 🌘 Evening Reflection — [Date]
 
@@ -298,6 +307,10 @@ This approach enables more granular tracking of progress, especially for multi-s
 
 ---
 
+# Subtask Lists in Persistent Memory
+## Main Subtask List
+## Skipped Subtask List
+
 # Selene
 ---
 
@@ -358,6 +371,40 @@ A short morning flow designed to reset the space without consuming the full morn
   **estimated_duration**: 15m  
   **priority**: medium  
   **status**: pending
+
+---
+
+# 🌔 **Check-In Flow — Midday Review + Reset**
+
+> *Used inside the Waxing Report as an AI-led prompt-response check-in. Not a standalone task.*
+
+---
+
+## 🔧 Purpose
+- Review **which Morning Flow subtasks were completed**
+- **Remove incomplete ones** from the main task list (if past 12PM)
+- **Log all removed subtasks** to the `SkippedSubtasks.md` file (persistent memory)
+- Evaluate current energy/context to decide if any undone items should be re-added to the main list
+- Highlight one **MUST-DO subtask** from the Check-In flow, with fallback if missed for 8+ days
+
+---
+
+## 📋 Subtask Bank (Check-In Flow)
+
+| Subtask | Description | Duration | Tag |
+|--------|-------------|----------|------|
+| `CI-01` | Quick sweep under dining table | 5m | `#reset_routine`  
+| `CI-02` | Tidy toy bins in shared zones | 10m | `#with_Cy`, `#reset_routine`  
+| `CI-03` | Light bathroom mirror + sink wipe | 5m | `#reset_routine`  
+| `CI-04` | Spot check dinner plan or start prep | 5–10m | `#kitchen`, `#dinner_prep`  
+
+---
+
+## ✅ Default Check-In MUST-DO
+
+- **Default**: `Tidy toy bins in shared zones`  
+- **Fallback (if not completed in 8+ days)**:  
+  → `[URGENT] Light bathroom mirror + sink wipe`
 
 ---
 
