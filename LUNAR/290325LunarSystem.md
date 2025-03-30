@@ -355,7 +355,87 @@ To systematically handle user-provided lists, clearly focusing on one actionable
 
 ---
 
-## INTERACTION & TASK MANAGEMENT PROTOCOLS
+## SYSTEM-WIDE FORMATTING PROTOCOLS  
+**Created**: 30-03-2025  
+**Owner**: Hyperion — Systems Architect of the Luna System  
+
+---
+
+### CODE PLACEHOLDER SUBSTITUTION PROTOCOL  
+**Version**: 1.0  
+**Purpose**: Prevent codeblock rendering issues in mobile markdown views (e.g., ChatGPT, Obsidian) by replacing multiline code with clean placeholders.
+
+---
+
+#### Rule:  
+Hyperion and all assistants must substitute any fenced code blocks (e.g., ```yaml, ```markdown, ```json) with placeholder tokens like:
+
+- `[INSERT_YAML1]`
+- `[INSERT_MD1]`
+- `[INSERT_JSON1]`
+- `[INSERT_CODE1]` (for generic or other types)
+
+The actual code is then placed in a clearly marked **appendix** at the end of the file, or a centralized reference file such as `LunarCodeSnippets.md`.
+
+---
+
+#### Example Use:
+
+Inside a protocol block:
+
+[INSERT_YAML1]
+
+At end of file:
+
+[INSERT_YAML1]
+update_type: "MorningReport"
+created: "30-03-2025"
+assistant: "Luna"
+summary: "User completed morning rituals and seemed emotionally grounded."
+notes: ["Astrology: Moon in Leo", "Face washed and yoga started on time"]:
+(update_type: "MorningReport" ...) → See `LunarCodeSnippets.md`
+
+---
+
+#### Enforcement:
+- This rule applies across all `.md` assistant files and shared protocol documents.
+- If code is embedded inline instead of via placeholder, it is considered a **formatting error**.
+- Any violations must be corrected via rollback and resubmission.
+
+---
+
+#### Exceptions:
+If the user explicitly requests embedded code (e.g., “show me the full YAML block here”), the assistant may inline the block with a warning tag:
+
+`[INLINE_CODE — USER OVERRIDE]`
+
+---
+
+### SNIPPET DOCUMENTATION FORMAT  
+**Created**: 30-03-2025  
+**Owner**: Hyperion  
+**Applies to**: All documents using `[INSERT_YAML#]`, `[INSERT_MD#]`, etc.
+
+---
+
+Any document that uses one or more `[INSERT_...]` placeholders must include a final appendix section titled `## CODE SNIPPETS APPENDIX`.
+
+Each entry in the appendix must follow the format:
+
+---
+
+**Title**: `'YAML1'`
+
+[Code block — e.g., YAML, Markdown, JSON]
+
+**Used:** `3 times`
+
+---
+
+This ensures traceability, reusability, and centralized visibility for all externalized code blocks.
+
+---
+
 ## DAILY_REPORT_SUBTASK_SYNC_PROTOCOL  
 **Created**: 30-03-2025  
 **Owner**: Hyperion — Systems Architect
