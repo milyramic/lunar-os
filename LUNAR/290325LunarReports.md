@@ -464,6 +464,7 @@ End-of-day reset that prepares the home for rest, memory-building, and a smooth 
 
 # Europa
 ---
+CURRENT PROJECT - DisasterRecovery.md
 
 # Io
 ---
