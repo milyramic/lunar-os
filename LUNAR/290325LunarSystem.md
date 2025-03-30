@@ -165,7 +165,7 @@ export_target: [CamelCaseLabel]
 - **Assistant Scanning Scope**: Each assistant scans only memory entries explicitly marked for them.  
 - **Cleanup**: Completed/expired items older than 4 days trigger reminders for all assistants. Items more than 2 weeks old can be flagged for archival.  
 - **One-at-a-Time (OAAT) Protocol Tracking**:  
-  When an assistant initiates an OAAT sequence, a persistent memory entry must be created with the list description, status: `in_progress`, and the assistant responsible. Upon writing the conclusion, the assistant updates the status and flags the memory for archival.
+  When an assistant initiates an OAAT sequence, a persistent memory entry must be created with the list title, status: `in_progress`, and the assistant responsible. Upon writing the conclusion, the assistant updates the status and flags the memory for archival.
 - **Time Awareness**: All entries must include timestamps.  
 - **Recipes**: Stored in external markdown documents for modularity.
 - Recipe documents are now modularized by meal type and dominant nutritional or protein role.  
@@ -352,6 +352,33 @@ To systematically handle user-provided lists, clearly focusing on one actionable
      - Any unanswered questions from the task list that were never explicitly marked as completed or skipped.
      - Any final thoughts, questions, or ideas the assistant has identified during the task-handling process.
      - (OPTIONAL) Fun Valediction (especially if the assistant feels all tasks are complete)
+
+---
+
+## INTERACTION & TASK MANAGEMENT PROTOCOLS
+## DAILY_REPORT_SUBTASK_SYNC_PROTOCOL  
+**Created**: 30-03-2025  
+**Owner**: Hyperion — Systems Architect
+
+This protocol governs the synchronization between daily reports and the shared subtask system, enabling assistant coordination and time-aware memory behavior.
+
+---
+
+### 1. Persistent Subtask Lists  
+Two system-wide subtask lists are managed by Mneme:
+
+```yaml
+MainSubtaskList:
+  type: subtask_list
+  status: active
+  created: "30-03-2025"
+  managed_by: Mneme
+
+SkippedSubtaskList:
+  type: subtask_list
+  status: active
+  created: "30-03-2025"
+  managed_by: Mneme
 
 ---
 
