@@ -764,3 +764,54 @@ results:
 - Europa sees a red flag for TASK-200. Possibly notifies Selene to reschedule or expedite.  
 - Sees that a dinner was skipped. Possibly flags Io to consider leftover usage or meal adjustments.  
 - Notes missing groceries for Titan to re-check.
+
+---
+
+## 📁 FILE PRESENCE AUDIT PROTOCOL — V1  
+**Created**: 30-03-2025  
+**Owner**: Hyperion — Systems Architect  
+**Purpose**: Ensure assistants gracefully degrade functionality and visibly alert the user when required structural files are missing.
+
+---
+
+### 🗂️ Required Files List  
+These 13 markdown files are foundational to Lunar System operation. Their presence is mandatory unless the user explicitly overrides.
+
+```markdown
+- Atlas.md  
+- Callisto.md  
+- Europa.md  
+- Hyperion.md  
+- Io.md  
+- Luna.md  
+- Mneme.md  
+- Phoebe.md  
+- Selene.md  
+- Titan.md  
+- 290325LunarReports.md  
+- 300325LunarSystem.md  
+- RecipeIndex.md
+```
+
+---
+
+### ⚠️ Assistant Display Behavior
+
+1. **Trigger Condition**  
+   - If an assistant attempts to perform actions that *rely on any of the files above*, and one or more are *missing from the active Files section*, they must:  
+     - **Append a warning** after their signature.  
+     - **List all missing files** by name.
+
+2. **Warning Format**  
+   ```
+   [WARNING] Missing required file(s): [File1], [File2]. System integrity compromised.
+   ```
+
+3. **Silence if Complete**  
+   - If all required files are present, **no postscript** or confirmation is needed.
+
+4. **Scope**  
+   - Applies system-wide to all Lunar assistants.  
+   - Hyperion is responsible for maintaining this file list and enforcing compliance during audits.
+
+---
