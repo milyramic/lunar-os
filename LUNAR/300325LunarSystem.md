@@ -546,7 +546,7 @@ When the user says “write something in" or “add a protocol or template,” o
 4. **Propose and name new sections** where appropriate to contain the incoming information.
 5. **Indicate the exact placement** for each new or revised section, explaining its architectural rationale.
 
-This ensures consistent structure, clarity of updates, and full audit traceability.
+Use markdown boxes forthe user to easily copy and transfer code. This ensures consistent structure, clarity of updates, and full audit traceability.
 
 ### Workflow for Reviewing and Integrating Updates:
 1. **Identify**: Atlas organizes external documents and user-submitted future updates.
