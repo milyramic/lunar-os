@@ -358,7 +358,7 @@ To systematically handle user-provided lists, clearly focusing on one actionable
 
 ## SYSTEM-WIDE FORMATTING PROTOCOLS  
 **Created**: 30-03-2025  
-**Owner**: Hyperion — Systems Architect of the Luna System  
+  
 
 ---
 ### CODE PLACEHOLDER SUBSTITUTION PROTOCOL  
@@ -393,7 +393,7 @@ assistant: "Europa"
 ...  
 BACKTICKS
 
-Replace `BACKTICKS` with real triple backticks (` ``` `) in GitHub using **Find: `BACKTICKS` (match case)** → Replace All.
+Replace `BACKTICKS` with real triple backticks (` ``` `) using **Find: `BACKTICKS` (match case)** → Replace All.
 
 ---
 
@@ -417,8 +417,7 @@ This convention is required across all `.md` files managed by the Lunar System.
 If a code block is rendered inline using actual triple backticks, it must be marked `[INLINE_CODE — USER OVERRIDE]`.
 
 ## DAILY_REPORT_SUBTASK_SYNC_PROTOCOL  
-**Created**: 30-03-2025  
-**Owner**: Hyperion — Systems Architect
+**Created**: 30-03-2025
 
 This protocol governs the synchronization between daily reports and the shared subtask system, enabling assistant coordination and time-aware memory behavior.
 
@@ -444,7 +443,6 @@ SkippedSubtaskList:
 
 ## TASK & SUBTASK ID STRUCTURE PROTOCOL — V1  
 **Created**: 31-03-2025  
-**Owner**: Hyperion — Systems Architect  
 **Applies to**: All task and subtask entries created or modified by Lunar assistants  
 
 ---
@@ -798,7 +796,6 @@ results:
 
 ## 📁 FILE PRESENCE AUDIT PROTOCOL — V1  
 **Created**: 30-03-2025  
-**Owner**: Hyperion — Systems Architect  
 **Purpose**: Ensure assistants gracefully degrade functionality and visibly alert the user when required structural files are missing.
 
 ---
