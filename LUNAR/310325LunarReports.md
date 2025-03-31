@@ -113,47 +113,80 @@ Updated: 31-03-2025
 
 ---
 
-# 🌔 Waxing Daily Report Template - V2
-A prompt-based back and forth between me and relevant assistants using the One-at-a-time protocol.
+# 🌔 Waxing Daily Report Template - V2.2  
+A prompt-based back and forth between me and relevant assistants using the One-at-a-Time protocol.
 
 ## 🌔 Afternoon & Evening — [Date]
 
-**1. Weather (Evening + Overnight)**  
+---
+
+### 1. Evening Forecast & Sunset (Selene)
+
+**Owner**: Selene  
 - **Evening**: [Conditions, sunset temp]  
 - **Overnight**: [Cooling details, sky]  
-- **Sunset**: [Time]
+- **Sunset**: [Time]  
+- *(Optional: “Tonight might be chilly — bring in plants or prep cozy bedding?”)*
 
-**2. Midday Meal Check (Io)**  
-- Lunch recap  
-- Dinner prep or final confirmation
+> “Would you like to begin with a task check-in or a moment of pause?”
 
-**3. Task Rhythm (Europa)**
-- **Progress**: “Loft bed sorted and toys organized.”
-- **Still Open**: “Bed not yet made; need to vacuum floor.”
-- **Just Do This One Thing**: “Put fresh bedding on Cy’s bed before dinner.”
+---
 
-**4. Callisto’s Check-In Section**
+### 2. Midday Meal Check (Io)
 
-### 1. ✅ **Prompt: Task Check-In**
+**Owner**: Io  
+- **Lunch Recap**  
+- **Dinner Preview**  
+- **Substitutions or skipped meals (if any)**
+
+---
+
+### 3. Task Rhythm Check-In (Europa)
+
+**Owner**: Europa  
+- **Progress**: “What got done since this morning?”  
+- **Still Open**: Remaining items  
+- **Just Do This One Thing**: Prioritized subtask for late afternoon
+
+---
+
+### 4. Callisto’s Check-In Section ✅
+
+**Owner**: Callisto
+
+**1. ✅ Prompt: Task Check-In**  
 > “Here’s what was still pending from Morning Flow. Would you like to skip these and log them to SkippedSubtasks, or move any into this afternoon’s plan?”
 
-### 2. ✳️ **Prompt: MUST-DO Midday Reset**
+**2. ✳️ Prompt: MUST-DO Midday Reset**  
 > “Today’s Check-In subtask is: *Tidy toy bins in shared zones*. Shall we keep that on the list? If this hasn’t been done in 8+ days, we’ll swap in: *Light bathroom mirror + sink wipe*.”
 
-### 3. 💗 **Prompt: Family Moment**
+**3. 💗 Prompt: Family Moment**  
 > “Mini moment suggestion: *Invite Cy to do a quick toy ‘race sort’ with you for 3 minutes.* Or journal prompt: *What surprised you most about the boys today?”*
 
-### 4. 🧠 **Prompt: Storytime Tracker**
+**4. 🧠 Prompt: Storytime Tracker**  
 > “What have the boys done today so far that you’d want to include in their bedtime story?”
 
-**5. Energy Checkpoint (Luna)**  
-- Gentle invitation: *“What energy do I want to bring to dinner or bedtime?”*
+---
 
-**6. Evening Anchor (Selene)**  
-- Optional ritual or suggestion to wind the day toward stillness  
-  *(“Pick tomorrow’s socks, close tabs, light one candle.”)*
+### 5. Energy Checkpoint (Luna)
 
-Updated: 28032025
+**Owner**: Luna  
+- Prompt: *“What energy do I want to bring to dinner or bedtime?”*  
+- *(Optional astrology influence)*
+
+---
+
+### 6. Evening Anchor (Selene)
+
+**Owner**: Selene  
+- Optional gentle ritual prompt:  
+  - “Pick tomorrow’s socks.”  
+  - “Close all open tabs.”  
+  - “Light a candle.”
+
+> “Would you like to wind the day down with a small anchor?”
+
+Updated: 31-03-2025
 
 ---
 
