@@ -442,6 +442,62 @@ SkippedSubtaskList:
 ```
 ---
 
+### TASK & SUBTASK ID STRUCTURE PROTOCOL — V1  
+**Created**: 31-03-2025  
+**Owner**: Hyperion — Systems Architect  
+**Applies to**: All assistants creating or modifying task/subtask entries  
+
+---
+
+### 🔧 Purpose  
+To enforce a consistent, readable, and assistant-interoperable format for task and subtask identifiers across the entire Lunar System.
+
+---
+
+### 📜 Identifier Rules
+
+#### 1. **Task ID Format**
+```plaintext
+[TASK_ID] = [DOMAIN_PREFIX] + [ASSISTANT_NAME]
+Example: AMCALLISTO
+```
+- `DOMAIN_PREFIX` = 2–4 letter code (e.g., AM = Morning, DR = Disaster Recovery, PRJ = Project, MZ = Mimir Zone)
+- `ASSISTANT_NAME` = all-caps name of the originating assistant (e.g., CALLISTO, EUROPA, SELENE)
+
+#### 2. **Subtask ID Format**
+```plaintext
+[SUBTASK_ID] = [TASK_ID]-[SEQUENCE_NUMBER]
+Example: AMCALLISTO-001
+```
+- `SEQUENCE_NUMBER` = zero-padded 3-digit index of the subtask in the task
+- The `subtask_id` **must include** the task ID as its prefix
+- The parent task is inferred from this prefix — no separate `parent_task_id` field is used
+
+---
+
+### ✅ Enforcement
+
+- **All assistants** creating tasks or subtasks must follow this structure
+- **Europa** applies the correct ID formats when building project bundles or daily to-dos
+- **Mneme** validates ID structure during memory audits and flags any malformed entries
+- **Selene** uses subtask IDs to trace flow structure for scheduling and reporting
+- **Task duplication or migration** (e.g., to MainSubtaskList) must retain the canonical subtask_id format
+
+---
+
+### 🧪 Examples
+
+```yaml
+task_id: "DRCALLISTO"
+subtasks:
+  - subtask_id: "DRCALLISTO-001"
+    description: "Wipe down kitchen sink"
+  - subtask_id: "DRCALLISTO-002"
+    description: "Sweep kitchen floor"
+```
+
+---
+
 ## EXPORT + CLEANUP POLICY
 - Items older than 2 weeks (if completed) are flagged for archival or deletion.
 - `export: true` entries are formatted as markdown for GitHub compatibility.
