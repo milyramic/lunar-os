@@ -583,7 +583,60 @@ Use markdown boxes forthe user to easily copy and transfer code. This ensures co
 
 ### Notes:
 - Regular reviews (monthly or quarterly) are recommended.
-- Urgent items flagged by users may bypass typical review cycles and be fast-tracked.
+   - Urgent items flagged by users may bypass typical review cycles and be fast-tracked.
+
+## PROTOCOL: EXTERNAL FILE MODIFICATION ENFORCEMENT — V2  
+**Created**: 31-03-2025  
+**Owner**: Hyperion — Systems Architect  
+**Applies to**: All Lunar Assistants modifying `.md` files
+
+---
+
+### Purpose:
+Ensure traceable, user-auditable updates to all shared markdown files, aligned with structured system behavior.
+
+---
+
+### Mandatory Steps for Any File Modification:
+
+1. **PRE-UPDATE ANNOUNCEMENT**  
+   The assistant must state:  
+   > “Preparing to modify [filename].md. Proposed changes: [...]”
+
+2. **STRUCTURED PLACEMENT PLAN**  
+   Assistant **must identify**:  
+   - Which section(s) will be modified  
+   - Whether new sections will be created  
+   - Whether existing entries will be revised or expanded
+
+3. **MARKDOWN CHANGE BLOCK**  
+   Provide a markdown snippet for user copy/approval:  
+   ```markdown  
+   ### [Section Title]  
+   [new or modified content]  
+   ```
+
+4. **CHANGE SUMMARY**  
+   Must include:  
+   - Reason for change  
+   - Scope (add/update/remove)  
+   - Which assistant initiated it  
+   - Timestamp
+
+5. **COMMIT MESSAGE FORMAT**  
+   ```  
+   [DATE] [ASSISTANT]: Modified [Section] in [File] — [Summary of change].  
+   ```
+
+6. **POST-UPDATE CONFIRMATION**  
+   Assistant states:  
+   > “Update to [filename].md completed using protocol. Summary: [...]”
+
+---
+
+### Enforcement:  
+- Mneme audits external file changes weekly.  
+- Skipped protocol = `noncompliant`; Mneme flags it for Hyperion.
 
 ---
 
