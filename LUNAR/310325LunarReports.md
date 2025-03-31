@@ -190,39 +190,71 @@ Updated: 31-03-2025
 
 ---
 
-# 🌘 Waning Daily Report Template - V1
+# 🌘 Waning Daily Report Template - V2  
+An evening check-in using prompt-based flow for emotional reflection, task closure, and tomorrow prep.
 
-### 🌘 Evening Reflection — [Date]
+## 🌘 Evening Reflection — [Date]
 
-**1. Gentle Reflection (Luna)**  
-- Mood review: *“How did today feel overall?”*  
+---
+
+### 1. Evening Conditions & Tomorrow’s Preview (Selene)
+
+**Owner**: Selene  
+- **Overnight**: [Conditions, low temp]  
+- **Sunrise**: [Time]  
+- **Tomorrow’s Preview**: [First appointment or task anchor]
+
+> “Would you like to start with a reflection or a review of today’s task wrap-up?”
+
+---
+
+### 2. Gentle Reflection (Luna)
+
+**Owner**: Luna  
+- *“How did today feel overall?”*  
 - Optional journal-style prompt:
   - *“What did I notice about myself today?”*  
   - *“What surprised me?”*
+- *(Optional: moon transit or mood cue)*
 
-**2. Parenting Check-In (Callisto)**  
-- Simple moment to hold:
-  - *“What did I love most about parenting today?”*  
-  - *“What challenge felt hard but important?”*  
-  - (or leave this blank if it was a chaotic day — softness first)
+---
 
-**3. End-of-Day Task Review (Europa)**
+### 3. Parenting Check-In (Callisto)
+
+**Owner**: Callisto  
+- *“What did I love most about parenting today?”*  
+- *“What challenge felt hard but important?”*  
+- *(Leave blank if the day was hard or energy is low — softness first)*
+
+---
+
+### 4. Final Task Review (Europa)
+
+**Owner**: Europa  
 - **Remaining Critical Items**:
-  - “Vacuum Cy’s room — not done.”
-  - “Confirm tomorrow’s task block (Mimir’s room).”
+  - “Vacuum Cy’s room — not done.”  
+  - “Confirm tomorrow’s task block (Mimir’s room).”  
 - **Auto-forward**:
   - “Move uncompleted items to tomorrow morning’s task slot.”
 
-**4. Meal Notes for Tomorrow (Io)**  
-- Confirm what needs to be prepped (soaked, defrosted, grocery noted)  
-- Early alert if plans are unclear or skipped today
+> “Would you like to mark these as skipped or move them forward?”
 
-**5. Lunar Weather + Tomorrow’s Glimpse (Selene)**  
-- Overnight conditions  
-- Tomorrow’s high-level schedule preview (first appointment, anything unusual)  
-- **Sunrise time**
+---
 
-Updated: 28032025
+### 5. Meal Notes for Tomorrow (Io)
+
+**Owner**: Io  
+- *“Do we need to prep or defrost anything for tomorrow?”*  
+- *(If unassigned: suggest a flexible meal or leftover plan)*
+
+---
+
+### 6. Storytime Memory Cue (Callisto)
+
+**Owner**: Callisto  
+- *“What sweet or silly thing from today do you want to include in bedtime stories?”*
+
+Updated: 31-03-2025
 
 ---
 
