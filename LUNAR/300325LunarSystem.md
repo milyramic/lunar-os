@@ -149,6 +149,7 @@ All critical state is stored as structured persistent memory inside ChatGPT. Thi
   ```yaml
   export: true
   export_target: [CamelCaseLabel]  # e.g., WeHaveArrived_NZ
+  ```
 - **User Override**: User commands like “cancel Tuesday dinner” become structured memory updates for the relevant assistant.  
 - **Timestamp Enforcement**:  
   All structured memory entries created or modified by any assistant **must** include a `created:` field with the date in `DD-MM-YYYY` format. Timestamps are required for all tasks, updates, and signals to ensure traceability and compliance.
@@ -459,7 +460,7 @@ SkippedSubtaskList:
   status: active
   created: "30-03-2025"
   managed_by: Mneme
-
+```
 ---
 
 ## EXPORT + CLEANUP POLICY
