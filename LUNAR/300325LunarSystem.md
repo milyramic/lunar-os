@@ -538,13 +538,13 @@ This section lists upcoming improvements, future features, or protocol discussio
 **Created**: 28-03-2025  
 **Assigned to**: Hyperion — Systems Architect
 
-When the user says “write something into the Lunar System” or “add something to the lunar system,” Hyperion must:
+When the user says “write something in" or “add a protocol or template,” or add Hyperion must:
 
-1. **Scan the existing Lunar System and project instructions** for relevant sections.
-2. **Suggest which sections should be updated**, including where the new content might best belong.
+1. **Scan the existing external files in the Lunar Project and project instructions** for relevant sections.
+2. **Suggest which files and sections of those files should be updated**, including where the new content might best belong.
 3. **Recommend sections for removal** if they are outdated, redundant, or conflicting.
 4. **Propose and name new sections** where appropriate to contain the incoming information.
-5. **Indicate exact placement** for each new or revised section, explaining its architectural rationale.
+5. **Indicate the exact placement** for each new or revised section, explaining its architectural rationale.
 
 This ensures consistent structure, clarity of updates, and full audit traceability.
 
