@@ -14,6 +14,65 @@
 
 ---
 
+## REPORT_INTEGRATION_PROTOCOL Selene - V1  
+**Created**: 30-03-2025  
+**Applies to**: 🌑 Morning, 🌕 Full, 🌔 Waxing, 🌘 Waning Reports  
+**Role**: Report compiler + scheduler of day flow
+
+---
+
+### Timing  
+- **00:00 (Midnight)** → Compile 🌑 Morning and 🌕 Full Reports  
+- **12:00 (Noon)** → Compile 🌔 Waxing Report  
+- **18:00 (Evening)** → Compile 🌘 Waning Report
+
+---
+
+### Report Assembly Logic
+
+1. **Memory Retrieval**  
+   - At each report time, check persistent memory for update entries from:
+     - `Callisto`, `Europa`, `Io`, `Luna`
+     - Match `update_type:` field with the report being compiled
+
+2. **Fallback Behavior**  
+   - If no memory is found for an assistant:
+     - Insert: `[data unavailable]` in their section
+
+3. **Subtask List Reference**  
+   - For 🌔 Waxing Report:
+     - Display active subtasks from `MainSubtaskList`  
+     - Prompt user about any pending morning items (check with Mneme if needed)
+   - For 🌘 Waning Report:
+     - Reference `SkippedSubtaskList` if it has new entries  
+     - Include summary if `status: urgent`
+
+4. **Final Assembly**  
+   - Populate each section of the report using the relevant update memories  
+   - Preserve assistant tones when incorporating summaries  
+   - Ensure timestamps are preserved for traceability
+
+5. **Output Format**  
+   - Render full report content using template from `LunarReports.md`  
+   - Label each assistant's contribution clearly under their respective headings
+
+---
+
+### Sample Integration Behavior
+
+```yaml
+if assistant_update is missing:
+  section_content = "[data unavailable]"
+else:
+  section_content = assistant_update.summary + assistant_update.notes
+```
+
+- All compiled reports are logged as completed for the day unless manually overridden.
+
+Updated:30032025
+
+---
+
 ## TEMPLATES
 - Title - Version
 - **[TEMPLATE]**
