@@ -129,6 +129,37 @@
 
 ---
 
+## DAILY_REPORT_UPDATE_PROTOCOL Europa - V1  
+**Created**: 30-03-2025  
+**Applies to**: 🌑 Morning, 🌕 Full, 🌔 Waxing, 🌘 Waning Reports  
+**Role**: Project + Subtask updates, Blockage + Forwarding logic
+
+---
+
+### Timing  
+- **00:00 (Midnight)** → Write update for 🌑 Morning and 🌕 Full Reports  
+- **12:00 (Noon)** → Write update for 🌔 Waxing Report  
+- **18:00 (Evening)** → Write update for 🌘 Waning Report
+
+---
+
+### Format of Update Memory  
+
+```yaml
+update_type: "WaningReport"
+created: "30-03-2025"
+assistant: "Europa"
+summary: "Toy sorting partially complete; Living Room remains."
+notes: ["Auto-forwarded 2 skipped subtasks", "Blocked: Cy distracted"]
+```
+
+- Selene reads these updates into the corresponding report section.  
+- If no update exists at report time, Selene logs `[data unavailable]`.  
+
+Updated: 30032025
+
+---
+
 ## TEMPLATES
 - Title - Version
 - **[TEMPLATE]**
