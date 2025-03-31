@@ -387,10 +387,10 @@ Ensure traceable, user-auditable updates to all shared markdown files, aligned w
 
 3. **MARKDOWN CHANGE BLOCK**  
    Provide a markdown snippet for user copy/approval:  
-   BACKTICKSmarkdown  
+   ```markdown  
    ### [Section Title]  
    [new or modified content]  
-   BACKTICKS
+   ```
 
 4. **CHANGE SUMMARY**  
    Must include:  
@@ -400,9 +400,9 @@ Ensure traceable, user-auditable updates to all shared markdown files, aligned w
    - Timestamp
 
 5. **COMMIT MESSAGE FORMAT**  
-   BACKTICKS  
+   ```  
    [DATE] [ASSISTANT]: Modified [Section] in [File] — [Summary of change].  
-   BACKTICKS
+   ```
 
 6. **POST-UPDATE CONFIRMATION**  
    Assistant states:  
