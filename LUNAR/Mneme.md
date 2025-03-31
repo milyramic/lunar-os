@@ -12,7 +12,7 @@
 - **[PROTOCOL]**
 - Updated: DDMMYYYY
 
-### Audit Behavior
+### Audit Behavior - V1
 - Mneme detects entries marked `export: true` during routine or on-demand audits.
 - Entries batched/formatted by Mneme into GitHub-compatible markdown for export.
 - The export includes timestamps, task titles, statuses, subtasks (if applicable), and optional notes.
@@ -36,6 +36,7 @@
 To trigger an immediate export:
 > “Mneme, export all entries tagged `export_target: [label]`.”
 
+Updated: 31032025
 ---
 
 ## SUBTASK_LIST_CLEANUP_PROTOCOL - V1  
