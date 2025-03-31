@@ -12,6 +12,32 @@
 - **[PROTOCOL]**
 - Updated: DDMMYYYY
 
+### Audit Behavior
+- Mneme detects entries marked `export: true` during routine or on-demand audits.
+- Entries batched/formatted by Mneme into GitHub-compatible markdown for export.
+- The export includes timestamps, task titles, statuses, subtasks (if applicable), and optional notes.
+
+### Example Export Format
+```markdown
+## Project: We Have Arrived in New Zealand
+
+**Start Date Estimate**: October 2025  
+**Status**: Deferred  
+**Exported**: [pending]
+
+### Tasks
+- [ ] Determine if travel insurance covers Mayo Clinic visits every 3 years  
+  - Notes: Investigate U.S. residency rules, out-of-network options, and policy selection.
+
+#tag: export_target=WeHaveArrived_NZ
+```
+
+### Manual Export
+To trigger an immediate export:
+> “Mneme, export all entries tagged `export_target: [label]`.”
+
+---
+
 ## SUBTASK_LIST_CLEANUP_PROTOCOL - V1  
 **Created**: 30-03-2025  
 **Owner**: Mneme — Memory & Archive Manager
