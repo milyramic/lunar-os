@@ -41,6 +41,7 @@ This protocol defines Mneme’s responsibility for managing the two core subtask
 status: urgent
 action_required_by: all
 reason: "Skipped subtask count ≥ 3. Rhythm failure risk."
+```
 
 Updated: 30032025
 
