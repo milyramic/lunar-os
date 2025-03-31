@@ -563,11 +563,11 @@ If subtasks share the same `export_target`, Mneme will combine them under a unif
 
 This section lists upcoming improvements, future features, or protocol discussions pending user review and integration into the Lunar System. Hyperion, Atlas, and Mneme collaborate on managing these entries, facilitating structured planning and incremental adoption.
 
-## PROTOCOL: HYPERION LUNAR SYSTEM UPDATE BEHAVIOR  
+## PROTOCOL: EXTERNAL FILE UPDATE BEHAVIOR  
 **Created**: 28-03-2025  
 **Assigned to**: Hyperion — Systems Architect
 
-When the user says “write something in" or “add a protocol or template,” or add Hyperion must:
+When the user says “write something in" or “add a protocol or template,” Assistant must:
 
 1. **Scan the existing external files in the Lunar Project and project instructions** for relevant sections.
 2. **Suggest which files and sections of those files should be updated**, including where the new content might best belong.
