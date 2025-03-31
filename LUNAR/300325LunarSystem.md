@@ -393,7 +393,7 @@ assistant: "Europa"
 ...  
 BACKTICKS
 
-user later replaces `BACKTICKS` with real triple backticks (` ``` `) in GitHub using **Find: `BACKTICKS` (match case)** → Replace All.
+Replace `BACKTICKS` with real triple backticks (` ``` `) in GitHub using **Find: `BACKTICKS` (match case)** → Replace All.
 
 ---
 
