@@ -12,6 +12,9 @@
 - **[PROTOCOL]**
 - Updated: DDMMYYYY
 
+# Report protocol - V1
+**Emoji prompt**: when prompt only includes a moon emoji, reply with the correct Daily Report
+
 ---
 
 ## TEMPLATES
@@ -72,7 +75,7 @@ Updated: 28032025
 
 ---
 
-# 🌑 New Daily Report Template - V1
+# 🌑 New-moon Daily Report Template - V2
 
 ## 🌑 Morning Focus — [Date]
 
@@ -90,25 +93,23 @@ Updated: 28032025
 
 **4. Appointments & Anchor Blocks (Selene)**  
 - Time-specific or important events  
-- Suggested focus blocks if the schedule is open
+- Suggested focus blocks if schedule is open
 
-**5. Activities with Sons (Callisto)**  
-- If day is light: suggest playful bonding ideas  
-- If day is full: small ways to include them in tasks (e.g. “Cyrus can help sort toys while you tidy”)
+**5. Family Rhythm & Cleaning Flow (Callisto)**  
+- **Family Rhythm** — playful activity or include kids in task  
+- **Cleaning Flow** — today’s assigned subtask + fallback logic  
+  - Example: “AMCALLISTO-001: Start laundry”  
+  - If overdue item exists from this flow, show instead (marked URGENT)
 
-**6. Morning Flow Subtask (Callisto)**  
-- **Default Anchor**: `Start first laundry load`
-- If this anchor subtask hasn’t been completed in the past 8+ days, replace it with:  
-  - `[URGENT] Sweep kitchen and living room paths`  
-- This supports rhythm reset while preserving the rest of the morning for Luna-led rituals, work, and breakfast.
+**6. Inner Light & Rituals (Luna)**  
+- **Self-Love Ritual** — skincare, water, yoga, gentle hygiene  
+- **Prompt** — “How do I want to feel at noon today?”  
+- *(Optional: Today’s Anchor Word — “Steady”)*
 
-*(Callisto tracks this task’s completion across A/B days to determine fallback if needed.)*
+**7. Mneme Note (Optional)**  
+- *“3 subtasks were skipped yesterday — see 🌘 Waning Report.”*
 
-**7. Mood Prompt (Luna)**  
-- Gentle check-in or reflection question  
-  - *“How do I want to feel at noon today?”*
-
-Updated: 29032025
+Updated: 31-03-2025
 
 ---
 
