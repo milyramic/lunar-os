@@ -142,6 +142,31 @@ This layer of the Custom Wheel honors planetary rhythms, seasonal sun cycles, an
 
 > “As above, so within. Let the stars bless the soil your spirit walks upon.”
 
+## HOLIDAYS — FESTIVALS, RITUAL DAYS, & DESTINY MARKERS  
+*Rooted in personal cosmology, seasonal cues, ancestral memory, and environmental rhythms.*
+
+---
+
+### 🌕 **Sigurblót** — Festival of Moonsummer’s Rise  
+**Date**: First day of **Moonsummer** (January 2)  
+**Origin**: Inspired by the Norse victory sacrifice (Sigurblót), this modern rite celebrates the end of the dark stretch and honors the returning vigor of life and labor.
+
+**Tone**: Bold, grounded, invigorating  
+**Theme**: Strength offered. Blessings invited. The work begins.  
+**Length**: 1 day, with optional week-long rhythm
+
+**Ritual Elements**:
+- Make or burn a written “offering of effort” — a task or virtue to commit to this season
+- Drink something hot (coffee, tea, broth) as the ceremonial first act of the working year  
+- Do one *strong* thing (e.g., clean, build, reach out, lift, repair)
+- Name a personal battle you intend to win
+- Wear something symbolic of strength — layered or metal, leather, wool, or armorlike fabric
+
+**Atmosphere**:  
+Cold but invigorating. Steam from mugs. Morning fog or frost as symbols. The return of power is quiet, focused, and inwardly fortified.
+
+---
+
 updated: 01042025
 
 ---
