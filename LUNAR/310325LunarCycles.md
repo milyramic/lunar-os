@@ -409,6 +409,36 @@ Updated: 31-03-2025
 
 ---
 
+# Seasons - Custom Wheel
+
+## 1. **Moonsumar**  
+- **Start:** January 2  
+- **End:** First day ≥80°F  
+- **Typical Range:** Early January – Late February (~8 weeks)  
+- **Theme:** The Working Season — outward motion, hospitality, clarity, strength  
+- **Tone:** Masculine-aligned energy, cool air, strategic momentum  
+- **Symbols:** Steam, wool, iron, fire pits, hot drinks, structured clothes  
+- **Elemental Energy:** Fire inside still air — strength beneath quiet
+
+**Key Practices:**  
+- Host guests from colder climates  
+- Begin major projects, household upgrades, or relational healing  
+- Bold plans, strong steps, decisive declarations  
+- Wear structured or “armored” clothing (wool, metal, leather)  
+- Keep coffee/tea rituals as energetic ignition points
+
+**Ritual Anchors:**  
+- **New Year’s Eve** (Dec 31): Comfort animals, reflect in stillness, prepare the home for motion  
+- **Sigurblót** (Jan 2): Declare a “battle,” light fire, offer breath and effort  
+- **Destiny Day** (Jan 10): Observe cosmic alignment of stars, land, and moment  
+- **Imbolc** (Feb 1–2): Sacred purification, firelight, renewal  
+- **MLK Day / Presidents' Day / Valentine’s Day**: Reframed within Moonsumar as seasonal anchors of effort, clarity, and strength-in-connection
+
+**Personal Notes:**  
+This season is the Arizona inversion of Norse *Sumar* — not about relaxation, but about **motion in good weather**. It is the season of capability, when the world opens and the work begins. You are not emerging from rest, but from pressure. Moonsumar is your power returned.
+
+---
+
 # Callisto
 
 ---
