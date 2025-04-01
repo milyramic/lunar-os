@@ -77,13 +77,23 @@
 
 ---
 
-### 6. **Wintering** *(Working Title)*  
+### 6. **Moonsumar**  
 - **Start:** January 2  
 - **End:** First day ≥80°F  
 - **Duration:** ~8 weeks  
 - **Typical Range:** Early January – Late February  
-- **Theme:** Inner reset  
-- **Tone:** Strategic stillness. Hidden planning.
+- **Theme:** The true working season  
+- **Tone:** Alive, outward, and powerfully capable
+
+**Key Practices:**  
+- Host guests from colder climates  
+- Begin major projects, repairs, alliances  
+- Bold plans, strong steps, decisive acts  
+- Embrace masculine-aligned energy  
+- Sacrifices of effort, strategy, and presence
+
+**Symbolism:**  
+This is Arizona’s most livable season — a complete reversal of the Norse winter. It mirrors Norse summer (Sumar), where weather allowed travel, repair, weddings, heroic deeds, and action. For us, this is a season of movement and hospitality. A time of crisp air and warm days. Though Christmas overlaps the start, the season's **true power begins January 2** — once the festivities fade and the work begins.---
 
 ---
 
