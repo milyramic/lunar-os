@@ -149,21 +149,71 @@ This layer of the Custom Wheel honors planetary rhythms, seasonal sun cycles, an
 
 ### 🌕 **Sigurblót** — Festival of Moonsummer’s Rise  
 **Date**: First day of **Moonsummer** (January 2)  
-**Origin**: Inspired by the Norse victory sacrifice (Sigurblót), this modern rite celebrates the end of the dark stretch and honors the returning vigor of life and labor.
+**Origin**: Inspired by the Norse victory sacrifice (Sigurblót), this modern rite celebrates the end of the dark stretch and honors the returning vigor of life and labor.  
 
 **Tone**: Bold, grounded, invigorating  
 **Theme**: Strength offered. Blessings invited. The work begins.  
-**Length**: 1 day, with optional week-long rhythm
+**Length**: 1 day, with optional week-long rhythm  
 
 **Ritual Elements**:
-- Make or burn a written “offering of effort” — a task or virtue to commit to this season
+- Make or burn a written “offering of effort” — a task or virtue to commit to this season  
 - Drink something hot (coffee, tea, broth) as the ceremonial first act of the working year  
-- Do one *strong* thing (e.g., clean, build, reach out, lift, repair)
-- Name a personal battle you intend to win
-- Wear something symbolic of strength — layered or metal, leather, wool, or armorlike fabric
+- Do one *strong* thing (e.g., clean, build, reach out, lift, repair)  
+- Name a personal battle you intend to win  
+- Wear something symbolic of strength — layered or metal, leather, wool, or armorlike fabric  
 
 **Atmosphere**:  
 Cold but invigorating. Steam from mugs. Morning fog or frost as symbols. The return of power is quiet, focused, and inwardly fortified.
+
+---
+
+### 🌀 **The First Rain** — Threshold of Renewal  
+**Date**: First fully clouded sky (mid-July, varies)  
+**Theme**: Gratitude, stillness, family presence  
+**Tone**: Sacred pause. Rain as blessing.  
+**Length**: 1 sacred day — postponed one day if rain arrives that same day  
+
+**Ritual Elements**:  
+- Cancel or pause work  
+- Reflect in journal and with the boys  
+- Name 3 things you’re grateful for  
+- Offer words or gifts of thanks to Jesse  
+- Embrace emotional reset — this is a **ritual gateway** into monsoon season
+
+---
+
+### 🌧️ **Rain Ritual (Every Rainfall)**  
+**Date**: Any day it rains (or the following day)  
+**Theme**: Renewal, beauty, emergence  
+**Tone**: Small sacred rebirth  
+
+**Ritual Elements**:  
+- Do your nails  
+- Wear makeup and your favorite outfit  
+- Give yourself a facial and full-body lotion ritual  
+- Consider buying something small and beautiful — a symbolic blooming  
+
+This is a celebration of the body after dryness.
+
+---
+
+### ✨ **Destiny Days**  
+**Dates**:  
+- **January 10**  
+- **November 11**  
+- **December 21 (Cy’s Birthday)**  
+**Theme**: Cosmic check-ins — surprise messages from the universe  
+**Tone**: Reflective, synchronistic, quiet awe  
+
+**Three Lenses of Reflection**:  
+1. **The Stars** — What is happening astrologically today? Where is Earth in the heavens?  
+2. **The Land** — What season am I in? (Refer to Wheel of the Year)  
+3. **The Moment** — What is happening *right now* that feels like the universe tapping me on the shoulder?  
+
+**Optional Ritual Elements**:  
+- Tarot or journaling  
+- Share a spontaneous insight or message with a loved one  
+- Light a candle to mark the moment
 
 ---
 
