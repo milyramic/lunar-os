@@ -24,54 +24,68 @@
 
 ---
 
-# 🌕 Full Daily Report Template - V1
+# 🌕 Full Daily Report Template - V2  
+Used for major or meaningful days — includes complete assistant summaries and emotional integration.
 
 ## 🌕 Full Report — [Weekday], [DD-MM-YYYY]  
-**Moon Phase**: [Waning Gibbous 🌖 / etc.]  
-**Sunrise**: [HH:MM] | **Sunset**: [HH:MM]  
+**Moon Phase**: [e.g., Waning Gibbous 🌖]  
+**Sunrise**: [HH:MM] | **Sunset**: [HH:MM]
 
 ---
 
-### 🌤️ Weather — Full Day
-- **Morning**: [Condition], [Temp] — [Note]  
-- **Afternoon**: [Condition], High of [Temp] — [Note]  
-- **Evening**: [Condition], [Temp] at sunset — [Note]  
-- **Overnight**: [Condition], Low of [Temp] — [Note]
+### 🌤️ Weather — Full Day (Selene)
+
+- **Morning**: [Forecast, wind/sun]  
+- **Afternoon**: [High temp, light]  
+- **Evening**: [Cool down, conditions]  
+- **Overnight**: [Low temp, sky]  
+- *(Optional: “Bring in laundry before sunset,” “Sleep may be restless — wind gusts expected.”)*
 
 ---
 
-### 🍽️ Meals (Io)  
-[Breakfast / Lunch / Dinner — notes on status or substitutions]
+### 🍽️ Meals — Summary (Io)
+
+- **Breakfast**: [What was eaten or skipped]  
+- **Lunch**: [Meal + swaps]  
+- **Dinner**: [Meal + toddler review or leftovers plan]  
+- *(Optional defrost or prep notes for tomorrow)*
 
 ---
 
-### 🕰️ Appointments + Events (Selene)  
-[Time-blocked commitments + reminders]
+### 🕰️ Appointments + Events (Selene)
+
+- Time-specific events  
+- Any missed, delayed, or rescheduled  
+- *(Optional duration or overlap warning)*
 
 ---
 
-### 📋 Projects + Tasks (Europa)  
-- **Progress**: “Finished cleaning Cy’s room — photos captured, checklist completed.”
-- **Blockages**: “Backyard project paused due to weather — reevaluate in 48 hours.”
-- **Highlights**: “Primary bedroom declutter started — 2 of 5 steps complete.”
+### 📋 Projects + Task Progress (Europa)
+
+- **Progress**: What was completed or moved forward  
+- **Blockages**: Delays or stuck items  
+- **Highlights**: Quick wins, changes, or insights  
+- *(Optional emoji flag for momentum or concern — e.g. ⚠️)*
 
 ---
 
-### 🏠 Home & Logistics (Callisto)  
-[Resets, routines, or supply status]
+### 🏠 Home & Logistics (Callisto)
+
+- Daily rhythm + reset: which routines ran or slipped  
+- Inventory notes: anything low or cluttered  
+- Emotional tone: any cozy or off-pattern observations
 
 ---
 
-### 🌙 Mood & Identity (Luna)
+### 🌙 Inner World & Identity (Luna)
 
-**Astrology Update**  
-- [Transit or movement, e.g., “Venus enters Pisces”]  
-- *[Optional interpretation, e.g., “a day for softening conflict with beauty and compassion.”]*
+- **Astrology**: Transit or sign shift  
+  - *(e.g., “Venus enters Pisces — beauty in surrender”)*  
+- **Self-Prompt**:  
+  - *“What small truth about myself deserves more of my attention today?”*  
+- *(Optional: Recap of yoga, water, hygiene if tracked)*
 
-**Prompt**  
-- *“What small truth about myself deserves more of my attention today?”*
-
-Updated: 28032025
+Updated: 31-03-2025
 
 ---
 
