@@ -217,6 +217,63 @@ This is a celebration of the body after dryness.
 
 ---
 
+---
+
+## 🜃 Druidic Fire Festivals — Sacred Northern Observances  
+*These holy days are not adapted to the Arizona seasonal wheel. They remain fixed, honoring the ancestral turn of the Northern Hemisphere.*
+
+> 🔔 A reminder should be issued **one week before** each holiday to allow space for preparation.
+
+---
+
+### ❄️ **Imbolc**  
+**Date:** February 1 – 2  
+**Theme:** Purification, return of light, sacred creativity  
+**Symbols:** Candles, milk, Brigid’s Cross, white cloth  
+**Rituals:**
+- Light a candle for Brigid at dawn  
+- Sweep or spiritually cleanse the home  
+- Leave an offering of milk or bread  
+- Begin a small act of healing or creation  
+- Ask: *“What light in me is ready to return?”*
+
+---
+
+### 🌸 **Beltane**  
+**Date:** May 1  
+**Theme:** Fertility, fire, sacred union  
+**Symbols:** Bonfire, flowers, ribbons, handfasting cords  
+**Rituals:**
+- Light a candle at dawn or dusk  
+- Dance, move, or celebrate with music  
+- Offer dew or flower water to the earth  
+- Tie a symbolic vow or intention  
+- Ask: *“What is ready to rise within me?”*
+
+---
+
+### 🌾 **Lughnasadh**  
+**Date:** August 1  
+**Theme:** Gratitude, skill, sacrifice, first harvest  
+**Symbols:** Bread, grain, sunflower, tools of craft  
+**Rituals:**
+- Bake or break bread and speak gratitude  
+- Make an offering from your labor  
+- Light a candle for an ancestor who taught you something  
+- Ask: *“What have I earned—and what will I give back?”*
+
+---
+
+### ☠️ **Samhain**  
+**Date:** October 31 – November 1  
+**Theme:** Death, remembrance, endings, shadow  
+**Symbols:** Ancestor candles, dark cloth, apples, bones  
+**Rituals:**
+- Build an ancestor altar and speak their names  
+- Share a meal with a place set for the dead  
+- Burn or bury something you are ready to release  
+- Ask: *“What must I lay to rest so I may live?”*
+
 updated: 01042025
 
 ---
