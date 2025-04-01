@@ -439,6 +439,38 @@ This season is the Arizona inversion of Norse *Sumar* — not about relaxation, 
 
 ---
 
+## 2. **Ostera**  
+- **Start:** Spring Equinox (~March 20)  
+- **End:** First day ≥100°F (typically Early April)  
+- **Typical Range:** Late March – Early April (~2–3 weeks)  
+- **Theme:** Renewal, resurrection, identity rebirth, sacred preparation  
+- **Tone:** Gentle but catalytic — a time of cleansing and spiritual emergence  
+- **Symbols:** Butterflies, eggs, bunnies, soft light, white cloth, flower-scented air  
+- **Elemental Energy:** Air + Fire — the stirring of purpose and purification
+
+**Essence of the Season:**  
+Ostera is a sacred pause in which you step inward — not to rest, but to **shed**. It is a season of letting go: of roles, of masks, of accumulated dust (physical or emotional). Here you honor what once was, so that it may be released.  
+You **cocoon**, not to disappear, but to **transform**. You clean your house and spirit not as duty, but as sacred flight prep. This is when you choose: *who am I becoming?*
+
+**Key Practices:**  
+- Deep cleaning and emotional clearing  
+- Reverse cleaning: bring in flowers, colors, play  
+- Writing identity intentions for the season ahead  
+- Releasing narratives and objects that tether you to an older self  
+- Honoring yourself with softness and spiritual light
+
+**Ritual Anchors:**  
+- **Spring Equinox (~March 20):** Day of balance and breath — align calendars, light a candle of clarity  
+- **Easter (Movable Date):** Reverent Christian observance of the Lord’s sacrifice and miraculous rebirth.  
+  - Attend service, light a white candle, pray or reflect in gratitude  
+  - Name and release one emotional weight from the past year  
+  - Welcome a new truth about who you are becoming  
+- **Light Rituals of the Season:**  
+  - Chocolate bunnies, egg dishes, bunny songs  
+  - Meals and decor full of delight and invitation to life
+
+---
+
 # Callisto
 
 ---
