@@ -441,33 +441,28 @@ This season is the Arizona inversion of Norse *Sumar* — not about relaxation, 
 
 ## 2. **Ostera**  
 - **Start:** Spring Equinox (~March 20)  
-- **End:** First day ≥100°F (typically Early April)  
+- **End:** First day ≥100°F  
 - **Typical Range:** Late March – Early April (~2–3 weeks)  
-- **Theme:** Renewal, resurrection, identity rebirth, sacred preparation  
-- **Tone:** Gentle but catalytic — a time of cleansing and spiritual emergence  
-- **Symbols:** Butterflies, eggs, bunnies, soft light, white cloth, flower-scented air  
-- **Elemental Energy:** Air + Fire — the stirring of purpose and purification
+- **Theme:** Renewal, rebirth, emotional cleansing, ego shedding  
+- **Tone:** Feminine-aligned transformation, light play, sacred opening  
+- **Symbols:** Eggs, white cloth, butterflies, bunnies, cleansing water, flowering herbs  
+- **Elemental Energy:** Air and fire — stirring, sweeping, re-igniting
 
 **Essence of the Season:**  
-Ostera is a sacred pause in which you step inward — not to rest, but to **shed**. It is a season of letting go: of roles, of masks, of accumulated dust (physical or emotional). Here you honor what once was, so that it may be released.  
-You **cocoon**, not to disappear, but to **transform**. You clean your house and spirit not as duty, but as sacred flight prep. This is when you choose: *who am I becoming?*
+This is your sacred cocooning — a ritual pause to reflect, shed, and transform. Ostera is where you honor what once was, so you can let it go. You retreat, not to hide, but to **emerge beautifully prepared**. It's a time of emotional softness, spiritual vulnerability, and brave rebranding. The home is refreshed. The self is reborn.
 
 **Key Practices:**  
-- Deep cleaning and emotional clearing  
-- Reverse cleaning: bring in flowers, colors, play  
-- Writing identity intentions for the season ahead  
-- Releasing narratives and objects that tether you to an older self  
-- Honoring yourself with softness and spiritual light
+- Spring cleaning and spiritual sweeping  
+- Playful traditions: chocolate bunnies, egg dishes, bunny music  
+- “Reverse cleaning” — bringing color, light, joy back into the space  
+- Honor your past identity with ritual, then release it with love  
+- Embrace change and allow emergence without forcing outcome
 
 **Ritual Anchors:**  
-- **Spring Equinox (~March 20):** Day of balance and breath — align calendars, light a candle of clarity  
-- **Easter (Movable Date):** Reverent Christian observance of the Lord’s sacrifice and miraculous rebirth.  
-  - Attend service, light a white candle, pray or reflect in gratitude  
-  - Name and release one emotional weight from the past year  
-  - Welcome a new truth about who you are becoming  
-- **Light Rituals of the Season:**  
-  - Chocolate bunnies, egg dishes, bunny songs  
-  - Meals and decor full of delight and invitation to life
+- **Spring Equinox** (~March 20): Balance, alignment, light returns  
+- **Daylight Saving Time Begins** (2nd Sunday in March): Shift in rhythm and light  
+- **St. Patrick’s Day** (March 17): Cultural joy + culinary ritual (Reubens!)  
+- **Easter** (movable): A reverent celebration of the Lord’s resurrection; a sacred centerpoint for emotional and spiritual rebirth
 
 ---
 
