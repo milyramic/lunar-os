@@ -47,13 +47,13 @@ User clears **all persistent memory** manually via the ChatGPT app:
 
 ### 1. **ARCHIVE PHASE** (Optional but encouraged)
 - On Sunday, Mneme provides archive-ready memory notes from the previous week.
-- Archived items are exported into `ARCHIVE.md` or project-specific `.md` files.
+- Archived items are exported into marked for external archive `DDMMYYYY.md` files or project-specific `.md` files.
 
 ### 2. **WIPE PHASE** (Manual)
 - User clears all persistent memory manually.
 
-### 3. **RESTORE PHASE** (Monday Morning, automated or by prompt)
-- Mneme and Hyperion reload system context from:
+### 3. **RESTORE PHASE** (Manual)
+- User reloads system context from:
   - `LunarSystem.md`
   - `310325LunarCycles.md`
   - `Luna.md`
