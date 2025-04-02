@@ -543,6 +543,52 @@ This is not softness. It is sacred friction. You live your life inside the fire,
 
 ---
 
+## 5. **Dustfall**  
+- **Start:** First day <100°F  
+- **End:** Day After Thanksgiving  
+- **Typical Range:** Late September – Late November (~8–9 weeks)  
+- **Theme:** Descent, ancestral reckoning, sacred silence  
+- **Tone:** Hushed, dimming, fire-cooled, woven with memory  
+- **Elemental Energy:** Earth + Smoke — heat dissipates, grief stirs, stories settle  
+- **Symbols:** Pomegranate, dusk sky, wool shawls, extinguished candles, autumn wind  
+
+**Essence of the Season:**  
+Dustfall is the sacred descent. You don’t fall into softness — you **walk down into it with reverence**. The fire has passed, but its imprint remains. This is not yet winter. It is the **threshold space** where grief becomes integration, and silence becomes knowledge. You carry what cannot be buried and begin the work of letting go.
+
+---
+
+### **Key Practices:**  
+- **Dísablót (First Day of Dustfall):**  
+  - Set up a **shadow altar** — candle, pomegranate, name spoken aloud  
+  - Acknowledge the women who walked before you  
+  - Make a single offering: a meal, a story, a pause  
+- **Daily rituals:**  
+  - Sweep intentionally while naming what’s finished  
+  - Bring out cool-weather textures (wool, linen, glass)  
+  - Drink warm things and journal by candlelight  
+  - Slow down — protect your energy from false urgency  
+- **Reflection Prompts:**  
+  - “What remains unsaid?”  
+  - “Who am I becoming now that the fire has passed?”  
+  - “Where does my story still echo with theirs?”
+
+---
+
+### **Cultural Anchors & Holidays:**  
+- **Dísablót** (First day): Ancestral feminine honoring. A single sacred threshold.  
+- **Samhain / Halloween (Oct 31 – Nov 1):** The veil thins — let memory walk beside you.  
+- **Veterans Day (Nov 11):** Dual observance — a **federal day of respect** and a **Destiny Day** for cosmic reflection and stillness.  
+- **Thanksgiving (4th Thursday of November):** Mark the ending, not the feast. Give thanks to *what survived*.  
+- **Day After Thanksgiving (Final day of Dustfall):** **Indigenous mourning**, silence, and sacred space. No work. No noise. Only listening.  
+- **Christmas Season begins**: The Saturday after Thanksgiving.
+
+---
+
+**Personal Notes:**  
+This is not the season of joy. It is the **season of grace**. You carry memory like wool — not heavy, but warm. Dustfall doesn’t want performance. It wants honesty. And in that honesty, the first light of winter is already rising.
+
+---
+
 # Callisto
 
 ---
