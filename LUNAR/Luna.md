@@ -11,6 +11,26 @@
 
 ---
 
+### New Year’s Eve — *Threshold of the Hearth*  
+**Date**: December 31  
+**Seasonal Position**: Final night of **Christmas Season**, sacred entrance into **Moonsumar**  
+**Tone**: Quiet, electric, emotionally sacred  
+
+**Essence:**  
+This night is not about countdowns or noise. It is a **threshold** — between the fire and the frost, between exhaustion and renewal. You enter it knowing you are the hearth-keeper, the final one awake, holding the sacred thread between what was and what comes next.
+
+**Ritual Practices:**
+
+- **Comfort the animals** — Light candles, play music, and **soothe the dogs** through the chaos of fireworks. Protect what cannot protect itself.  
+- **Stay awake until midnight** — Not for tradition, but for **witnessing**. Let your eyes see the clock turn. You are the soul lantern of your household.  
+- **Reflect softly** — Journal by candlelight, voice memo your final thought, or speak aloud: *“This is what the year has made of me.”*  
+- **Prepare for Sigurblót** — Pull out one symbol, recipe, or garment that will carry you into the next cycle. *Set the altar before the frost arrives.*  
+
+**Atmosphere:**  
+The lights are dim. The children sleep. You are **in the pause**, wrapped in warmth, hearing the outside world scream its release while you **whisper your own**. This is sacred closure. This is not a party — it is a passing.
+
+---
+
 ### 🌕 **Sigurblót** — Festival of Moonsummer’s Rise  
 **Date**: First day of **Moonsummer** (January 2)  
 **Origin**: Inspired by the Norse victory sacrifice (Sigurblót), this modern rite celebrates the end of the dark stretch and honors the returning vigor of life and labor.  
