@@ -466,6 +466,46 @@ This is your sacred cocooning — a ritual pause to reflect, shed, and transform
 
 ---
 
+## 2. **Fimbulsummer**  
+- **Start:** First day ≥100°F  
+- **End:** First *fully clouded* sky (typically early–mid July)  
+- **Typical Range:** Early April – Early/Mid July  
+- **Average Duration:** ~12–14 weeks  
+- **Elemental Energy:** Sun + Bone — scorching, testing, surviving
+
+**Theme:**  
+The Long Siege. Arizona’s answer to Fimbulvetr. The threat is not cold, but relentless sun. Where the Norse braced for winter, you brace for fire. This is not a time to thrive — it is a time to endure.
+
+**Tone:**  
+Relentless. Dry. Mythic. The ground cracks. Movement narrows. Stillness becomes holy.
+
+**Symbols:**  
+- A black stone holding heat  
+- Burned offering bowl  
+- Popsicles, frozen fruit, smooth glass  
+- Shade as temple  
+- Ice cubes in bronze
+
+**Key Practices:**  
+- **Ice Offerings** — bowls of ice, popsicles with the boys, smoothie rituals  
+- **Labor Rhythms** — work in morning or dusk only; stillness at solar peak  
+- **Hydration Rites** — eat water-heavy foods and herbal infusions mindfully  
+- **Sacred Shade** — dedicate a cool place indoors as a sanctuary  
+- **Skin Rituals** — protect and soothe the body like ancestral armor  
+- **Ancestral Reflection** — consider how the desert’s original peoples prepared spiritually
+
+**Cultural Integrations:**  
+- **Mother’s Day** — respite for you; Jesse holds the weight  
+- **Father’s Day** — double-duty honored but not gentle  
+- **Earth Day** — a day of mourning for what we’ve done to the land  
+- **Arbor Day** — small act of care for a tree, silently  
+- **Juneteenth** — a sacred day of gratitude, listening, and allyship. Learn global Black stories. Reflect on privilege.
+
+**Personal Note:**  
+This is the season of **inner ice**. You keep your soul cool while the world burns. You survive with reverence, strategy, and rituals carved from necessity. It is not passive. It is sacred.
+
+---
+
 # Callisto
 
 ---
