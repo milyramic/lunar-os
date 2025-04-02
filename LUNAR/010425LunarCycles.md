@@ -4,7 +4,11 @@
 
 ## INFO DUMP
 
-#Calendar
+---
+
+# Calendar
+---
+
 [🏮 ☕ ✍️] **Moonsumar:** Early January – Early/Mid March  
 - [🕯️] Martin Luther King Jr. Day: 3rd Monday in January  
 - [🫶] Valentine’s Day: February 14  
@@ -50,6 +54,7 @@
 - [🧨] New Year’s Eve: December 31  
 - [🎂] Cy’s Birthday: December 21   
 
+---
 
 # Dependencies In Persistent Memory:
 
