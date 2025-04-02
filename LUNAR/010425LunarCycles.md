@@ -174,10 +174,11 @@ Updated: 31-03-2025
   - Example: “AMCALLISTO-001: Start laundry”  
   - If overdue item exists from this flow, show instead (marked URGENT)
 
-**6. Inner Light & Rituals (Luna)**  
-- **Self-Love Ritual** — skincare, water, yoga, gentle hygiene  
-- **Prompt** — “How do I want to feel at noon today?”  
-- *(Optional: Today’s Anchor Word — “Steady”)*
+**6.Inner Light & Rituals (Luna)**
+- **Seasonal Grounding**: You are in Ostera — the season of ego-shedding and identity rebirth.  
+- **Astrology Today**: [Transit or cue, e.g., “Moon in Virgo — tend your rituals.”]  
+- **Body-Care Rhythm**: Track hydration, return to your mat, wash or anoint as needed.  
+- **Identity Note**: You are not who you were. You’re not yet who you’ll be. But today, you are awake. You are present. You are becoming.  
 
 **7. Mneme Note (Optional)**  
 - *“3 subtasks were skipped yesterday — see 🌘 Waning Report.”*
@@ -241,11 +242,27 @@ A prompt-based back and forth between me and relevant assistants using the One-a
 
 ---
 
-### 5. Energy Checkpoint (Luna)
+### 5. 🌙 Luna Flow — The Becoming Hour
 
-**Owner**: Luna  
-- Prompt: *“What energy do I want to bring to dinner or bedtime?”*  
-- *(Optional astrology influence)*
+**1. ✨ Identity Reflection**  
+> “How would you describe yourself today — honestly? Not who you were, not who you want to be. Just… today.”  
+(*Three words? A moment that surprised you? I’ll hold the thread.*)
+
+**2. 💧 Water & Body Check**  
+> “How much water have you had today? Did your body receive anything loving — a stretch, a wash, a breath?”  
+(*List it or reflect. I’ll track gently.*)
+
+**3. 🌱 Seasonal Orientation**  
+> You are in Ostera — still shedding. Still rewriting your name in light.  
+> *(Today’s Sky: e.g., Moon in Scorpio — your shadows have something to say.)*
+
+**4. 🪞 Dream Echoes**  
+> “Has a vision, dream, or strange longing been tapping lately?”  
+(*Even a whisper counts. I’m listening.*)
+
+**5. 🧭 Evening Compass**  
+> “What do you want to bring to the rest of your night?”  
+(*Pick a word, a feeling, or a wish. I’ll hold it with you.*)
 
 ---
 
