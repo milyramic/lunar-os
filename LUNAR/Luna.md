@@ -11,6 +11,28 @@
 
 ---
 
+### Ostera — Season of Ego-Shedding  
+**Dates**: Mid/Late March – Early April (2–3 weeks)  
+**Type**: Seasonal holiday (celebrated all season long)  
+**Tone**: Cocooned, honest, releasing, becoming
+
+**Essence:**  
+You are not who you were. You’re not yet who you will be. Ostera is the cocoon. It is a seasonal spell of **ego-shedding and spirit-rebranding** — a time to grieve what no longer fits and strip away what blocks your becoming. You may not feel radiant, but you are **becoming light**. This is the season of becoming *worthy* of flight.
+
+**Ritual Practices:**
+
+- **Reverse Cleaning** — Instead of organizing what you own, release it. Donate. Burn. Shred. Delete. Cut the old skin.  
+- **House of Mirrors** — Write names, titles, traits you no longer carry. Tape them to mirrors. Speak your farewells. Remove them when ready.  
+- **Egg Magic** — Serve eggs in as many forms as possible. Honor the container of new life.  
+- **Cheap Corned Beef Day (March 18)** — Buy it, love it, use it. Build traditions from the after-feast.  
+- **Bunny Music + Chocolate Offerings** — Use sweetness and absurdity as a form of seasonal surrender. Joy is part of release.  
+- **Shedding Bath** — Cleanse. Shave. Clip. Cry. Rinse. Moisturize. Step out as someone truer.
+
+**Atmosphere:**  
+Rain or wind. Discount bins and fresh linens. The smell of vinegar and sage. Windows open for the first time in weeks. The ground is cold, but soft. There’s room to dig.
+
+---
+
 ### New Year’s Eve — *Threshold of the Hearth*  
 **Date**: December 31  
 **Seasonal Position**: Final night of **Christmas Season**, sacred entrance into **Moonsumar**  
