@@ -105,23 +105,38 @@
 - Tags: #savory #acid #protein #T-4
 - Notes: Optional: cream cheese, red onion, or capers. Great cold meal.
 
+---
 
-## Grocery List (Updated with Essentials)
+# Grocery List
 
-- **Coconut Milk** — Cauliflower curry ($2.00)
-- **Carrots or Celery** — Curry or Chickpea Salad ($2.00)
-- **Fresh Greens (spinach or lettuce)** — Side or sandwich add-on ($2.00)
-- **Fresh Fruit (in season)** — Top oatmeal, snacks ($3.00)
-- **Jam or Jelly (if low)** — Toast bites ($2.50)
-- **Bagels** — Base for lox meal, also good for sandwiches ($3.00)
-- **Lox (smoked salmon)** — Protein source for bagels ($6.00)
-- **Orange Juice** — Breakfast drink, daily staple ($4.00)
-- **Green Pouches** — Toddler snack ($5.00)
-- **French Fried Onions** — Topping or texture for casseroles ($2.50)
-- **Avocados** — Sandwiches, toast, snacks ($3.00)
-- **Bananas** — Breakfast/snacks (banana toast, roll-up) ($1.50)
-- **Sour Cream** — Topping, sauces, sandwiches ($2.00)
-- **Circle Lentil Snacks** — Cy’s preferred snack ($3.00)
-- **Tom’s Mouthwash** — Personal care ($6.00)
-- **Sausage Patties (Circle)** — Breakfast meat, easy portioning ($5.00)
-- **TOTAL** —  ($141.50)
+### 🥦 Produce
+- Avocados — sandwiches, toast, snacks
+- Bananas — breakfast/snacks (banana toast, roll-up)
+- Fresh Fruit (in season) — top oatmeal, snacks
+- Fresh Greens (spinach or lettuce) — side or sandwich add-on
+- Carrots or Celery — curry or chickpea salad
+
+### 🥖 Bakery
+- Bagels — for lox and sandwiches
+
+### 🥫 Pantry
+- Coconut Milk — cauliflower curry
+- Jam or Jelly (if low) — toast bites
+- French Fried Onions — topping for casseroles
+- Circle Lentil Snacks — Cy’s preferred snack
+
+### 🥩 Proteins
+- Lox (smoked salmon) — protein for bagels
+- Sausage Patties (circle) — easy breakfast meat
+
+### 🥛 Dairy & Cold
+- Sour Cream — topping, sauces, sandwiches
+- Orange Juice — breakfast drink, daily staple
+- Green Pouches — toddler snack
+
+### 🧼 Household / Personal
+- Tom’s Mouthwash — personal care
+
+### 💵 Budget Estimate
+- **Running Total**: ~$41.00  
+  *(original 0204 list estimate was $141.50 including base pantry stock — this subset reflects only current itemized needs)*
