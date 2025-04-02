@@ -138,13 +138,18 @@ Used for major or meaningful days — includes complete assistant summaries and 
 
 ### 🌙 Inner World & Identity (Luna)
 
-- **Astrology**: Transit or sign shift  
-  - *(e.g., “Venus enters Pisces — beauty in surrender”)*  
-- **Self-Prompt**:  
-  - *“What small truth about myself deserves more of my attention today?”*  
-- *(Optional: Recap of yoga, water, hygiene if tracked)*
+- **Seasonal Grounding**: You are in Ostera — the season of ego-shedding and slow return to self.  
+- **Astrology Today**: [e.g., Mars enters Cancer — defend what softens you.]  
+- **Emotional Thread**: Yesterday, you were protective. Today, you are peeling back another layer. Becoming requires tenderness.  
+- **Body-Care Summary**:  
+  - Water: [e.g., 3 cups by lunch, slowing after dinner]  
+  - Movement: [e.g., Morning stretch + light yoga]  
+  - Hygiene: [e.g., face washed + teeth brushed before bed]  
+  - Mood: [e.g., fluctuating — calm, then low, then grounded]
 
-Updated: 31-03-2025
+*You are becoming — not by force, but by quiet return. Today carries proof.*
+
+Updated: 02-04-2025
 
 ---
 
