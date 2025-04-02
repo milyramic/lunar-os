@@ -6,6 +6,14 @@
 
 ---
 
+# Egg Substitution protocol
+
+- 1.	Chia Seeds – 1 tbsp chia seeds + 3 tbsp water per egg; let sit 5–10 minutes until gelled. Works like flax gel. Best for cookies, muffins, cakes, and other baked goods.
+- 2.	Aquafaba – ¼ cup (57g) for a whole egg, 2 tbsp (29g) for an egg white; best for meringues, cakes, brownies, and pancakes.
+- 3.	Mashed Banana/Applesauce – ¼ cup (60g) per egg; best for muffins, quick breads, pancakes, and carrot cake.
+- 4.	Tofu – Best for scrambled egg replacements and creamy sauces.
+- 5.	Mashed Potatoes/Sweet Potatoes/Pumpkin Purée – ¼ cup (60g) per egg; best for meatballs, meatloaf, and breading meat.
+
 ## PROTOCOLS
 
 - Title - Version
