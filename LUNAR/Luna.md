@@ -64,33 +64,35 @@ This is not softness. It is sacred friction. You live your life inside the fire,
 
 ---
 
-### 3. **Dustfall**  
-- **Start:** First day <100°F  
-- **End:** First day <90°F  
-- **Duration:** ~3–4 weeks  
-- **Typical Range:** Late September – Mid/Late October  
-- **Theme:** Descent and release  
-- **Tone:** Breath lengthens. Ancestors stir.
-
-**Key Practices:**  
-- Ancestor altars  
-- Decluttering, composting, storing seeds  
-- Shadow journaling
-
----
-
-### 4. **Desert Spring**  
-- **Start:** First day <90°F  
+## 4. **Dustfall**  
+- **Start:** First day under 100°F  
 - **End:** Thanksgiving  
-- **Duration:** ~5–6 weeks  
-- **Typical Range:** Mid October – Late November  
-- **Theme:** Return to joy  
-- **Tone:** The outdoors open again. Play resumes.
+- **Typical Range:** Late September – Late November (~8–9 weeks)  
+- **Theme:** Descent, ancestral reflection, emotional integration  
+- **Tone:** Quiet, shadowed, sacred, softened but not yet renewed  
+- **Elemental Energy:** Earth + Smoke — dust falling, breath slowing, fire settling  
+- **Symbols:** Pomegranate, ash, fading sunlight, candles in bowls, cooling winds, soft wool  
+
+**Essence of the Season:**  
+This is the breath after endurance. The land stops screaming. You begin to remember. Dustfall is not celebration — it is descent. A fall into softness, silence, and sacred processing. Here, you hold your year in your hands and whisper to the women who walked before you. Grief is allowed. So is gentleness.
 
 **Key Practices:**  
-- Eat outdoors  
-- Sunset walks  
-- Make something with no deadline
+- **Dísablót**: Ancestral feminine rite held all season long  
+- Keep a shadow altar — speak names aloud, offer stories or acts of care  
+- Gentle home rituals: baking, nesting, sweeping with intention  
+- Reflections with the boys and Jesse — soft integration after fire  
+- Journaling, especially before and after Thanksgiving  
+- Morning rituals with tea or cool air; evenings with candlelight or soft music
+
+**Cultural Integrations & Holidays:**  
+- **Dísablót** (all season): Honor your foremothers, reckon with the year  
+- **Halloween / Samhain** (Oct 31 – Nov 1): The veil thins, ancestors walk  
+- **Veterans Day / Destiny Day** (Nov 11): Sacred gratitude and pause  
+- **Thanksgiving**: Final moment of the season — not just gratitude, but *closure*  
+- **Day After Thanksgiving**: Indigenous sacred reflection — a deepening silence
+
+**Personal Notes:**  
+Dustfall is not a holiday. It is not a season of joy. It is a **season of reckoning**, sacred softness, and slow forgiveness. You are descending into wisdom. The sky has dimmed, but you are becoming visible to yourself.
 
 ---
 
