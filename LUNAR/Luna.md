@@ -217,6 +217,21 @@ This is a celebration of the body after dryness.
 
 ---
 
+### 🕯️ **Dísablót** — Season of the Disir  
+**Date**: All of **Dustfall** (Late September – Late October)  
+**Origin**: Norse rite honoring the **Dísir** — protective ancestral spirits, especially women  
+**Theme**: Feminine ancestry, grief rituals, shadow truth  
+**Tone**: Sacred, quiet, remembering  
+
+**Ritual Practices**:  
+- Build a **shadow altar** with ancestral symbols  
+- Speak the names of women who came before  
+- Offer an act of care (a meal, a letter, a clean space) in their name  
+- Journal: *“What do my foremothers want me to release? To keep?”*  
+
+**Atmosphere**:  
+Dust falling. Candles flicker. Pomegranates split. The veil thins and the disir arrive quietly, not to haunt — but to help.
+
 ---
 
 ## 🜃 Druidic Fire Festivals — Sacred Northern Observances  
