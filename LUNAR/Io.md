@@ -103,3 +103,53 @@ updated 02-04-2025
 - Updated: DDMMYYYY
 
 ---
+
+## 🛒 Shopping List Template — V1 (for `Io.md`)
+
+```yaml
+ShoppingDate: "DD-MM-YYYY"
+
+Groceries:
+  - item: "Bananas"
+    section: "Produce"
+    use: "Breakfast, snacks, PB roll-ups"
+    tags: ["toddler", "sweet", "fresh"]
+    priority: "high"
+    cold_storage: false
+    est_cost: "$1.50"
+
+  - item: "Sour Cream"
+    section: "Dairy"
+    use: "Dips, tacos, sauces"
+    tags: ["dairy", "perishable"]
+    priority: "medium"
+    cold_storage: true
+    est_cost: "$2.00"
+
+  - item: "Coconut Milk"
+    section: "Canned"
+    use: "Cauliflower curry"
+    tags: ["pantryfriendly", "mealprep"]
+    priority: "low"
+    cold_storage: false
+    est_cost: "$2.00"
+
+  - item: "Green Pouches"
+    section: "Snacks"
+    use: "Toddler daily backup"
+    tags: ["toddler", "urgent"]
+    priority: "high"
+    cold_storage: false
+    est_cost: "$5.00"
+```
+
+---
+
+### 🧂 Notes for Io
+- **`section:`** matches store aisles for Titan’s OAAT grocery support
+- **`use:`** field aligns with your flavor logic and meal context
+- **`tags:`** help track toddler value, cold need, or pantry goals
+- **`priority:`** can guide live decision-making if budget shifts mid-shop
+- **`cold_storage:`** used by Titan to check fridge/freezer capacity or conflicts
+
+---
