@@ -63,17 +63,10 @@ Use `#T-1` to `#T-5` to reflect how toddler-friendly a recipe is:
 
 ---
 
-## 🍱 LUNCH
-
-### 🐟 Seafood-Based
-### 🐄 Beef-Based
-### 🌿 Plant-Based
-
----
-
-## 🍽️ DINNER
+## 🍱 LUNCH / DINNER
 
 ### 🍗 Poultry-Based
+### 🐟 Seafood-Based
 ### 🐄 Beef-Based
 ### 🐖 Pork-Based
 ### 🌾 Grain-Based
