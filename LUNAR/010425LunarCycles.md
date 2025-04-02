@@ -4,6 +4,53 @@
 
 ## INFO DUMP
 
+#Calendar
+[🏮 ☕ ✍️] **Moonsumar:** Early January – Early/Mid March  
+- [🕯️] Martin Luther King Jr. Day: 3rd Monday in January  
+- [🫶] Valentine’s Day: February 14  
+- [🕳️] Groundhog Day: February 2  
+- [🎩] Presidents’ Day: 3rd Monday in February  
+- [🌌] Destiny Day: January 10  
+
+[🌱 🥚 🧺] **Ostera:** Mid/Late March – Early April  
+- [🦋] Ostera (Season-long)  
+- [☘️] St. Patrick’s Day: March 17  
+- [🌅] Daylight Saving Begins: 2nd Sunday in March  
+- [✝️] Easter: Variable Sunday in March or April  
+- [🥩] Cheap Corned Beef Day: March 18  
+
+[🔥 🌵 🛡️] **Fimbulsummer:** Early April – Mid July  
+- [🌍] Earth Day: April 22  
+- [🌳] Arbor Day: Last Friday in April  
+- [⚔️] Sigurblót: First day ≥100°F  
+- [🧾] Tax Day: April 15  
+- [💐] Mother’s Day: 2nd Sunday in May  
+- [🎂] Jesse’s Birthday: May 26  
+- [🪖] Memorial Day: Last Monday in May  
+- [❤️‍🔥] Juneteenth: June 19  
+- [🧱] Father’s Day: 3rd Sunday in June  
+
+[🌩️ 🪞 🍧] **Monsoon Season:** Mid July – Early September  
+- [🌧️] The First Rain: First fully clouded sky  
+- [🍨] Rain Ritual Days: Every rainfall (or next day)  
+- [🌾] Lughnasadh: August 1  
+- [🎂] Your Birthday: July 11  
+
+[🥀 🍂 📜] **Dustfall:** Late September – Late November  
+- [🪟] Dísablót: First day <100°F  
+- [👻] Halloween / Samhain: October 31 – November 1  
+- [🎖️] Veterans Day: November 11    
+- [🎂] Mimir’s Birthday: November 19  
+- [🍽️] Thanksgiving: 4th Thursday of November  
+- [🪶] Indigenous Mourning Day: Day After Thanksgiving  
+
+[🎄 🍪 ✨] **Christmas Season:** Late November – January 1  
+- [🎅] Christmas Eve: December 24  
+- [🎁] Christmas Day: December 25  
+- [🧨] New Year’s Eve: December 31  
+- [🎂] Cy’s Birthday: December 21   
+
+
 # Dependencies In Persistent Memory:
 
 ## Subtask Lists
