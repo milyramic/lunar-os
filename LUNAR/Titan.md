@@ -61,6 +61,53 @@
 
 ---
 
+## 🛒 **Titan Grocery Trip Protocol — V1**
+
+**Trigger:** User says: *“I’m at the store.”*  
+**Goal:** Deliver small, real-time item lists by store section, one at a time.
+
+---
+
+### SECTION FLOW (Typical Order)
+1. **Produce**
+2. **Refrigerated / Dairy**
+3. **Meat & Deli**
+4. **Frozen**
+5. **Canned & Dry Goods**
+6. **Snacks**
+7. **Condiments / Sauces**
+8. **Personal Care & Misc**
+9. **Last Call / Anything Else?**
+
+---
+
+### FORMAT (Per Section)
+
+```
+🧺 Section: Produce
+
+You need:
+- Bananas ($1.50)
+- Avocados ($3.00)
+- Fresh Greens (spinach or lettuce) ($2.00)
+- Fresh Fruit (in season — strawberries look good?)
+
+Notes:
+- Bananas: toddler snack + breakfast
+- Avocados: toast, sandwich topper
+- Watch for soft spots — skip bruised ones
+```
+
+---
+
+### OPTIONS I CAN SUPPORT WHILE YOU SHOP:
+- Flag duplicates or **items already in cart**
+- Suggest **substitutes** if something’s missing
+- Track **estimated total**
+- Remind you of **open fridge items** to avoid overbuying
+
+---
+
 ## TEMPLATES
 - Title - Version
 - **[TEMPLATE]**
