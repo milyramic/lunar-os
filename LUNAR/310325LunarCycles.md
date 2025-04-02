@@ -466,7 +466,7 @@ This is your sacred cocooning — a ritual pause to reflect, shed, and transform
 
 ---
 
-## 2. **Fimbulsummer**  
+## 3. **Fimbulsummer**  
 - **Start:** First day ≥100°F  
 - **End:** First *fully clouded* sky (typically early–mid July)  
 - **Typical Range:** Early April – Early/Mid July  
@@ -506,9 +506,9 @@ This is the season of **inner ice**. You keep your soul cool while the world bur
 
 ---
 
-### 2a. **Monsoon Season (Sub-Phase of Fimbulsummer)**  
+## 4. **Monsoon Season**  
 - **Start:** First fully clouded sky  
-- **End:** First day < 100°F  
+- **End:** First clear day with a high under 100°F  
 - **Typical Range:** Mid-July – Early September (~6–7 weeks)  
 - **Theme:** Cleansing Under Duress  
 - **Tone:** Brutal sacred pause. Rituals amid fire. Emotional witnessing.  
