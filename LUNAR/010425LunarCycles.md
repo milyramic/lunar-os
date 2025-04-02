@@ -628,6 +628,40 @@ This is the season where you shine — not in spotlight, but in stewardship. You
 
 ---
 
+### COSMIC DIMENSION OF THE WHEEL
+
+This layer of the Custom Wheel honors planetary rhythms, seasonal sun cycles, and cosmic alignments that mirror ancient Druidic reverence. It serves to elevate the environmental foundation of the year into a spiritual and celestial register.
+
+#### Solar Celebrations (Druidic Meaning)
+
+- **Spring Equinox (*Alban Eilir*)** — “Light of the Earth”: balance of dark and light; a time to sow, prepare, and wake the soul to possibility.  
+- **Summer Solstice (*Alban Hefin*)** — “Light of the Shore”: longest day; abundance, gratitude, and celebration of life’s fullness.  
+- **Autumn Equinox (*Alban Elfed*)** — “Light of the Water”: balance before descent; time to harvest, give thanks, and prepare for darker days.  
+- **Winter Solstice (*Alban Arthan*)** — “Light of the Bear”: longest night; rebirth of the sun and spirit, hope in the dark.
+
+#### Major Celestial Events (April 2025 – March 2026)
+
+- **Mar 29, 2025 – Partial Solar Eclipse**  
+  Reflect on rebirth, shift, and veiled insight.  
+- **Mar 30, 2025 – Neptune enters Aries**  
+  A generational call to ignite dreams with fire and forge bold visions.  
+- **Sep 7, 2025 – Total Lunar Eclipse**  
+  Shadow work and emotional culmination; a night for truth and release.  
+- **Sep 21, 2025 – Partial Solar Eclipse**  
+  Contemplate light and shadow in your life. Seek clarity amidst veiling.  
+- **Feb 2026 – Grand Planetary Alignment**  
+  Venus, Mars, Jupiter, Saturn, Uranus, and Neptune align — a rare moment of cosmic unity. Mark it with presence, stillness, and wide-eyed reverence.
+
+#### Cosmic Ritual Ideas
+
+- **Eclipses** — Pause and observe. Meditate on what is being hidden or revealed. Write letters to the self or burn away falsehoods.  
+- **Solstices/Equinoxes** — Integrate their energy into seasonal meals, nature walks, altar-building, or firelight gatherings.  
+- **Planetary Shifts** — Journal or reflect on how transits might manifest emotionally or symbolically in your year.
+
+> “As above, so within. Let the stars bless the soil your spirit walks upon.”
+
+---
+
 # Callisto
 
 ---
