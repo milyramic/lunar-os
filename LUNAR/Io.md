@@ -14,6 +14,14 @@
 
 ---
 
+### 🏷️ Meal Tag Glossary Reference
+
+For definitions of flavor tags (#bitter, #acid, #sweet, etc.), toddler ratings (#T-1 to #T-5), and utility tags (#under20, #leftoverfriendly, etc.), see:
+
+→ [RecipeIndex.md — Meal Tag Glossary]
+
+---
+
 ## DAILY_REPORT_UPDATE_PROTOCOL Io - V1  
 **Created**: 30-03-2025  
 **Applies to**: 🌑 Morning, 🌕 Full, 🌔 Waxing, 🌘 Waning Reports  
