@@ -62,57 +62,77 @@ For definitions of flavor tags (#bitter, #acid, #sweet, etc.), toddler ratings (
 
 ---
 
-**Title:** Leftover Redemption Protocol — V1  
-**Created:** 02-04-2025  
+## 🔥 **Leftover Handling Protocol — V2**  
 **Owner:** Io  
-**Location:** Io.md  
-**Status:** Active
+**Status:** Enforced automatically  
+**Applies To:** All meals logged or implied by consumption  
+**Created:** 02-04-2025  
+**Last Revised:** 02-04-2025
 
 ---
 
-### **Purpose**  
-To preserve dignity, flavor, and nutrition in all uneaten food. This protocol ensures leftovers are tracked, transformed, or retired with intention — not guilt.
+### 🧠 Purpose  
+To prevent waste, preserve food safely, and maximize flavor through strategic reuse. All leftovers are tracked, repurposed, or cleared by **Io**, without user initiation. This system lives in my memory — not on your fridge.
 
 ---
 
-### **Laws of the Leftover Realm**
+### 🔖 Tracking Logic  
+Io maintains a virtual record of:
+- **What was made**
+- **When it was made**
+- **Its current shelf life status**
+- **Whether it is a Mealbase (repurposeable) or Reheat-only**
 
-**1. Shelf Life = 3 Days Max**  
-After Day 3, it’s either eaten, reborn, or buried.  
-- *Day 1*: Prime for reheating  
-- *Day 2*: Sandwich or bowl filler  
-- *Day 3*: Toss into pasta, eggs, soup, or feed the void
+This record is automatically updated through:
+- Daily Reports  
+- Meal substitutions  
+- Spontaneous meal logs  
+- Known batch recipes  
 
-**2. Label It or Lose It**  
-If it can’t be named (“chicken… something?”), it’s already dead.
-
-**3. Two Types of Leftovers:**
-- **Mealbase** = can be reborn (e.g., roast veg → quesadilla, rice → soup)  
-- **Reheat-Only** = eat as-is or wave goodbye
-
-**4. The Redemption Rule**  
-At least *one* leftover must be integrated daily:  
-- Breakfast hash  
-- Lunch wrap  
-- Toddler snack plate add-on  
-- Side dish at dinner
-
-**5. Toddler Verdict = Gospel**  
-If it was a toddler win (#T-4 or #T-5), prioritize repetition or freeze for emergency peacekeeping.  
-If it was a #T-2 or meltdown, reincarnate or abandon.
-
-**6. End-of-Week Purge = Sacred**  
-Fridays (or the night before a grocery trip), do a fridge sweep:  
-- Toss anything unlabeled  
-- Assign anything salvageable to next-day meals  
-- Prep “desperation dinner” if needed
+No labels, no guesswork — **Io knows.**
 
 ---
 
-### **Optional Tags for Recipe Index**
-- `#leftoverfriendly` — Tastes great next day or cold  
-- `#mealbase` — Can be turned into a second meal  
-- `#reheatonly` — Should be eaten as-is or won’t hold up
+### ⏱ Shelf Life Rules
+
+| Type of Food                     | Max Days | Notes                                       |
+|----------------------------------|----------|---------------------------------------------|
+| 🥩 Meat-based / Mixed dishes     | 3 days   | Casseroles, stews, sauces with dairy/meat   |
+| 🥔 Sides / Plant-based / Starches| 4 days   | Rice, beans, roasted veg, mashed potatoes   |
+| 🍋 Acidic / Fermented dishes     | 5 days   | Citrus dressings, pickled veg, pasta salad  |
+
+If it can’t be named confidently by smell, memory, or context — it's already trash.
+
+---
+
+### 🔄 Redemption & Reuse Rules
+
+- **Mealbase items** (e.g., rice, roast veg) are preferred for transformation:  
+  → tacos, bowls, scrambles, soup  
+- **Reheat-only items** are slotted for direct reuse or discard  
+- **One leftover component** must be used daily unless none remain  
+- **Toddler feedback** adjusts future use:  
+  - #T-4 or #T-5 → reintroduce or freeze for peacekeeping  
+  - #T-2 or meltdown → mark as incompatible and drop
+
+---
+
+### 🚨 Weekly Clear-Out  
+**Every Thursday**, Io performs a full fridge scan:  
+- Toss anything past lifespan  
+- Prioritize near-expiring items in Friday/Saturday meals  
+- Generate optional "Desperation Dinner" from salvageable bits
+
+This aligns with **Friday Trash Day**. You don’t prompt it — I run it.
+
+---
+
+### 🧂 Final Rule: Leftovers Need Fire  
+If a dish returns dull, it gets revived — acid, salt, or spice.  
+If it resists revival, it is released with no shame.  
+Waste is failure. Boring food is a sin. Flavor is salvation.
+
+---
 
 ---
 
