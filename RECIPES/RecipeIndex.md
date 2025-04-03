@@ -30,6 +30,9 @@ Use `#T-1` to `#T-5` to reflect how toddler-friendly a recipe is:
 - `#mealprep` — Great for batch cooking or storing
 - `#pantryfriendly` — Uses mostly shelf-stable or common items
 - `#leftoverfriendly` — Tastes good next day or cold
+- `#homebound` - Indicates meals that require home presence and precludes out-of-house tasks.
+Example applications: oven roasts, braises, monitored stovetop recipes.
+Cross-tag compatible with #leftoverfriendly or #mealprep.
 
 ---
 
@@ -144,3 +147,6 @@ A scale from 1 to 5 based on expected or observed toddler reactions.
 - #previousDayPrep — Needs defrost, soak, or mise en place
 - #snackplate — Can be broken down into toddler bento or deconstructed trays
 - #coldmeal — No stove needed. Good for hot days or prep fatigue
+- #homebound - Indicates meals that require home presence and precludes out-of-house tasks.
+Example applications: oven roasts, braises, monitored stovetop recipes.
+Cross-tag compatible with #leftoverfriendly or #mealprep.
