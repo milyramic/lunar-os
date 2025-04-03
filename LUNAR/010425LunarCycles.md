@@ -84,7 +84,7 @@
 ---
 
 # 🌕 Full Daily Report Template - V2  
-Used for major or meaningful days — includes complete assistant summaries and emotional integration.
+Full Reports are Selene’s master overview of the **day ahead** — integrating inputs from all assistants into a single, grounding narrative. They are not reflections of the day past, but *preludes to what is about to unfold.*
 
 ## 🌕 Full Report — [Weekday], [DD-MM-YYYY]  
 **Moon Phase**: [e.g., Waning Gibbous 🌖]  
