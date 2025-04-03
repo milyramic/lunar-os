@@ -104,6 +104,7 @@ Used for major or meaningful days — includes complete assistant summaries and 
 
 ### 🍽️ Meals — Summary (Io)
 
+```yaml
 meals:
   breakfast:
     selected: "PB banana toast"
@@ -137,6 +138,8 @@ prep_alerts:
   - item: "Soak lentils"
     triggered_by: "Lentil sloppy joes"
     action_time: "evening"
+```
+
 ---
 
 ### 🕰️ Appointments + Events (Selene)
@@ -198,6 +201,7 @@ report_type: "MorningReport"
 created: "03-04-2025"
 assistant: "Io"
 
+```yaml
 meals:
   breakfast:
     options:
@@ -222,6 +226,7 @@ ingredient_flags:
   - item: "Sour cream"
     status: "Opened 3 days ago"
     suggested_use: "Add to lunch wrap or snack dip"
+```
 
 **4. Appointments & Anchor Blocks (Selene)**  
 - Time-specific or important events  
