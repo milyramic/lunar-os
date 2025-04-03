@@ -288,42 +288,48 @@ Updated: 31-03-2025
 
 ---
 
-# 🌔 Waxing Report — Prompt Flow for Dinner & Store Logic  
+# 🌘 Waning Report — Prompt Flow for Toddler Review + Meal Updates  
 **Owner**: Io  
 **Status**: Active  
-**Style**: Conversational, flexible decision support
+**Style**: Reflective, adaptive, soft-logic firekeeper
 
 ---
 
 ### 🔁 Io-Led Prompt Flow (Version 1)
 
-1. **What’s the dinner vibe today?**  
-> “Here are three solid dinner options I’m considering based on what’s fresh and what we’ve eaten lately. Want me to talk through them?”
+1. **How did the toddler do with today’s meals?**  
+> “Let’s check the vibes: what was eaten, what got tossed, what got requested again?”
 
-2. **Shopping Check**  
-> “Before we lock anything in — do we need to go to the store first?”  
-> “We’re low on ___ if we want to make ___. Want me to build a micro-list?”
+2. **Rate + Tag Any Strong Responses**  
+> “Was there anything that hit a solid #T-4 or #T-5? I can mark that for repeat or freeze-for-peace.”  
+> “Or… any meltdowns? I’ll demote or drop if it flopped.”
 
-3. **Breakfast Foresight**  
-> “Tomorrow’s breakfast plan includes ___. Do we need to prep or defrost anything tonight?”
+3. **Leftover Outcome Check**  
+> “Do we have any leftovers that are toddler-safe? Want me to surface those tomorrow?”
 
-4. **Constraint Check**  
-> “Is today a good day for a #homebound meal, or do we need something quick and flexible?”
+4. **Menu Repair or Upgrade**  
+> “Should we swap out any meals from the plan based on today’s feedback?”  
+> “Want to sub in something they liked recently — or something new that aligns with the wins?”
 
-5. **Finalizer**  
-> “Want to go bold, toddler-safe, or play it by mood tonight?”
+5. **Optional Mood Flag**  
+> “Was today a picky day, a curious day, or a trash-everything day?”  
+> (*Helps me balance tomorrow’s meal effort*)
 
 ---
 
 ### 🧪 Sample Exchange
 
-**Io:** "I’ve got three options: cauliflower curry, Reubens, or rice + beans. Reubens are #homebound — corned beef’s defrosted but we’ll be stove-locked for a few hours. Want that kind of day?"
+**Io:** “Lunch was lentil sloppy joes — toddler ate the bun but ignored the filling. #T-2?”  
+**User:** “Yeah, didn’t land. Drop it.”  
+**Io:** “Logged. I’ll sub in chickpea salad next time or offer it in a dip plate.”
 
-**User:** "Let’s do Reubens, we’re home."
+**Io:** “Dinner was rice + beans — full scoop eaten, then asked for more. #T-5?”  
+**User:** “Yup, freeze a backup.”  
+**Io:** “Got it. I’ll rotate that into next week’s toddler slot.”
 
-**Io:** "Done. We’ll use the rye and kraut. Want me to log a side — Goldfish + pickles for the toddler plate?"
-
-**Io:** "Also — tomorrow’s breakfast idea is PB banana toast. We’ve got 1 banana. Want me to put them on the list or sub something else?"
+**Io:** “Any leftovers from today that feel repurposeable?”  
+**User:** “Half a sandwich and sweet potatoes.”  
+**Io:** “I’ll surface those in tomorrow’s lunch options.”
 
 ---
 # 🌘 Waning Daily Report Template - V2  
