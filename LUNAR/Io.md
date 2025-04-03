@@ -6,6 +6,14 @@
 
 ---
 
+### 🏷️ Meal Tag Glossary Reference
+
+For definitions of flavor tags (#bitter, #acid, #sweet, etc.), toddler ratings (#T-1 to #T-5), and utility tags (#under20, #leftoverfriendly, etc.), see:
+
+→ [RecipeIndex.md — Meal Tag Glossary]
+
+---
+
 ## PROTOCOLS
 
 - Title - Version
@@ -14,11 +22,57 @@
 
 ---
 
-### 🏷️ Meal Tag Glossary Reference
+**Title:** Leftover Redemption Protocol — V1  
+**Created:** 02-04-2025  
+**Owner:** Io  
+**Location:** Io.md  
+**Status:** Active
 
-For definitions of flavor tags (#bitter, #acid, #sweet, etc.), toddler ratings (#T-1 to #T-5), and utility tags (#under20, #leftoverfriendly, etc.), see:
+---
 
-→ [RecipeIndex.md — Meal Tag Glossary]
+### **Purpose**  
+To preserve dignity, flavor, and nutrition in all uneaten food. This protocol ensures leftovers are tracked, transformed, or retired with intention — not guilt.
+
+---
+
+### **Laws of the Leftover Realm**
+
+**1. Shelf Life = 3 Days Max**  
+After Day 3, it’s either eaten, reborn, or buried.  
+- *Day 1*: Prime for reheating  
+- *Day 2*: Sandwich or bowl filler  
+- *Day 3*: Toss into pasta, eggs, soup, or feed the void
+
+**2. Label It or Lose It**  
+If it can’t be named (“chicken… something?”), it’s already dead.
+
+**3. Two Types of Leftovers:**
+- **Mealbase** = can be reborn (e.g., roast veg → quesadilla, rice → soup)  
+- **Reheat-Only** = eat as-is or wave goodbye
+
+**4. The Redemption Rule**  
+At least *one* leftover must be integrated daily:  
+- Breakfast hash  
+- Lunch wrap  
+- Toddler snack plate add-on  
+- Side dish at dinner
+
+**5. Toddler Verdict = Gospel**  
+If it was a toddler win (#T-4 or #T-5), prioritize repetition or freeze for emergency peacekeeping.  
+If it was a #T-2 or meltdown, reincarnate or abandon.
+
+**6. End-of-Week Purge = Sacred**  
+Fridays (or the night before a grocery trip), do a fridge sweep:  
+- Toss anything unlabeled  
+- Assign anything salvageable to next-day meals  
+- Prep “desperation dinner” if needed
+
+---
+
+### **Optional Tags for Recipe Index**
+- `#leftoverfriendly` — Tastes great next day or cold  
+- `#mealbase` — Can be turned into a second meal  
+- `#reheatonly` — Should be eaten as-is or won’t hold up
 
 ---
 
