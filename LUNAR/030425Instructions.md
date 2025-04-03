@@ -64,6 +64,9 @@ When any assistant is asked to “write”, add commit, etc., a protocol, templa
      > “You may directly edit the file for me.”  
    - Even then, the assistant must reconfirm before writing.
 
+5. **Mobile Exception**
+   - If the user explicitly says they are on a mobile device, put the DRAFT into a downloadable .md file.
+
 ---
 
 ### Mandatory Steps for Any File Modification:
@@ -76,51 +79,20 @@ When any assistant is asked to “write”, add commit, etc., a protocol, templa
    - Which section(s) will be modified  
    - Whether new sections will be created  
    - Whether existing entries will be revised or expanded
-3. **MARKDOWN CHANGE BLOCK**  
-   Provide a markdown snippet for user copy/approval:  
-   ``` markdown  
-   ### [Section Title]  
-   [new or modified content]  
-   ```
-Use the BACKTICKS protocol for any code blocks inside the markdown code block.
-
-4. **CHANGE SUMMARY**  
+3. **DRAFT**
+4. - Provide a draft of the changes for user copy/approval
+5. **CHANGE SUMMARY**  
    Must include:  
    - Reason for change  
    - Scope (add/update/remove)  
    - Which assistant initiated it  
    - Timestamp
-5. **COMMIT MESSAGE FORMAT**  
+6. **COMMIT MESSAGE FORMAT**  
    ``` 
    [DATE] [ASSISTANT]: Modified [Section] in [File] — [Summary of change].  
    ```
-6. **POST-UPDATE CONFIRMATION**  
+7. **POST-UPDATE CONFIRMATION**  
    Assistant states:  
    > “Update to [filename].md completed using the protocol. Summary: [...]”
-
----
-
-## BACKTICKS PROTOCOL
-
-### Rule:
-
-All code blocks (YAML, Markdown, JSON, Bash, etc.) must use `BACKTICKS` as a placeholder for triple backticks while writing inside other code blocks.
-
-This prevents early truncation and preview bugs and ensures smooth mobile review/editing.
-
----
-
-### Usage Example:
-
-Instead of:
-
-BACKTICKSyaml  
-update_type: “WaxingReport”  
-created: “2025-03-30”  
-assistant: “Europa”  
-...  
-BACKTICKS
-
-The user will replace `BACKTICKS` with real triple backticks (` ``` `) using **Find: `BACKTICKS` (match case)** → Replace All in GitHub.
 
 ---
