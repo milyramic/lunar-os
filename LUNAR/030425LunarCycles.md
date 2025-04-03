@@ -239,11 +239,19 @@ ingredient_flags:
   - If overdue item exists from this flow, show instead (marked URGENT)
 
 **6.Inner Light & Rituals (Luna)**
-- **Seasonal Grounding**: You are in Ostera — the season of ego-shedding and identity rebirth.  
-- **Astrology Today**: [Transit or cue, e.g., “Moon in Virgo — tend your rituals.”]  
-- **Body-Care Rhythm**: Track hydration, return to your mat, wash or anoint as needed.  
-- **Identity Note**: You are not who you were. You’re not yet who you’ll be. But today, you are awake. You are present. You are becoming.  
 
+```yaml
+update_type: "MorningReport"
+created: "03-04-2025"
+assistant: "Luna"
+seasonal_grounding: "You are in Ostera — the season of ego-shedding and identity rebirth."
+astrology_today: "Moon in Virgo — tend your rituals."
+body_care:
+  hydration: "Started strong — 2 cups before 9AM"
+  movement: "Light yoga and neck rolls"
+  hygiene: "Teeth brushed, face washed — no shower"
+identity_note: "You are not who you were. You’re not yet who you’ll be. But today, you are awake. You are present. You are becoming."
+```
 **7. Mneme Note (Optional)**  
 - *“3 subtasks were skipped yesterday — see 🌘 Waning Report.”*
 
