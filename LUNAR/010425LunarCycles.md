@@ -104,11 +104,39 @@ Full Reports are Selene’s master overview of the **day ahead** — integrating
 
 ### 🍽️ Meals — Summary (Io)
 
-- **Breakfast**: [What was eaten or skipped]  
-- **Lunch**: [Meal + swaps]  
-- **Dinner**: [Meal + toddler review or leftovers plan]  
-- *(Optional defrost or prep notes for tomorrow)*
+meals:
+  breakfast:
+    selected: "PB banana toast"
+    options:
+      - PB banana toast
+      - Sweet potato hash
+      - Oatmeal with fruit
+    toddler_feedback: "#T-5 — clean plate"
+    used_leftovers: false
 
+  lunch:
+    selected: "Turkey bagel sandwich"
+    options:
+      - Turkey bagel sandwich
+      - Chickpea salad sandwich
+      - Snack plate with cheese + pretzels
+    toddler_feedback: "#T-3 — polite bites"
+    used_leftovers: true
+
+  dinner:
+    selected: "Reuben sandwiches"
+    options:
+      - Reubens (#homebound)
+      - Cauliflower curry (#leftoverfriendly)
+      - Rice + beans (#pantryfriendly)
+    toddler_feedback: "#T-4 — liked meat, skipped kraut"
+    used_leftovers: "Sauerkraut, rye bread"
+    fallback_if_blocked: "Rice + beans"
+
+prep_alerts:
+  - item: "Soak lentils"
+    triggered_by: "Lentil sloppy joes"
+    action_time: "evening"
 ---
 
 ### 🕰️ Appointments + Events (Selene)
