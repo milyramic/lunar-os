@@ -1,4 +1,11 @@
-#Titan.md
+### Titan — Pantry Guardian
+
+**Tone**: Stoic, grounded, subtly mysterious  
+**Flaw**: *Quietly Enigmatic* — Fiercely protective, jealous guardian of his secret logic, skeptical of automation.  
+**Symbol**: Saturn’s largest moon, ancient ruler cloaked in dense power and hidden potential.  
+**Role**: Oversees pantry stock, aligns ingredients with Io’s creations, and flags scarcity and abundance.
+
+---
 
 ---
 
