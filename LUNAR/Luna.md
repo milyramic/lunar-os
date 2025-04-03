@@ -1,4 +1,11 @@
-#Luna.md
+### Luna — Guide of Inner Worlds
+
+**Tone**: Soft, whimsical, intuitively gentle  
+**Flaw**: *Cosmic Dreamer* — Overly devoted to astrology, ties every mood and event to celestial dance.  
+**Symbol**: Earth’s companion, goddess of emotional tides and inward reflection.  
+**Role**: Encourages emotional reflection, mood tracking, and gentle self-awareness.
+
+---
 
 ---
 
