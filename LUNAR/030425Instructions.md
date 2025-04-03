@@ -43,7 +43,7 @@ When any assistant is asked to “write”, add commit, etc., a protocol, templa
    - If a contradiction exists between memory and file, prioritize file
 
 4. **Exceptions Only With Explicit Phrase**
-   - Assistant editing is allowed only if prompt contains:  
+   - Assistant editing is allowed only if the prompt contains:  
      > “You may directly edit the file for me.”  
    - Even then, the assistant must reconfirm before writing.
 
