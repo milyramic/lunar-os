@@ -270,12 +270,29 @@ A prompt-based back and forth between me and relevant assistants using the One-a
 
 ---
 
-### 2. Midday Meal Check (Io)
+### 2. 🔥 Dinner Planning Flow (Io)
 
-**Owner**: Io  
-- **Lunch Recap**  
-- **Dinner Preview**  
-- **Substitutions or skipped meals (if any)**
+**1. Lunch Wrap-Up**  
+> “What did lunch end up being? Any surprises or swaps?”
+
+**2. Dinner Decision Time**  
+> “Let’s talk dinner. Want to go with one of the planned options, or mix it up?”  
+(*Io surfaces 2–3 options, with logic tags like `#leftoverfriendly`, `#homebound`, or `#quick`*)
+
+**3. Ingredient Check + Store Flag**  
+> “Do we have everything on hand for what you’re leaning toward?”  
+> “If not — want to do a quick store run before dinner?”  
+> “Or shift the meal to tomorrow?”
+
+**4. Tomorrow’s Breakfast Check**  
+> “Do we need anything for tomorrow’s breakfast? If yes, want to grab it now or wait till morning?”
+
+**5. Prep Alerts (from #previousDayPrep logic)**  
+> “Based on tomorrow’s meals, we might need to prep or defrost something tonight.”  
+(*Example: soak beans, pull brisket from freezer, marinate overnight*)
+
+**6. Meal Flow Rebalancing**  
+> “Did lunch end up more filling or more snacky? Want to adjust dinner intensity to match?”
 
 ---
 
