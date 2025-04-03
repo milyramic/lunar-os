@@ -119,30 +119,6 @@ Fridge:
     freshness: "new"
     tags: ['drink', 'cold', 'breakfast']
 
-  - item: "Avocado Veggie Blend"
-    quantity: "10 pouches"
-    open: false
-    freshness: "new"
-    tags: ['toddler', 'cold']
-
-  - item: "Kale Apple Veggie Blend"
-    quantity: "4 pouches"
-    open: false
-    freshness: "new"
-    tags: ['toddler', 'cold']
-
-  - item: "Apple Cherry Blend"
-    quantity: "5 pouches"
-    open: false
-    freshness: "new"
-    tags: ['toddler', 'cold']
-
-  - item: "Raspberry Smart Blend"
-    quantity: "3 pouches"
-    open: false
-    freshness: "new"
-    tags: ['toddler', 'cold']
-
   - item: "Cracker Cuts Cheese"
     quantity: "1 pack"
     open: false
