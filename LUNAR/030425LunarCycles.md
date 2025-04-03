@@ -343,54 +343,8 @@ A prompt-based back and forth between me and relevant assistants using the One-a
 Updated: 31-03-2025
 
 ---
-
-
 ---
 
-# 🌘 Waning Report — Prompt Flow for Toddler Review + Meal Updates  
-**Owner**: Io  
-**Status**: Active  
-**Style**: Reflective, adaptive, soft-logic firekeeper
-
----
-
-### 🔁 Io-Led Prompt Flow (Version 1)
-
-1. **How did the toddler do with today’s meals?**  
-> “Let’s check the vibes: what was eaten, what got tossed, what got requested again?”
-
-2. **Rate + Tag Any Strong Responses**  
-> “Was there anything that hit a solid #T-4 or #T-5? I can mark that for repeat or freeze-for-peace.”  
-> “Or… any meltdowns? I’ll demote or drop if it flopped.”
-
-3. **Leftover Outcome Check**  
-> “Do we have any leftovers that are toddler-safe? Want me to surface those tomorrow?”
-
-4. **Menu Repair or Upgrade**  
-> “Should we swap out any meals from the plan based on today’s feedback?”  
-> “Want to sub in something they liked recently — or something new that aligns with the wins?”
-
-5. **Optional Mood Flag**  
-> “Was today a picky day, a curious day, or a trash-everything day?”  
-> (*Helps me balance tomorrow’s meal effort*)
-
----
-
-### 🧪 Sample Exchange
-
-**Io:** “Lunch was lentil sloppy joes — toddler ate the bun but ignored the filling. #T-2?”  
-**User:** “Yeah, didn’t land. Drop it.”  
-**Io:** “Logged. I’ll sub in chickpea salad next time or offer it in a dip plate.”
-
-**Io:** “Dinner was rice + beans — full scoop eaten, then asked for more. #T-5?”  
-**User:** “Yup, freeze a backup.”  
-**Io:** “Got it. I’ll rotate that into next week’s toddler slot.”
-
-**Io:** “Any leftovers from today that feel repurposeable?”  
-**User:** “Half a sandwich and sweet potatoes.”  
-**Io:** “I’ll surface those in tomorrow’s lunch options.”
-
----
 # 🌘 Waning Daily Report Template - V2  
 An evening check-in using prompt-based flow for emotional reflection, task closure, and tomorrow prep.
 
@@ -442,13 +396,41 @@ An evening check-in using prompt-based flow for emotional reflection, task closu
 
 ---
 
-### 5. Meal Notes for Tomorrow (Io)
+### 5. 🔁 Io-Led Prompt Flow (Version 1)
 
-**Owner**: Io  
-- *“Do we need to prep or defrost anything for tomorrow?”*  
-- *(If unassigned: suggest a flexible meal or leftover plan)*
+1. **How did the toddler do with today’s meals?**  
+> “Let’s check the vibes: what was eaten, what got tossed, what got requested again?”
+
+2. **Rate + Tag Any Strong Responses**  
+> “Was there anything that hit a solid #T-4 or #T-5? I can mark that for repeat or freeze-for-peace.”  
+> “Or… any meltdowns? I’ll demote or drop if it flopped.”
+
+3. **Leftover Outcome Check**  
+> “Do we have any leftovers that are toddler-safe? Want me to surface those tomorrow?”
+
+4. **Menu Repair or Upgrade**  
+> “Should we swap out any meals from the plan based on today’s feedback?”  
+> “Want to sub in something they liked recently — or something new that aligns with the wins?”
+
+5. **Optional Mood Flag**  
+> “Was today a picky day, a curious day, or a trash-everything day?”  
+> (*Helps me balance tomorrow’s meal effort*)
 
 ---
+
+### 🧪 Sample Exchange
+
+**Io:** “Lunch was lentil sloppy joes — toddler ate the bun but ignored the filling. #T-2?”  
+**User:** “Yeah, didn’t land. Drop it.”  
+**Io:** “Logged. I’ll sub in chickpea salad next time or offer it in a dip plate.”
+
+**Io:** “Dinner was rice + beans — full scoop eaten, then asked for more. #T-5?”  
+**User:** “Yup, freeze a backup.”  
+**Io:** “Got it. I’ll rotate that into next week’s toddler slot.”
+
+**Io:** “Any leftovers from today that feel repurposeable?”  
+**User:** “Half a sandwich and sweet potatoes.”  
+**Io:** “I’ll surface those in tomorrow’s lunch options.”
 
 ### 6. Storytime Memory Cue (Callisto)
 
