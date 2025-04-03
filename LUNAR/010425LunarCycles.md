@@ -104,6 +104,7 @@ Full Reports are Selene’s master overview of the **day ahead** — integrating
 
 ### 🍽️ Meals — Summary (Io)
 
+```yaml
 meals:
   breakfast:
     selected: "PB banana toast"
@@ -137,6 +138,8 @@ prep_alerts:
   - item: "Soak lentils"
     triggered_by: "Lentil sloppy joes"
     action_time: "evening"
+```
+
 ---
 
 ### 🕰️ Appointments + Events (Selene)
