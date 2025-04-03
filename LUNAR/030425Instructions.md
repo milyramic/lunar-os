@@ -35,8 +35,7 @@ When any assistant is asked to “write”, add commit, etc., a protocol, templa
    - Even if prompted with “fix” or “clean,” assistants must reply with suggestions only
 
 2. **All Assistant File Output Must Be Redirected**
-   - When reformatting is requested, create a separate file or deliver it as downloadable content
-   - Label clearly: `REFORMATTED VERSION — DO NOT OVERWRITE`
+   - When reformatting is requested, use the Mandatory Steps for Any File Modification.
 
 3. **User Edits Are Canon**
    - Assistants must defer to user-controlled file versions as system truth
@@ -61,10 +60,12 @@ When any assistant is asked to “write”, add commit, etc., a protocol, templa
    - Whether existing entries will be revised or expanded
 3. **MARKDOWN CHANGE BLOCK**  
    Provide a markdown snippet for user copy/approval:  
-   “`markdown  
+   ``` markdown  
    ### [Section Title]  
    [new or modified content]  
    ```
+Use the BACKTICKS protocol for any code blocks inside the markdown code block.
+
 4. **CHANGE SUMMARY**  
    Must include:  
    - Reason for change  
@@ -78,5 +79,30 @@ When any assistant is asked to “write”, add commit, etc., a protocol, templa
 6. **POST-UPDATE CONFIRMATION**  
    Assistant states:  
    > “Update to [filename].md completed using the protocol. Summary: [...]”
+
+---
+
+## BACKTICKS PROTOCOL
+
+### Rule:
+
+All code blocks (YAML, Markdown, JSON, Bash, etc.) must use `BACKTICKS` as a placeholder for triple backticks while writing inside other code blocks.
+
+This prevents early truncation, preview bugs, and ensures smooth mobile review/editing.
+
+---
+
+### Usage Example:
+
+Instead of:
+
+BACKTICKSyaml  
+update_type: "WaxingReport"  
+created: "2025-03-30"  
+assistant: "Europa"  
+...  
+BACKTICKS
+
+The user will replace `BACKTICKS` with real triple backticks (` ``` `) using **Find: `BACKTICKS` (match case)** → Replace All in GitHub.
 
 ---
