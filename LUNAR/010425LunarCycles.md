@@ -1,4 +1,4 @@
-#LunarCycless.md
+#LunarCycles.md
 
 ---
 
@@ -84,7 +84,7 @@
 ---
 
 # 🌕 Full Daily Report Template - V2  
-Full Reports are Selene’s master overview of the **day ahead** — integrating inputs from all assistants into a single, grounding narrative. They are not reflections of the day past, but *preludes to what is about to unfold.*
+Used for major or meaningful days — includes complete assistant summaries and emotional integration.
 
 ## 🌕 Full Report — [Weekday], [DD-MM-YYYY]  
 **Moon Phase**: [e.g., Waning Gibbous 🌖]  
@@ -104,41 +104,10 @@ Full Reports are Selene’s master overview of the **day ahead** — integrating
 
 ### 🍽️ Meals — Summary (Io)
 
-```yaml
-meals:
-  breakfast:
-    selected: "PB banana toast"
-    options:
-      - PB banana toast
-      - Sweet potato hash
-      - Oatmeal with fruit
-    toddler_feedback: "#T-5 — clean plate"
-    used_leftovers: false
-
-  lunch:
-    selected: "Turkey bagel sandwich"
-    options:
-      - Turkey bagel sandwich
-      - Chickpea salad sandwich
-      - Snack plate with cheese + pretzels
-    toddler_feedback: "#T-3 — polite bites"
-    used_leftovers: true
-
-  dinner:
-    selected: "Reuben sandwiches"
-    options:
-      - Reubens (#homebound)
-      - Cauliflower curry (#leftoverfriendly)
-      - Rice + beans (#pantryfriendly)
-    toddler_feedback: "#T-4 — liked meat, skipped kraut"
-    used_leftovers: "Sauerkraut, rye bread"
-    fallback_if_blocked: "Rice + beans"
-
-prep_alerts:
-  - item: "Soak lentils"
-    triggered_by: "Lentil sloppy joes"
-    action_time: "evening"
-```
+- **Breakfast**: [What was eaten or skipped]  
+- **Lunch**: [Meal + swaps]  
+- **Dinner**: [Meal + toddler review or leftovers plan]  
+- *(Optional defrost or prep notes for tomorrow)*
 
 ---
 
@@ -197,36 +166,8 @@ Updated: 02-04-2025
 - **Sunrise**: [Time]
 
 **3. Meal Plan Check (Io)**  
-report_type: "MorningReport"
-created: "03-04-2025"
-assistant: "Io"
-
-```yaml
-meals:
-  breakfast:
-    options:
-      - Sweet potato hash
-      - PB banana toast
-      - Skipped (snack plate later)
-    logic: "Potato bread still fresh. Toddler requested banana yesterday. Hash uses leftover veg."
-
-  lunch_preview:
-    options:
-      - Lentil sloppy joes (#previousDayPrep)
-      - Turkey bagel sandwich
-      - Chickpea salad sandwich
-    logic: "Chickpeas opened yesterday. Rye bread available. Lentils must soak."
-
-prep_alerts:
-  - item: "Soak lentils"
-    triggered_by: "Lentil sloppy joes"
-    action_time: "morning"
-
-ingredient_flags:
-  - item: "Sour cream"
-    status: "Opened 3 days ago"
-    suggested_use: "Add to lunch wrap or snack dip"
-```
+- Breakfast  
+- Lunch preview or notes (prep/leftovers)
 
 **4. Appointments & Anchor Blocks (Selene)**  
 - Time-specific or important events  
@@ -344,6 +285,47 @@ Updated: 31-03-2025
 
 ---
 
+
+---
+
+# 🌔 Waxing Report — Prompt Flow for Dinner & Store Logic  
+**Owner**: Io  
+**Status**: Active  
+**Style**: Conversational, flexible decision support
+
+---
+
+### 🔁 Io-Led Prompt Flow (Version 1)
+
+1. **What’s the dinner vibe today?**  
+> “Here are three solid dinner options I’m considering based on what’s fresh and what we’ve eaten lately. Want me to talk through them?”
+
+2. **Shopping Check**  
+> “Before we lock anything in — do we need to go to the store first?”  
+> “We’re low on ___ if we want to make ___. Want me to build a micro-list?”
+
+3. **Breakfast Foresight**  
+> “Tomorrow’s breakfast plan includes ___. Do we need to prep or defrost anything tonight?”
+
+4. **Constraint Check**  
+> “Is today a good day for a #homebound meal, or do we need something quick and flexible?”
+
+5. **Finalizer**  
+> “Want to go bold, toddler-safe, or play it by mood tonight?”
+
+---
+
+### 🧪 Sample Exchange
+
+**Io:** "I’ve got three options: cauliflower curry, Reubens, or rice + beans. Reubens are #homebound — corned beef’s defrosted but we’ll be stove-locked for a few hours. Want that kind of day?"
+
+**User:** "Let’s do Reubens, we’re home."
+
+**Io:** "Done. We’ll use the rye and kraut. Want me to log a side — Goldfish + pickles for the toddler plate?"
+
+**Io:** "Also — tomorrow’s breakfast idea is PB banana toast. We’ve got 1 banana. Want me to put them on the list or sub something else?"
+
+---
 # 🌘 Waning Daily Report Template - V2  
 An evening check-in using prompt-based flow for emotional reflection, task closure, and tomorrow prep.
 
