@@ -43,17 +43,17 @@
 ## Turkey Bagel Sandwiches
 - Type: Lunch
 - Tags: #savory #under20 #T-5
-- Notes: Use bagels, turkey, cheese, mustard.
+- Notes: Use bagels, turkey, cheese, and mustard.
 
 ## Chickpea Salad Sandwich
 - Type: Lunch
 - Tags: #savory #vegetarian #T-3
 - Notes: Canned chickpeas + mayo/mustard on bread.
 
-## Corned Beef Fried Rice
-- Type: Lunch/Dinner/Snack
-- Tags: #savory #umami #T-4
-- Notes: Great use of leftovers + frozen veg.
+## Reuben Sandwiches
+- Type: Lunch/Dinner
+- Tags: #savory #acid #T-4 #homebound
+- Notes: Rye bread, corned beef, sauerkraut, Swiss, Russian dressing. Brisket must simmer for 3+ hours, house-bound meal. Use Irish butter or toast with mayo. Pairs well with pickles or Goldfish for toddler contrast.
 
 ## Lentil Sloppy Joes
 - Type: Lunch/Dinner/Snack
@@ -83,7 +83,7 @@
 ## Ice Cream Cone
 - Type: Dessert
 - Tags: #sweet #readytoeat #T-5
-- Notes: Freezer treat, no effort.
+- Notes: Freezer treats, no effort.
 
 ## Fruit & Jam Toast Bites
 - Type: Dessert
@@ -109,34 +109,8 @@
 
 # Grocery List
 
-### 🥦 Produce
-- Avocados — sandwiches, toast, snacks
-- Bananas — breakfast/snacks (banana toast, roll-up)
-- Fresh Fruit (in season) — top oatmeal, snacks
-- Fresh Greens (spinach or lettuce) — side or sandwich add-on
-- Carrots or Celery — curry or chickpea salad
-
-### 🥖 Bakery
-- Bagels — for lox and sandwiches
-
 ### 🥫 Pantry
-- Coconut Milk — cauliflower curry
-- Jam or Jelly (if low) — toast bites
 - French Fried Onions — topping for casseroles
-- Circle Lentil Snacks — Cy’s preferred snack
-
-### 🥩 Proteins
-- Lox (smoked salmon) — protein for bagels
-- Sausage Patties (circle) — easy breakfast meat
 
 ### 🥛 Dairy & Cold
-- Sour Cream — topping, sauces, sandwiches
-- Orange Juice — breakfast drink, daily staple
 - Green Pouches — toddler snack
-
-### 🧼 Household / Personal
-- Tom’s Mouthwash — personal care
-
-### 💵 Budget Estimate
-- **Running Total**: ~$41.00  
-  *(original 0204 list estimate was $141.50 including base pantry stock — this subset reflects only current itemized needs)*
