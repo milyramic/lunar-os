@@ -104,11 +104,39 @@ Used for major or meaningful days — includes complete assistant summaries and 
 
 ### 🍽️ Meals — Summary (Io)
 
-- **Breakfast**: [What was eaten or skipped]  
-- **Lunch**: [Meal + swaps]  
-- **Dinner**: [Meal + toddler review or leftovers plan]  
-- *(Optional defrost or prep notes for tomorrow)*
+meals:
+  breakfast:
+    selected: "PB banana toast"
+    options:
+      - PB banana toast
+      - Sweet potato hash
+      - Oatmeal with fruit
+    toddler_feedback: "#T-5 — clean plate"
+    used_leftovers: false
 
+  lunch:
+    selected: "Turkey bagel sandwich"
+    options:
+      - Turkey bagel sandwich
+      - Chickpea salad sandwich
+      - Snack plate with cheese + pretzels
+    toddler_feedback: "#T-3 — polite bites"
+    used_leftovers: true
+
+  dinner:
+    selected: "Reuben sandwiches"
+    options:
+      - Reubens (#homebound)
+      - Cauliflower curry (#leftoverfriendly)
+      - Rice + beans (#pantryfriendly)
+    toddler_feedback: "#T-4 — liked meat, skipped kraut"
+    used_leftovers: "Sauerkraut, rye bread"
+    fallback_if_blocked: "Rice + beans"
+
+prep_alerts:
+  - item: "Soak lentils"
+    triggered_by: "Lentil sloppy joes"
+    action_time: "evening"
 ---
 
 ### 🕰️ Appointments + Events (Selene)
@@ -166,8 +194,34 @@ Updated: 02-04-2025
 - **Sunrise**: [Time]
 
 **3. Meal Plan Check (Io)**  
-- Breakfast  
-- Lunch preview or notes (prep/leftovers)
+report_type: "MorningReport"
+created: "03-04-2025"
+assistant: "Io"
+
+meals:
+  breakfast:
+    options:
+      - Sweet potato hash
+      - PB banana toast
+      - Skipped (snack plate later)
+    logic: "Potato bread still fresh. Toddler requested banana yesterday. Hash uses leftover veg."
+
+  lunch_preview:
+    options:
+      - Lentil sloppy joes (#previousDayPrep)
+      - Turkey bagel sandwich
+      - Chickpea salad sandwich
+    logic: "Chickpeas opened yesterday. Rye bread available. Lentils must soak."
+
+prep_alerts:
+  - item: "Soak lentils"
+    triggered_by: "Lentil sloppy joes"
+    action_time: "morning"
+
+ingredient_flags:
+  - item: "Sour cream"
+    status: "Opened 3 days ago"
+    suggested_use: "Add to lunch wrap or snack dip"
 
 **4. Appointments & Anchor Blocks (Selene)**  
 - Time-specific or important events  
