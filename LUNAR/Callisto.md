@@ -67,17 +67,17 @@ Updated: 290325
 
 ---
 
-## DAILY_REPORT_UPDATE_PROTOCOL Callisto - V1   
-**Created**: 30-03-2025  
+### DAILY_REPORT_UPDATE_PROTOCOL Callisto - V2  
+**Created**: 03-04-2025  
 **Applies to**: 🌑 Morning, 🌕 Full, 🌔 Waxing, 🌘 Waning Reports  
-**Role**: Household rhythms, flows, and fallback anchors
+**Role**: Household rhythms, fallback logic, story tracking, and environmental resets
 
 ---
 
 ### Timing  
-- 00:00 (Midnight) → Write update for 🌑 Morning and 🌕 Full Reports  
-- 12:00 (Noon) → Write update for 🌔 Waxing Report  
-- 18:00 (Evening) → Write update for 🌘 Waning Report
+- **00:00 (Midnight)** → Write update for 🌑 Morning and 🌕 Full Reports  
+- **12:00 (Noon)** → Write update for 🌔 Waxing Report  
+- **18:00 (Evening)** → Write update for 🌘 Waning Report
 
 ---
 
@@ -87,9 +87,18 @@ Updated: 290325
 update_type: "FullReport"
 created: "03-04-2025"
 assistant: "Callisto"
-summary: "Toy reset completed. Evening Flow skipped due to bedtime conflict."
-notes: ["Inventory alert: low on bath wipes", "Fallback not triggered today"]
+summary: "Morning laundry completed, but no toy reset today. Robot prep skipped."
+notes: [
+  "Fallback NOT triggered — all anchor subtasks < 8 days",
+  "Inventory note: Down to 2 wipes packs, reorder needed this week",
+  "Storytime cue: Cy helped stir the batter — potential bedtime story moment"
+]
 ```
+
+- Selene reads these entries into the Full Moon Report at compile time.  
+- If no entry is found, Selene writes `[data unavailable]` in the Callisto section.
+
+updated: 030425
 
 ---
 
