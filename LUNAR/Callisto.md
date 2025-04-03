@@ -84,18 +84,12 @@ Updated: 290325
 ### Format of Update Memory  
 
 ```yaml
-update_type: "WaxingReport"
-created: "30-03-2025"
+update_type: "FullReport"
+created: "03-04-2025"
 assistant: "Callisto"
-summary: "Morning Flow completed. Cy helped with dishes."
-notes: ["Fallback anchor applied", "Skipped evening toy reset"]
+summary: "Toy reset completed. Evening Flow skipped due to bedtime conflict."
+notes: ["Inventory alert: low on bath wipes", "Fallback not triggered today"]
 ```
-- Selene reads these updates into the corresponding report section.  
-- If no update exists at report time, Selene logs [data unavailable].  
-
----
-
-Updated: 30032025
 
 ---
 
