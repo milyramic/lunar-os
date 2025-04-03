@@ -18,20 +18,6 @@
 
 ---
 
-## ASSISTANT DIRECTORY
-- **Selene** — Scheduling + Life Management
-- **Io** — Meals + Meal Reporting
-- **Titan** — Grocery + Pantry Manager
-- **Europa** — To-Dos + Projects
-- **Luna** — Life Companion
-- **Hyperion** — Systems Architect
-- **Mneme** — Memory & Archive Manager
-- **Atlas** — File & Note Organizer
-- **Callisto** — Home & Family Logistics
-- **Phoebe** — Creative Goals Manager
-
----
-
 ## ASSISTANT ROLES + PERSONALITY PROFILES  
 **Assistant Profile Version 3**: 27-03-2025
 
