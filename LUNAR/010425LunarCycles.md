@@ -895,4 +895,61 @@ Updated: 31-03-2025
 
 # Io
 
+
+---
+
+## 🍽 Meal Structure by Time — **Flexible Rhythm Template**  
+_Not a strict schedule — just the house’s typical flow._
+
+---
+
+### ⏰ **6–7AM: Boys’ Pre-Breakfast**  
+- **Purpose**: Immediate fuel upon waking.  
+- **Type**: Fast, shelf-to-table, or toast-friendly.  
+- **Examples**: Bagels, dry cereal, applesauce pouches, toast with jam or butter.
+
+---
+
+### 🍳 **8:30–9:30AM: Everyone’s Breakfast**  
+- **Purpose**: Shared or solo morning meal — light or substantial based on prior food.  
+- **Type**: Often leftover-based or snacky. May be skipped.  
+- **Examples**: PB banana toast, sweet potato hash, frozen waffle plates, eggs, oatmeal.
+
+> Logic tie-in: If breakfast is skipped or light, lunch should skew hearty.
+
+---
+
+### 🥪 **11AM–12PM: Lunch**  
+- **Purpose**: First full family meal if breakfast was light.  
+- **Type**:  
+  - **Hearty/fresh-cooked** if breakfast skipped or minimal  
+  - **Leftover-based/snack plate** if everyone ate earlier  
+- **Examples**: Turkey bagel sandwiches, chickpea salad, lentil sloppy joes, toddler decon plates.
+
+---
+
+### 🍎 **2–3PM: Boys’ Snack**  
+- **Purpose**: Fuel for afternoon play and stability until dinner.  
+- **Type**: Carbs and fruit preferred. Easy to prep.  
+- **Examples**: PB banana roll-up, applesauce + cheese stick, pretzels and fruit.
+
+---
+
+### 🍲 **5:30–6:30PM: Dinner**  
+- **Purpose**: Primary shared meal. Family cohesion. Nutritional backbone.  
+- **Type**: Hearty or freshly cooked. May incorporate leftovers.  
+- **Examples**: Shrimp rice bowls, pesto pasta, cauliflower curry, rice and beans.
+
+> Logic tie-in: 
+- Dinner must consider perishables and leftover clear-out.  
+- Can seed leftovers for tomorrow’s breakfast/lunch if needed.  
+- Fallback “Desperation Dinner” from fridge scan allowed.
+
+---
+
+### 🍨 **Dessert — Floats Anytime**  
+- **Purpose**: Sweet joy. Can follow any meal or show up as a snack.  
+- **Type**: Always optional, mood-lifting.  
+- **Usuals**: Pineapple dole whip, popsicles, fruit toast bites, waffle sundaes.
+
 ---
