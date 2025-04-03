@@ -219,11 +219,11 @@ Updated: 02-04-2025
 - **Sunrise**: [Time]
 
 **3. Meal Plan Check (Io)**  
+```yaml
 report_type: "MorningReport"
 created: "03-04-2025"
 assistant: "Io"
 
-```yaml
 meals:
   breakfast:
     options:
@@ -255,10 +255,16 @@ ingredient_flags:
 - Suggested focus blocks if schedule is open
 
 **5. Family Rhythm & Cleaning Flow (Callisto)**  
-- **Family Rhythm** — playful activity or include kids in task  
-- **Cleaning Flow** — today’s assigned subtask + fallback logic  
-  - Example: “AMCALLISTO-001: Start laundry”  
-  - If overdue item exists from this flow, show instead (marked URGENT)
+```yaml
+  update_type: "MorningReport"
+  created: "03-04-2025"
+  assistant: "Callisto"
+  summary: "Morning Flow started — laundry in. Toy reset skipped. No fallback triggered."
+  notes:
+    - "Inventory stable, but watch fruit levels tomorrow"
+    - "Cy asked to help sweep — consider as storytime cue"
+    - "Bathroom mirror wipe still overdue but not urgent"
+```
 
 **6.Inner Light & Rituals (Luna)**
 
