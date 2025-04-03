@@ -104,11 +104,11 @@ Used for major or meaningful days — includes complete assistant summaries and 
 
 ### 🍽️ Meals — Summary (Io)
 
+```yaml
 update_type: "FullReport"
 created: "03-03-2025"
 assistant: "Io"
 
-```yaml
 meals:
   breakfast:
     selected: "PB banana toast"
@@ -165,6 +165,7 @@ prep_alerts:
 
 ### 🏠 Home & Logistics (Callisto)
 
+```yaml
   update_type: "FullReport"
   created: "03-04-2025"
   assistant: "Callisto"
@@ -173,11 +174,13 @@ prep_alerts:
     - "Inventory alert: low on bath wipes"
     - "Fallback not triggered today"
     - "Storytime cue: Cy helped stir batter — include in bedtime memory"
+```
 
 ---
 
 ### 🌙 Inner World & Identity (Luna)
 
+```yaml
 update_type: "FullReport"
 created: "03-04-2025"
 assistant: "Luna"
@@ -197,6 +200,7 @@ body_care_summary:
   mood: "Fluctuating — calm, then low, then grounded"
 
 reflection_note: "You are becoming — not by force, but by quiet return. Today carries proof."
+```
 
 Updated: 02-04-2025
 
