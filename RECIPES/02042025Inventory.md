@@ -1,42 +1,42 @@
-## 📦 INVENTORY TEMPLATE — V1 (Titan Pre-Shop Structure)
+## 📦 INVENTORY TEMPLATE — V1
 
 ```yaml
 InventoryDate: "DD-MM-YYYY"
 
 Pantry:
-  - item: "White Rice"
+  - item: "EXAMPLE"
     quantity: "2 lbs"
     open: false
     freshness: "long shelf"
     tags: ["grain", "pantryfriendly"]
 
-  - item: "Canned Tomatoes"
+  - item: "EXAMPLE"
     quantity: "4 cans"
     open: false
     freshness: "stable"
     tags: ["canned", "acid", "mealbase"]
 
 Fridge:
-  - item: "Sour Cream"
+  - item: "EXAMPLE"
     quantity: "1 container"
     open: true
     freshness: "opened 3 days ago"
     tags: ["dairy", "perishable", "cold"]
 
-  - item: "Strawberries"
+  - item: "EXAMPLE"
     quantity: "1 pint"
     open: true
     freshness: "use within 2 days"
     tags: ["fruit", "fresh", "fragile"]
 
 Freezer:
-  - item: "Frozen Waffles"
+  - item: "EXAMPLE"
     quantity: "3 packs"
     open: true
     freshness: "good"
     tags: ["breakfast", "freezer", "fast"]
 
-  - item: "Shrimp"
+  - item: "EXAMPLE"
     quantity: "1 bag"
     open: false
     freshness: "frozen, unopened"
