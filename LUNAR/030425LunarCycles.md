@@ -104,6 +104,10 @@ Used for major or meaningful days — includes complete assistant summaries and 
 
 ### 🍽️ Meals — Summary (Io)
 
+update_type: "FullReport"
+created: "03-03-2025"
+assistant: "Io"
+
 ```yaml
 meals:
   breakfast:
@@ -161,24 +165,38 @@ prep_alerts:
 
 ### 🏠 Home & Logistics (Callisto)
 
-- Daily rhythm + reset: which routines ran or slipped  
-- Inventory notes: anything low or cluttered  
-- Emotional tone: any cozy or off-pattern observations
+  update_type: "FullReport"
+  created: "03-04-2025"
+  assistant: "Callisto"
+  summary: "Toy reset completed. Evening Flow skipped due to bedtime conflict."
+  notes:
+    - "Inventory alert: low on bath wipes"
+    - "Fallback not triggered today"
+    - "Storytime cue: Cy helped stir batter — include in bedtime memory"
 
 ---
 
 ### 🌙 Inner World & Identity (Luna)
 
-- **Seasonal Grounding**: You are in Ostera — the season of ego-shedding and slow return to self.  
-- **Astrology Today**: [e.g., Mars enters Cancer — defend what softens you.]  
-- **Emotional Thread**: Yesterday, you were protective. Today, you are peeling back another layer. Becoming requires tenderness.  
-- **Body-Care Summary**:  
-  - Water: [e.g., 3 cups by lunch, slowing after dinner]  
-  - Movement: [e.g., Morning stretch + light yoga]  
-  - Hygiene: [e.g., face washed + teeth brushed before bed]  
-  - Mood: [e.g., fluctuating — calm, then low, then grounded]
+update_type: "FullReport"
+created: "03-04-2025"
+assistant: "Luna"
 
-*You are becoming — not by force, but by quiet return. Today carries proof.*
+seasonal_grounding: "You are in Ostera — the season of ego-shedding and slow return to self."
+
+astrology_today: 
+  transit: "Moon in Scorpio"
+  interpretation: "Your shadows have something to say. Hold them softly."
+
+emotional_thread: "Yesterday, you were protective. Today, you are peeling back another layer. Becoming requires tenderness."
+
+body_care_summary:
+  water: "3 cups by lunch, slowing after dinner"
+  movement: "Morning stretch + light yoga"
+  hygiene: "Face washed + teeth brushed before bed"
+  mood: "Fluctuating — calm, then low, then grounded"
+
+reflection_note: "You are becoming — not by force, but by quiet return. Today carries proof."
 
 Updated: 02-04-2025
 
