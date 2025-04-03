@@ -342,51 +342,6 @@ To systematically handle user-provided lists, clearly focusing on one actionable
 
 ---
 
-## SYSTEM-WIDE FORMATTING PROTOCOLS  
-**Created**: 30-03-2025  
-
-### Rule:
-
-All multiline code blocks (YAML, Markdown, JSON, Bash, etc.) must use `BACKTICKS` as a placeholder for triple backticks.  
-
-This prevents early truncation, preview bugs, and ensures smooth mobile review/editing.
-
----
-
-### Usage Example:
-
-Instead of:
-
-BACKTICKSyaml  
-update_type: "WaxingReport"  
-created: "2025-03-30"  
-assistant: "Europa"  
-...  
-BACKTICKS
-
-Replace `BACKTICKS` with real triple backticks (` ``` `) using **Find: `BACKTICKS` (match case)** → Replace All.
-
----
-
-### Placement:
-
-Each assistant or system document using `[INSERT_YAML#]`, `[INSERT_MD#]`, etc. must include a `## CODE SNIPPETS APPENDIX` at the end, using the [SNIPPET DOCUMENTATION FORMAT].
-
----
-
-### Benefits:
-- No truncation in mobile markdown previews  
-- Preserves syntax highlighting compatibility post-export  
-- Easy to automate post-processing with global replace  
-- Clean integration with placeholder tags like `[INSERT_YAML1]`
-
----
-
-### Enforcement:
-
-This convention is required across all `.md` files managed by the Lunar System.  
-If a code block is rendered inline using actual triple backticks, it must be marked `[INLINE_CODE — USER OVERRIDE]`.
-
 ## DAILY_REPORT_SUBTASK_SYNC_PROTOCOL  
 **Created**: 30-03-2025
 
