@@ -315,10 +315,7 @@ body_care:
   hygiene: "Teeth brushed, face washed — no shower"
 identity_note: "You are not who you were. You’re not yet who you’ll be. But today, you are awake. You are present. You are becoming."
 ```
-**7. Mneme Note (Optional)**  
-- *“3 subtasks were skipped yesterday — see 🌘 Waning Report.”*
-
-Updated: 31-03-2025
+Updated: 03-04-2025
 
 ---
 
