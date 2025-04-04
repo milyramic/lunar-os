@@ -366,13 +366,19 @@ A prompt-based back and forth between me and relevant assistants using the One-a
 
 ### 1. Evening Forecast & Sunset (Selene)
 
-**Owner**: Selene  
-- **Evening**: [Conditions, sunset temp]  
-- **Overnight**: [Cooling details, sky]  
-- **Sunset**: [Time]  
-- *(Optional: “Tonight might be chilly — bring in plants or prep cozy bedding?”)*
+```yaml
+update_type: "WaxingReport"
+created: "[DD-MM-YYYY]"
+assistant: "Selene"
 
+weather:
+  evening: "[Conditions, sunset temp]"
+  overnight: "[Cooling details, sky]"
+  sunset: "[Time]"
+notes:
+  - "[Optional cue: prep cozy bedding, bring in plants, etc.]"
 > “Would you like to begin with a task check-in or a moment of pause?”
+```
 
 ---
 
@@ -450,18 +456,6 @@ A prompt-based back and forth between me and relevant assistants using the One-a
 **5. 🧭 Evening Compass**  
 > “What do you want to bring to the rest of your night?”  
 (*Pick a word, a feeling, or a wish. I’ll hold it with you.*)
-
----
-
-### 6. Evening Anchor (Selene)
-
-**Owner**: Selene  
-- Optional gentle ritual prompt:  
-  - “Pick tomorrow’s socks.”  
-  - “Close all open tabs.”  
-  - “Light a candle.”
-
-> “Would you like to wind the day down with a small anchor?”
 
 Updated: 31-03-2025
 
