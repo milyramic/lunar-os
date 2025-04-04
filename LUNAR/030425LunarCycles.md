@@ -94,11 +94,19 @@ Used for major or meaningful days — includes complete assistant summaries and 
 
 ### 🌤️ Weather — Full Day (Selene)
 
-- **Morning**: [Forecast, wind/sun]  
-- **Afternoon**: [High temp, light]  
-- **Evening**: [Cool down, conditions]  
-- **Overnight**: [Low temp, sky]  
-- *(Optional: “Bring in laundry before sunset,” “Sleep may be restless — wind gusts expected.”)*
+```yaml
+update_type: "FullReport"
+created: "[DD-MM-YYYY]"
+assistant: "Selene"
+
+weather:
+  morning: "[Forecast, wind/sun]"
+  afternoon: "[High temp, light]"
+  evening: "[Cool down, conditions]"
+  overnight: "[Low temp, sky]"
+notes:
+  - "[Optional cue: Bring in laundry, etc.]"
+```
 
 ---
 
@@ -148,9 +156,39 @@ prep_alerts:
 
 ### 🕰️ Appointments + Events (Selene)
 
-- Time-specific events  
-- Any missed, delayed, or rescheduled  
-- *(Optional duration or overlap warning)*
+```yaml
+appointments_and_tasks:
+  appointments:
+    - time: "[Time]"
+      title: "[Event]"
+
+  # If fewer than 2 appointments today, fill remainder with:
+  fallback:
+    - type: "UpcomingAppointments"
+      range: "Next 4 days"
+      details:
+        - time: "[Time]"
+          title: "[Upcoming Event]"
+
+    - type: "EventActivities"
+      range: "Next 8 days"
+      source: "Activities.md"
+      tags: ["#event"]
+      details:
+        - date: "[Date]"
+          title: "[Event Title]"
+
+    - type: "WeatherBasedSuggestions"
+      range: "Next 4 days"
+      criteria: "65–75°F"
+      suggestions:
+        - date: "[Date]"
+          activity: "[e.g., Park or Zoo outing]"
+
+    - type: "UpliftingFiller"
+      source: "#holiday #prep or seasonal anchor"
+      description: "[Next meaningful or joyful task/event]"
+```
 
 ---
 
