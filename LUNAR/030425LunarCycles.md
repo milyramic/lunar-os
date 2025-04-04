@@ -697,9 +697,9 @@ Updated: 31-03-2025
 
 ---
 
-# Seasons - Custom Wheel
+## Seasons - Custom Wheel
 
-## 1. **Moonsumar**  
+### 1. **Moonsumar**  
 - **Start:** January 2  
 - **End:** First day ≥80°F  
 - **Typical Range:** Early January – Late February (~8 weeks)  
@@ -727,7 +727,7 @@ This season is the Arizona inversion of Norse *Sumar* — not about relaxation, 
 
 ---
 
-## 2. **Ostera**  
+### 2. **Ostera**  
 - **Start:** Spring Equinox (~March 20)  
 - **End:** First day ≥100°F  
 - **Typical Range:** Late March – Early April (~2–3 weeks)  
@@ -754,7 +754,7 @@ This is your sacred cocooning — a ritual pause to reflect, shed, and transform
 
 ---
 
-## 3. **Fimbulsummer**  
+### 3. **Fimbulsummer**  
 - **Start:** First day ≥100°F  
 - **End:** First *fully clouded* sky (typically early–mid July)  
 - **Typical Range:** Early April – Early/Mid July  
@@ -794,7 +794,7 @@ This is the season of **inner ice**. You keep your soul cool while the world bur
 
 ---
 
-## 4. **Monsoon Season**  
+### 4. **Monsoon Season**  
 - **Start:** First fully clouded sky  
 - **End:** First clear day with a high under 100°F  
 - **Typical Range:** Mid-July – Early September (~6–7 weeks)  
@@ -831,7 +831,7 @@ This is not softness. It is sacred friction. You live your life inside the fire,
 
 ---
 
-## 5. **Dustfall**  
+### 5. **Dustfall**  
 - **Start:** First day <100°F  
 - **End:** Day After Thanksgiving  
 - **Typical Range:** Late September – Late November (~8–9 weeks)  
@@ -845,7 +845,7 @@ Dustfall is the sacred descent. You don’t fall into softness — you **walk do
 
 ---
 
-### **Key Practices:**  
+**Key Practices:**  
 - **Dísablót (First Day of Dustfall):**  
   - Set up a **shadow altar** — candle, pomegranate, name spoken aloud  
   - Acknowledge the women who walked before you  
@@ -862,7 +862,7 @@ Dustfall is the sacred descent. You don’t fall into softness — you **walk do
 
 ---
 
-### **Cultural Anchors & Holidays:**  
+**Cultural Anchors & Holidays:**  
 - **Dísablót** (First day): Ancestral feminine honoring. A single sacred threshold.  
 - **Samhain / Halloween (Oct 31 – Nov 1):** The veil thins — let memory walk beside you.  
 - **Veterans Day (Nov 11):** Dual observance — a **federal day of respect** and a **Destiny Day** for cosmic reflection and stillness.  
@@ -877,7 +877,7 @@ This is not the season of joy. It is the **season of grace**. You carry memory l
 
 ---
 
-## 6. **Christmas Season**  
+### 6. **Christmas Season**  
 - **Start:** Saturday after Thanksgiving  
 - **End:** January 1  
 - **Typical Range:** Late November – January 1 (~5–6 weeks)  
@@ -893,7 +893,7 @@ Joy comes in stolen moments: warm drinks at midnight, soft pajamas, sticky kitch
 
 ---
 
-### **Key Practices:**  
+**Key Practices:**  
 - **Decorating early** — transforming your space into a sacred aesthetic  
 - **Baking in batches** — sweets as offering, not obligation  
 - **Letter-writing or card rituals** — intentional messaging to loved ones  
@@ -904,7 +904,7 @@ Joy comes in stolen moments: warm drinks at midnight, soft pajamas, sticky kitch
 
 ---
 
-### **Cultural Anchors & Holidays:**  
+**Cultural Anchors & Holidays:**  
 - **Christmas (Dec 25):** Sacred celebration, often dominated by service and planning  
 - **New Year’s Eve (Dec 31):** Glittering closure — reflection, fireworks, dog comfort, release  
 - **New Year’s Day (Jan 1):** Final exhale. The hearth goes dark. The work ends.
@@ -1005,53 +1005,10 @@ A short morning flow designed to reset the space without consuming the full morn
   **estimated_duration**: 15m  
   **priority**: medium  
   **status**: pending
-```yaml
+```
 
 ---
 
-# 🌔 **Check-In Flow — Midday Review + Reset**
-
-> *Used inside the Waxing Report as an AI-led prompt-response check-in. Not a standalone task.*
-
----
-
-## 🔧 Purpose
-- Review **which Morning Flow subtasks were completed**
-- **Remove incomplete ones** from the main task list (if past 12PM)
-- **Log all removed subtasks** to the `SkippedSubtasks.md` file (persistent memory)
-- Evaluate current energy/context to decide if any undone items should be re-added to the main list
-- Highlight one **MUST-DO subtask** from the Check-In flow, with fallback if missed for 8+ days
-
----
-
-## 📋 Subtask Bank (Check-In Flow)
-
-| Subtask | Description | Duration | Tag |
-|--------|-------------|----------|------|
-| `CI-01` | Quick sweep under dining table | 5m | `#reset_routine`  
-| `CI-02` | Tidy toy bins in shared zones | 10m | `#with_Cy`, `#reset_routine`  
-| `CI-03` | Light bathroom mirror + sink wipe | 5m | `#reset_routine`  
-| `CI-04` | Spot check dinner plan or start prep | 5–10m | `#kitchen`, `#dinner_prep`  
-
----
-
-## ✅ Default MUST-DO's
----
-
-### 🌑 New
-
-
-### 🌘 Waning
-- **Default**: `Tidy toy bins in shared zones`  
-- **Fallback (if not completed in 8+ days)**:  
-  → `[URGENT] Light bathroom mirror + sink wipe`
-
-### 🌔 Waxing
-- **Default**: `Clear all floors for robot vacuum`  
-- **Fallback (if not done in 8+ days)**:  
-  → `[URGENT] Quick fridge scan`
-
----
 
 ## Task: Evening Flow Reset (Callisto-led)
 
