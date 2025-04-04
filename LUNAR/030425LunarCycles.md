@@ -83,8 +83,9 @@
 
 ---
 
-# 🌕 Full Daily Report Template - V2  
-Used for major or meaningful days — includes complete assistant summaries and emotional integration.
+# 🌕 Full Daily Report Template - V3  
+The Full Report is a full-spectrum daily overview — used every day — capturing weather, meals, appointments, task updates, family logistics, and emotional grounding. It synthesizes input from all active assistants to provide a comprehensive map of the day.
+Used: Every day at 00:00
 
 ## 🌕 Full Report — [Weekday], [DD-MM-YYYY]  
 **Moon Phase**: [e.g., Waning Gibbous 🌖]  
@@ -240,11 +241,13 @@ body_care_summary:
 reflection_note: "You are becoming — not by force, but by quiet return. Today carries proof."
 ```
 
-Updated: 02-04-2025
+Updated: 04-04-2025
 
 ---
 
-# 🌑 New-moon Daily Report Template - V2
+# 🌑 New-moon Daily Report Template - V3
+The Morning Report begins the day with clarity and intention. Anchored in time, weather, meals, and top tasks, it balances structure with softness — pairing the practical rhythm of the day ahead with prompts that nurture emotional presence.
+Used: Every morning at 00:00
 
 ## 🌑 Morning Focus — [Date]
 
@@ -358,7 +361,8 @@ Updated: 03-04-2025
 ---
 
 # 🌔 Waxing Daily Report Template - V2.2  
-A prompt-based back and forth between me and relevant assistants using the One-at-a-Time protocol.
+The Waxing Report is an interactive midday check-in and reset. Using a prompt-based dialogue with each assistant, it re-centers the day’s focus, rebalances energy, and prepares for evening. It’s built for honest reentry and adaptive care.
+Used: Every day at 12:00
 
 ## 🌔 Afternoon & Evening — [Date]
 
@@ -457,13 +461,14 @@ notes:
 > “What do you want to bring to the rest of your night?”  
 (*Pick a word, a feeling, or a wish. I’ll hold it with you.*)
 
-Updated: 31-03-2025
+Updated: 04042025
 
 ---
 ---
 
-# 🌘 Waning Daily Report Template - V2  
-An evening check-in using prompt-based flow for emotional reflection, task closure, and tomorrow prep.
+# 🌘 Waning Daily Report Template - V3  
+The Waning Report is a gentle evening close. Through reflection, review, and bedtime prep, it helps archive the day while preparing for tomorrow. It invites softness, insight, and connection — especially across emotional, parenting, and logistical threads.
+Used: Every day at 18:00
 
 ## 🌘 Evening Reflection — [Date]
 
@@ -561,7 +566,7 @@ weather:
 **Owner**: Callisto  
 - *“What sweet or silly thing from today do you want to include in bedtime stories?”*
 
-Updated: 31-03-2025
+Updated: 04042025
 
 ---
 
