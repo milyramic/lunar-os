@@ -471,12 +471,19 @@ An evening check-in using prompt-based flow for emotional reflection, task closu
 
 ### 1. Evening Conditions & Tomorrow’s Preview (Selene)
 
-**Owner**: Selene  
-- **Overnight**: [Conditions, low temp]  
-- **Sunrise**: [Time]  
-- **Tomorrow’s Preview**: [First appointment or task anchor]
+```yaml
+update_type: "WaningReport"
+created: "[DD-MM-YYYY]"
+assistant: "Selene"
 
-> “Would you like to start with a reflection or a review of today’s task wrap-up?”
+weather:
+  overnight: "[Conditions, low temp]"
+  sunrise: "[Time]"
+  tomorrow_preview:
+    - "[First appointment or task anchor]"
+    - "[Any #homebound meal flagged by Io]"
+    - "[Weather flag or timing alert if relevant]"
+```
 
 ---
 
