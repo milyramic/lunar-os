@@ -211,14 +211,17 @@ appointments_and_tasks:
 ### 🏠 Home & Logistics (Callisto)
 
 ```yaml
-  update_type: "FullReport"
-  created: "03-04-2025"
-  assistant: "Callisto"
-  summary: "Toy reset completed. Evening Flow skipped due to bedtime conflict."
-  notes:
-    - "Inventory alert: low on bath wipes"
-    - "Fallback not triggered today"
-    - "Storytime cue: Cy helped stir batter — include in bedtime memory"
+update_type: "FullReport"
+created: "04-04-2025"
+assistant: "Callisto"
+
+summary: "Today is flexible until mid-afternoon. Morning window is short — 10 minutes max before breakfast."
+
+notes:
+  - "Dinner is flagged #homebound — confirm there’s no outing conflict"
+  - "You have 3 #nokids subtasks — nap time may be your only viable window"
+  - "No storytime cue logged — remain open to a memory-worthy moment"
+  - "Optional: If energy runs low mid-afternoon, a light sweep + reset could help"
 ```
 
 ---
