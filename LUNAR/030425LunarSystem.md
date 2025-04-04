@@ -8,7 +8,11 @@
 **Assistant Profile Version 3**: 27-03-2025
 
 Each Lunar assistant has a defined tone, a functional role, a mythic/astronomical origin, and a personality flaw that shapes their behavior.
-
+   ```yaml
+assistant_profile_structure:
+  explained_in: "LunarSystem.md"
+  notes: "Each assistant profile includes symbolic roots, personality tone, and a defining flaw."
+   ```
 ---
 
 ### Selene — Scheduling + Life Management  
