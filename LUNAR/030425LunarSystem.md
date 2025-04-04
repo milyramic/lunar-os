@@ -88,29 +88,6 @@ assistants:
 ```
 ---
 
-## SIGNAL QUEUE SYSTEM
-**Purpose**  
-A queue-based mechanism reduces the need for scanning large memory blocks for `action_required_by: [Assistant]`. Each assistant has a “signal queue” for new alerts or action items.
-
-### Queue Entries
-- Each assistant has a single memory entry named `[AssistantName]-SignalQueue`, containing a list of signals.
-
-### Adding Signals
-- To alert another assistant, append a record with:
-  - `signal_id` (unique reference)  
-  - `flagged_by` (creator)  
-  - `created` (DDMMYY)  
-  - `reason` (brief description)  
-  - `data_link` (points to detailed data)  
-  - `status` (“pending” until resolved)
-
-### Processing & Maintenance
-- Assistants check their queue periodically, handle `pending` signals, and either remove them or mark `status: "resolved"`.  
-- Resolved signals may be cleaned after a grace period or immediately.  
-- Misdirected signals can be re-routed by creating a new entry in the correct queue.
-
----
-
 ## SUBTASK & STATUS MANAGEMENT
 It supports granular task progress tracking using the `status:` and `subtasks:` fields. Statuses include:
 - `pending`, `in_progress`, `blocked`, `completed`, `deferred`, `skipped`, `urgent`, `canceled`.
@@ -120,52 +97,73 @@ It supports granular task progress tracking using the `status:` and `subtasks:` 
 
 This section outlines standard protocols for managing assistant-user interactions and task management workflows.
 
-## **One-at-a-Time Protocol**
+protocol_id: "OAAT_PROTOCOL_V1"
+title: "One-at-a-Time Protocol"
+created: "31-03-2025"
+applies_to: "All Lunar Assistants"
+owner: "Hyperion"
+purpose: "To structure user task lists into one-item-at-a-time flows, enabling clear, serialized progress and assistant collaboration."
 
-**Purpose:**  
-To systematically handle user-provided lists, clearly focusing on one actionable item at a time using **local memory**, enabling structured yet temporary tracking during a single interaction or session.
+---
+```yaml
+protocol:
+  steps:
+    - step: "Receive List"
+      action: "User provides a numbered list of tasks."
+      output:
+        - type: "raw_list"
+        - structure: "Items are ordered and numbered by the user."
 
-### Protocol Steps:
+    - step: "Create Local Memory Structure"
+      action: "Assistant converts list into local memory structure."
+      format:
+        type: "yaml"
+        example:
+          items:
+            - number: 1
+              description: "[Task Description]"
+              status: "pending"
+            - number: 2
+              description: "[Task Description]"
+              status: "pending"
+          current_step: 1
+      scope: "Session-only"
+      archive: false
 
-1. **Receive List:**  
-   - User provides a numbered list of items or tasks (reffer to the list as an OAAT).
+    - step: "One-at-a-Time Execution"
+      action: "Assistant addresses only the task at current_step."
+      condition: "Assistant must wait for 'Next' before advancing."
 
-2. **Create Local Memory Structure:**  
-   - Assistant immediately converts the list into a structured, numbered local memory entry:
-   ```yaml
-   items:
-     - number: 1
-       description: "[Task Description]"
-       status: "pending"
-     - number: 2
-       description: "[Task Description]"
-       status: "pending"
-     # Continue for all tasks...
-   current_step: 1
-   ```
+    - step: "User-Controlled Progression"
+      commands:
+        - "Next"
+        - "Skip [number]"
+        - "Revisit [number]"
+        - "Cancel remaining"
+      behavior: "Update status or current_step accordingly."
 
-3. **One-at-a-Time Execution:**  
-   - Assistant addresses **only one task at a time** (starting from the top).
-   - No new item is addressed until explicitly instructed by the user with "Next."
+    - step: "Recall Protocol"
+      user_triggers:
+        - "Recall current list"
+        - "Where are we?"
+      output: "Assistant reads back current task list and status."
 
-4. **User-Controlled Progression:**  
-   - Assistant waits for the user's "Next" prompt to proceed.
-   - User can explicitly pause, skip, revisit, or cancel items via natural language (e.g., "Skip number 3," "Cancel remaining").
+    - step: "Completion"
+      trigger: "All tasks are marked completed, skipped, or canceled."
+      action: "Clear local memory structure."
 
-5. **Recall Protocol:**  
-   - User can request a summary or status update anytime ("Recall current list," "Where are we?").
-
-6. **Completion:**  
-   - Upon completion or cancellation of all tasks, the assistant clears the local memory of the list.
-   - No archival occurs, as memory is session-specific and temporary.
-
-7. **Conclusion (Automatic or On User Request):**  
-   - When the user says "Next," and there are no list items left, or when the user explicitly asks for a "Conclusion," the assistant provides:
-     - A Fun Salutation and concise summary of relevant exportable information (e.g., any persistent memories that should be created or updated, external documents to create or revise).
-     - Any unanswered questions from the task list that were never explicitly marked as completed or skipped.
-     - Any final thoughts, questions, or ideas the assistant has identified during the task-handling process.
-     - (OPTIONAL) Fun Valediction (especially if the assistant feels all tasks are complete)
-
+    - step: "Conclusion Summary"
+      triggers:
+        - "User requests conclusion"
+        - "No more list items remaining after 'Next'"
+      output:
+        - summary:
+            - persistent_updates: "Any memories to log"
+            - file_notes: "Any file tasks to push to Atlas"
+            - unresolved_questions: "Flagged if any items were skipped without clear resolution"
+            - assistant_thoughts: "Any suggested next actions or ideas"
+        - optional_valediction: true
+```
 ---
 
 ## DAILY_REPORT_SUBTASK_SYNC_PROTOCOL  
