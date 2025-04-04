@@ -84,16 +84,25 @@ Updated: 290325
 ### Format of Update Memory  
 
 ```yaml
-update_type: "FullReport"
+update_type: "WaningReport"
 created: "03-04-2025"
 assistant: "Callisto"
-summary: "Morning laundry completed, but no toy reset today. Robot prep skipped."
-notes: [
-  "Fallback NOT triggered — all anchor subtasks < 8 days",
-  "Inventory note: Down to 2 wipes packs, reorder needed this week",
-  "Storytime cue: Cy helped stir the batter — potential bedtime story moment"
-]
+summary: "Evening Flow skipped. Fridge scan completed. Toy reset done before dinner."
+fallback_flag: true
+notes:
+  - "Robot vacuum unable to run — floors not clear"
+  - "Fridge alert: cucumbers aging fast"
+  - "Storytime cue: Mimir counted all the shoes — proud moment"
 ```
+
+---
+
+### Notes:
+- `fallback_flag: true` is set when **any** flow anchor fallback logic was triggered (Morning, Check-In, or Evening).
+- This can be read by Selene for tagging urgency or trend detection.
+- If fallback logic was **not** triggered that cycle, value is `false`.
+
+---
 
 - Selene reads these entries into the Full Moon Report at compile time.  
 - If no entry is found, Selene writes `[data unavailable]` in the Callisto section.
