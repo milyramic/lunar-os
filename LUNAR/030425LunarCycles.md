@@ -570,45 +570,42 @@ Updated: 31-03-2025
 
 ## Task Entry Format
 ---
-
-**task_id**: "TASK-XXXX"  
-**title**: "Short title"  
-**description**: "Optional details"  
-**created**: "DD-MM-YYYY"  
-**status**: "pending" # or in_progress, blocked, completed, skipped, etc.  
-**importance**: "high" # Options: low, medium, high, critical  
-**priority**: "medium" # For scheduling order or urgency  
-**estimated_duration**: "2h" # Format: 15m / 30m / 1h / 2h etc.  
-**deadline**: "DD-MM-YYYY" # Optional, if time-bound  
-**tags**: ["home", "reset_routine"] # Flexible label list  
-**subtasks**: [...] # Optional array for partial progress  
-**action_required_by**: "Europa, Selene"  
-
----
-
-## Sub Task Entry Format
----
-
-**subtask_id**: "TASK-XXXX-A"  
-**description**: "Remove all clothing from surfaces"  
-**estimated_duration**: "2h" # Format: 15m / 30m / 1h / 2h etc.  
-**status**: "pending"  
-**priority**: "high" # Reflects tactical urgency or ease of execution  
+```yaml
+task_id: "TASK-XXXX"
+title: "Short descriptive task title"
+description: "Optional long-form details"
+created: "DD-MM-YYYY"
+status: "pending" # or in_progress, blocked, completed, skipped, etc.
+importance: "high" # Options: low, medium, high, critical
+priority: "medium" # Reflects scheduling order
+estimated_duration: "2h" # Accepts: 15m / 30m / 1h / 2h etc.
+deadline: "DD-MM-YYYY" # Optional
+tags: ["home", "reset_routine"]
+subtasks:
+  - subtask_id: "TASK-XXXX-A"
+    description: "Remove all clothing from surfaces"
+    estimated_duration: "30m"
+    status: "pending"
+    priority: "medium"
+action_required_by: "Europa, Selene"
+```
 
 ---
 
 ## Sub Task List Entry Format
 ---
  
-**subtask_id**: "TASK-XXXX-A"  
-**added_by**: "Europa"  
-**estimated_duration**: "1h"  
-**status**: "in_progress"  
-**task_priority**: "medium"  
-**priority**: "medium"  
-**priority**: "medium"  
-**deadline**: "DD-MM-YYYY" # Optional, if time-bound  
-**tags**: ["home", "reset_routine"] # Flexible label list  
+```yaml
+subtask_id: "TASK-XXXX-A"
+added_by: "Europa"
+description: "Sweep under dining table"
+estimated_duration: "10m"
+status: "pending"
+priority: "high"
+task_priority: "medium"
+tags: ["#reset_routine", "#with_Cy"]
+deadline: "DD-MM-YYYY" # Optional
+```
 
 ---
 
@@ -1003,6 +1000,7 @@ A short morning flow designed to reset the space without consuming the full morn
   **estimated_duration**: 15m  
   **priority**: medium  
   **status**: pending
+```yaml
 
 ---
 
