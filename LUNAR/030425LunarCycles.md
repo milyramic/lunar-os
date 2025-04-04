@@ -632,19 +632,20 @@ Tasks often have multiple steps or stages. Instead of one flat `status:` (e.g., 
 
 ### Expanded Status Types
 Beyond simple fields like `pending` and `completed`, we allow:
-- **pending**: Not started.  
-- **in_progress**: Work on the task or subtask is actively underway.  
-- **blocked**: Waiting for an external dependency or condition to be resolved.  
-- **deferred**: Temporarily paused or postponed.  
-- **completed**: Finished successfully.  
-- **canceled**: Intentionally abandoned (no further work needed).  
-- **skipped**: Missed or not completed by the relevant time window.
+- `pending`: Not started.  
+- `in_progress`: Work on the task or subtask is actively underway.  
+- `blocked`: Waiting for an external dependency or condition to be resolved.  
+- `deferred`: Temporarily paused or postponed.  
+- `completed`: Finished successfully.  
+- `canceled`: Intentionally abandoned (no further work needed).  
+- `skipped`: Missed or not completed by the relevant time window.
 
 A single task may transition through these states.
 
 ### Subtasks Array
 Each task entry can optionally have a `subtasks:` field, which is an array of objects, for example:
-```
+
+```yaml
 task_id: "TASK-1001"
 title: "Plan weekend trip"
 created: "26-03-25"
@@ -953,106 +954,93 @@ This layer of the Custom Wheel honors planetary rhythms, seasonal sun cycles, an
 # Callisto
 
 ---
+```yaml
+task_id: "TASK-MORNING-002"
+created: "29-03-2025"
+status: "in_progress"
+importance: "high"
+priority: "medium"
+estimated_duration: "1h"
+tags: ["#morning", "#reset_routine", "#laundry", "#home", "#ABaware"]
+action_required_by: ["Callisto", "Europa", "Selene"]
+description: "A short morning flow designed to reset the space without consuming the full morning. A/B day logic applies for targeted reset zones. Diaper laundry is always the second load and only done on B Days."
 
-## Task: Morning Flow Reset (Callisto-led)
+subtasks:
+  - subtask_id: "TASK-MORNING-002-A"
+    description: "Start first laundry load (non-diaper unless rescheduled diaper day)"
+    estimated_duration: "8m"
+    priority: "high"
+    status: "pending"
 
-**task_id**: TASK-MORNING-002  
-**created**: 29-03-2025  
-**status**: in_progress  
-**importance**: high  
-**priority**: medium  
-**estimated_duration**: 1hr  
-**tags**: [#morning, #reset_routine, #laundry, #home, #ABaware]  
-**action_required_by**: Callisto, Europa, Selene  
+  - subtask_id: "TASK-MORNING-002-B"
+    description: "Clear drying rack"
+    estimated_duration: "10m"
+    priority: "high"
+    status: "pending"
 
-**description**:  
-A short morning flow designed to reset the space without consuming the full morning. A/B day logic applies for targeted reset zones. Diaper laundry is always the second load and only done on B Days.  
+  - subtask_id: "TASK-MORNING-002-C"
+    description: "Wash or load remaining dishes"
+    estimated_duration: "20m"
+    priority: "high"
+    status: "pending"
 
----
+  - subtask_id: "TASK-MORNING-002-D"
+    description: "Sweep kitchen and living room paths"
+    estimated_duration: "7m"
+    priority: "medium"
+    status: "pending"
 
-### Subtasks
+  - subtask_id: "TASK-MORNING-002-E"
+    description: |
+      Light room reset —
+      - A Day: clean toys + tidy living room
+      - B Day: clear floors in boys' rooms
+    estimated_duration: "15m"
+    priority: "medium"
+    status: "pending"
 
-- **subtask_id**: TASK-MORNING-002-A  
-  **description**: Start first laundry load (non-diaper unless rescheduled diaper day)  
-  **estimated_duration**: 8m  
-  **priority**: high  
-  **status**: pending  
-
-
-
-- **subtask_id**: TASK-MORNING-002-B  
-  **description**: Clear drying rack   
-  **estimated_duration**: 10m  
-  **priority**: high  
-  **status**: pending
-
-- **subtask_id**: TASK-MORNING-002-C  
-  **description**: Wash or load remaining dishes   
-  **estimated_duration**: 20m  
-  **priority**: high  
-  **status**: pending  
-
-- **subtask_id**: TASK-MORNING-002-D  
-  **description**: Sweep kitchen and living room paths  
-  **estimated_duration**: 7m  
-  **priority**: medium  
-  **status**: pending  
-
-- **subtask_id**: TASK-MORNING-002-E  
-  **description**: Light room reset —  
-  - A Day: clean toys + tidy living room  
-  - B Day: clear floors in boys' rooms  
-  **estimated_duration**: 15m  
-  **priority**: medium  
-  **status**: pending
 ```
-
----
-
 
 ## Task: Evening Flow Reset (Callisto-led)
 
-**task_id**: TASK-EVENING-003  
-**created**: 29-03-2025  
-**status**: pending  
-**importance**: high  
-**priority**: medium  
-**estimated_duration**: 25m  
-**tags**: [#evening, #reset_routine, #robo_vac_prep, #prep_next_day, #hygiene]  
-**action_required_by**: Callisto, Europa, Selene  
+```yaml
+task_id: "TASK-EVENING-003"
+created: "29-03-2025"
+status: "pending"
+importance: "high"
+priority: "medium"
+estimated_duration: "25m"
+tags: ["#evening", "#reset_routine", "#robo_vac_prep", "#prep_next_day", "#hygiene"]
+action_required_by: ["Callisto", "Europa", "Selene"]
+description: "End-of-day reset that prepares the home for rest, memory-building, and a smooth morning. Evening Flow runs after dinner and is added to the task list daily at 6PM. Robot vacuum requires cleared floors; fridge scan supports Titan’s grocery logic; brushing the boys’ teeth is essential for bedtime rhythm."
 
-**description**:  
-End-of-day reset that prepares the home for rest, memory-building, and a smooth morning. Evening Flow runs after dinner and is added to the task list daily at 6PM. Robot vacuum requires cleared floors; fridge scan supports Titan’s grocery logic; brushing the boys’ teeth is essential for bedtime rhythm.
+subtasks:
+  - subtask_id: "TASK-EVENING-003-A"
+    description: "Clear all floors for robot vacuum"
+    estimated_duration: "7m"
+    priority: "high"
+    status: "pending"
 
----
+  - subtask_id: "TASK-EVENING-003-B"
+    description: "Quick fridge scan (note anything for tomorrow’s groceries)"
+    estimated_duration: "5m"
+    priority: "medium"
+    status: "pending"
 
-### Subtasks
+  - subtask_id: "TASK-EVENING-003-C"
+    description: "Reset dining table for breakfast ease"
+    estimated_duration: "5m"
+    priority: "medium"
+    status: "pending"
 
-- **subtask_id**: TASK-EVENING-003-A  
-  **description**: Clear all floors for robot vacuum  
-  **estimated_duration**: 7m  
-  **priority**: high  
-  **status**: pending  
+  - subtask_id: "TASK-EVENING-003-D"
+    description: "Brush both boys’ teeth after dinner"
+    estimated_duration: "5m"
+    priority: "high"
+    status: "pending"
+```
 
-- **subtask_id**: TASK-EVENING-003-B  
-  **description**: Quick fridge scan (note anything for tomorrow’s groceries)  
-  **estimated_duration**: 5m  
-  **priority**: medium  
-  **status**: pending  
-
-- **subtask_id**: TASK-EVENING-003-C  
-  **description**: Reset dining table for breakfast ease  
-  **estimated_duration**: 5m  
-  **priority**: medium  
-  **status**: pending  
-
-- **subtask_id**: TASK-EVENING-003-D  
-  **description**: Brush both boys’ teeth after dinner  
-  **estimated_duration**: 5m  
-  **priority**: high  
-  **status**: pending
-
-Updated: 31-03-2025
+Updated: 04042025
   
 ---
 
