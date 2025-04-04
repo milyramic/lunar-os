@@ -67,12 +67,18 @@
 
 ## PROTOCOLS
 
-- Title - Version
-- **[PROTOCOL]**
+## Title - Version
+- **[PROTOCOL - use yaml when possible]**
 - Updated: DDMMYYYY
 
-# Report protocol - V1
-**Emoji prompt**: when prompt only includes a moon emoji, reply with the correct Daily Report
+## Report Prompt - V2
+```yaml
+protocol_id: "REPORT-PROMPT"
+created: "03-04-2025"
+assistant: "Selene"
+trigger: "moon emoji only"
+response: "Return appropriate Daily Report template"
+```
 
 ---
 
