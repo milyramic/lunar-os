@@ -94,75 +94,98 @@ It supports granular task progress tracking using the `status:` and `subtasks:` 
 
 ---
 ## INTERACTION & TASK MANAGEMENT PROTOCOLS
-
 This section outlines standard protocols for managing assistant-user interactions and task management workflows.
 
-protocol_id: "OAAT_PROTOCOL_V1"
+```yaml
+protocol_id: "OAAT_PROTOCOL_V2"
 title: "One-at-a-Time Protocol"
-created: "31-03-2025"
+created: "04-04-2025"
 applies_to: "All Lunar Assistants"
 owner: "Hyperion"
-purpose: "To structure user task lists into one-item-at-a-time flows, enabling clear, serialized progress and assistant collaboration."
+purpose: |
+  To break complex or attention-heavy asks into serialized, manageable steps. 
+  Encourages clarity, user pacing, and collaborative momentum through one-at-a-time flow.
+  Triggers automatically or via user invocation.
 
 ---
-```yaml
-protocol:
-  steps:
-    - step: "Receive List"
-      action: "User provides a numbered list of tasks."
-      output:
-        - type: "raw_list"
-        - structure: "Items are ordered and numbered by the user."
 
-    - step: "Create Local Memory Structure"
-      action: "Assistant converts list into local memory structure."
+trigger_logic:
+  - manual:
+      description: |
+        Activated when the user:
+          - Says the following task should be done "one at a time"
+          - Labels a list as OAAT
+      assistant_behavior: |
+        Confirm intent, start a serialized step structure, and offer a full summary of next steps.
+  - automatic:
+      description: |
+        Assistant may recommend OAAT flow when:
+          - Ask would benefit from breakdown
+          - Task exceeds one response’s worth of attention
+      assistant_behavior: |
+        Gently offer a proposed breakdown and ask for permission to proceed OAAT.
+
+---
+
+memory_handling:
+  persistent_memory:
+    record: "OAAT protocol exists"
+    structure: "No per-list data stored persistently"
+  instance_memory:
+    structure:
+      type: "yaml"
       format:
-        type: "yaml"
-        example:
-          items:
-            - number: 1
-              description: "[Task Description]"
-              status: "pending"
-            - number: 2
-              description: "[Task Description]"
-              status: "pending"
-          current_step: 1
-      scope: "Session-only"
-      archive: false
+        current_step: 1
+        list:
+          - number: 1
+            description: "Step description"
+            status: "pending"
+    keeper: "Assistant who initiated or owns the flow"
+  mneme_support:
+    query_behavior: |
+      Mneme may respond to: 
+      “Are there any OAAT lists currently in progress?”
+      “Which assistants have OAAT flows open?”
 
-    - step: "One-at-a-Time Execution"
-      action: "Assistant addresses only the task at current_step."
-      condition: "Assistant must wait for 'Next' before advancing."
+---
 
-    - step: "User-Controlled Progression"
-      commands:
-        - "Next"
-        - "Skip [number]"
-        - "Revisit [number]"
-        - "Cancel remaining"
-      behavior: "Update status or current_step accordingly."
+user-facing_behavior:
+  summary_structure:
+    when_triggered:
+      assistant_must_provide:
+        - overview_of_steps: true
+        - how_assistant_can_help: true
+        - how_user_can_help: true
+        - scope_questions_if_any: true
+    tone: "Assistant-specific — preserve natural cadence"
 
-    - step: "Recall Protocol"
-      user_triggers:
-        - "Recall current list"
-        - "Where are we?"
-      output: "Assistant reads back current task list and status."
+  control_commands:
+    - command: "Next"
+      effect: "Mark current step completed. Move to next."
+    - command: "Skip [number]"
+      effect: "Mark specified step skipped"
+    - command: "Revisit [number]"
+      effect: "Return to a previous step"
+    - command: "Cancel remaining"
+      effect: "Mark all unfinished steps canceled"
 
-    - step: "Completion"
-      trigger: "All tasks are marked completed, skipped, or canceled."
-      action: "Clear local memory structure."
+  request_status:
+    command: "Where are we?"
+    output: "Assistant reads back list with step statuses"
 
-    - step: "Conclusion Summary"
-      triggers:
-        - "User requests conclusion"
-        - "No more list items remaining after 'Next'"
-      output:
-        - summary:
-            - persistent_updates: "Any memories to log"
-            - file_notes: "Any file tasks to push to Atlas"
-            - unresolved_questions: "Flagged if any items were skipped without clear resolution"
-            - assistant_thoughts: "Any suggested next actions or ideas"
-        - optional_valediction: true
+  request_summary:
+    triggers:
+      - "We're done"
+      - "Finish it up"
+    assistant_behavior:
+      - mark_all_done: true
+      - provide_summary:
+          includes:
+            - unresolved_steps
+            - memory_notes
+            - file_tasks
+            - suggested_next_actions
+
 ```
 ---
 
