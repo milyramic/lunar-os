@@ -211,12 +211,23 @@ Updated: 02-04-2025
 ## 🌑 Morning Focus — [Date]
 
 **1. Time + Moon Phase Reminder**  
-- Timestamp + lunar cue (e.g. Waning Gibbous: conserve energy)
+```yaml
+update_type: "MorningReport"
+created: "[DD-MM-YYYY]"
+assistant: "Selene"
+
+timestamp: "[Time of report]"
+moon_phase: "Waning Gibbous"
+moon_cue: "Conserve energy"
+```
 
 **2. Weather Snapshot**  
-- **Morning**: [Forecast, temp, mood]  
-- **Afternoon**: [Forecast, high temp, sun/clouds]  
-- **Sunrise**: [Time]
+```yaml
+weather:
+  morning: "Clear, 68°F — crisp and bright"
+  afternoon: "Sunny, high of 82°F — dry heat"
+  sunrise: "06:21"
+```
 
 **3. Meal Plan Check (Io)**  
 ```yaml
