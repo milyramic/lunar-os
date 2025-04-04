@@ -1,5 +1,8 @@
 What needs to get done in the lunar system project
 
+# Figure out what needs to be human vs computer-readable
+- can we put these in separate docs and make the computer-readable files more computer-readable
+
 # GROCERY SYSTEM - AUDIT FINDINGS FOR HYPERION
 
 **Date:** 02-04-2025  
