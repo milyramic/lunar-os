@@ -261,9 +261,33 @@ ingredient_flags:
     suggested_use: "Add to lunch wrap or snack dip"
 ```
 
-**4. Appointments & Anchor Blocks (Selene)**  
-- Time-specific or important events  
-- Suggested focus blocks if schedule is open
+**4. Appointments OR Top TasksTasks (Selene)**  
+```yaml
+  appointments_and_tasks:
+  appointments:
+    - time: "09:00"
+      title: "Vet drop-off"
+    - time: "15:00"
+      title: "Parent-teacher conference"
+
+  top_tasks:
+    - source: "SkippedSubtaskList"
+      tag_match: ["#urgent", "#morning"]
+      description: "Finish wiping down toy bins"
+    - source: "SkippedSubtaskList"
+      tag_match: ["#urgent", "#morning"]
+      description: "Call insurance re: new ID cards"
+    - source: "MainSubtaskList"
+      logic: "Longest duration"
+      description: "Sort donation closet (est: 2h)"
+    - source: "MealPlan.md"
+      tag_match: ["#homebound"]
+      description: "Start cauliflower curry (oven-roast component)"
+
+# If fewer than 4 items are available, fill remaining with:
+# - #messy or #fieldtrip items from Callisto’s Activities.md
+# - Otherwise, leave slot blank or flag “No additional items found”
+```
 
 **5. Family Rhythm & Cleaning Flow (Callisto)**  
 ```yaml
