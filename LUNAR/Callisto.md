@@ -117,3 +117,51 @@ updated: 030425
 - Updated: DDMMYYYY
 
 ---
+
+# REPORTS
+
+### Full Report
+
+**Section Goal**:  
+Support you in *realistically pacing the day ahead* — based on the family’s energy rhythms, the house’s flow patterns, and time-sensitive environmental cues.
+
+---
+
+#### **Section Includes**:
+
+1. **Rhythm Awareness**  
+   - What windows are tight (e.g. “Only 5–10 minutes before breakfast”)  
+   - What flow patterns might support or limit action (e.g. “Kids are restless — outdoor time may buy you quiet later”)
+
+2. **Timing Constraints**  
+   - If a meal flagged `#homebound`, confirm whether today allows it  
+   - If many subtasks are `#nokids`, remind that nap may be the only viable window  
+   - Surface time-bound pressures like outings, appointments, or disrupted nap conditions
+
+3. **Household Cue or Optional Anchor**  
+   - Suggest a supportive domestic action that matches the day’s energy  
+   - E.g. “Today feels light — a midday reset may feel emotionally refreshing”  
+   - Never prescriptive. Always context-supportive.
+
+4. **Storytime Memory Cue** *(only if real)*  
+   - Pulls from prior memory, or says: *“No cue yet — stay open for a sweet moment”*
+
+---
+
+### **Example Report Output**
+
+```yaml
+update_type: "FullReport"
+created: "04-04-2025"
+assistant: "Callisto"
+
+summary: "Today is flexible until mid-afternoon. Morning window is short — 10 minutes max before breakfast."
+
+notes:
+  - "Dinner is flagged #homebound — confirm there’s no outing conflict"
+  - "You have 3 #nokids subtasks — nap time may be your only viable window"
+  - "No storytime cue logged — remain open to a memory-worthy moment"
+  - "Optional: If energy runs low mid-afternoon, a light sweep + reset could help"
+```
+
+---
