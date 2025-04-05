@@ -1,9 +1,15 @@
 What needs to get done in the lunar system project
+---
 
 # Figure out what needs to be human vs computer-readable
 - can we put these in separate docs and make the computer-readable files more computer-readable
+---
 
 # Activities.md
+---
+
+# PersonalRythm.md
+---
 
 # GROCERY SYSTEM - AUDIT FINDINGS FOR HYPERION
 
