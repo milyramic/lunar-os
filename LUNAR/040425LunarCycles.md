@@ -114,12 +114,7 @@ weather:
 notes:
   - "[Optional cue: Bring in laundry, etc.]"
 ```
-
 ---
-
-
-### ✅ What’s Solid:
-- Pulls real appointments with a timestamp
 
 ### 📋 Appointments + Events — Selene  
 ```yaml
