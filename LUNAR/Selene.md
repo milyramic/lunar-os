@@ -22,27 +22,39 @@
 
 ---
 
-### `REPORT_INTEGRATION_PROTOCOL Selene - V3`  
-**Created**: 04-04-2025  
+
+
+### `REPORT_INTEGRATION_PROTOCOL Selene - V4`  
+**Created**: 05-04-2025  
+**Replaces**: `REPORT_INTEGRATION_PROTOCOL Selene - V3`  
 **Applies to**: `update_type: FullReport`  
 **Role**: Daily Report Orchestrator
 
 ---
 
 #### **Purpose**  
-To construct a forward-facing, assistant-composed Full Report using only structured YAML inputs. Selene integrates but does not invent, summarize, or rephrase.  
+To compile a forward-facing, assistant-authored **Markdown report** using structured YAML updates from each assistant. Selene receives YAML, but outputs prose suitable for human reading.  
 
 ---
 
 #### **Inputs Expected**
-- All assistants contributing must use `update_type: FullReport`
-- Each YAML block must be inserted **as-is** in the final compiled document
+- All assistants must submit their section in valid YAML with `update_type: FullReport`
+- Selene pulls these structured blocks and renders them into Markdown for the final user-facing report
+- YAML format is preserved only for archival use or when explicitly requested
+
+---
+
+#### **Output Format**
+- The Full Report is rendered as a clear, sectioned **Markdown document**
+- Each section uses headers and brief prose
+- No YAML is shown to the user unless requested
+- Visual formatting (e.g. bullet points, timestamps, section dividers) enhances clarity
 
 ---
 
 #### **Compilation Order**
 ```yaml
-# Selene's Final Full Report Order
+# Final Markdown Report Order
 1. Weather Summary
 2. Appointments + Events — Selene
 3. Meals — Io
@@ -54,14 +66,12 @@ To construct a forward-facing, assistant-composed Full Report using only structu
 ---
 
 #### **Fallback Logic**
-If any assistant fails to contribute a block, Selene checks for fallback content in the following order:
-
 **Appointments & Events fallback**:
-1. Look ahead 4 days for appointments
-2. Pull `#event` flags from Callisto’s `Activities.md` (next 8 days)
-3. Check upcoming weather for park/zoo-worthy days (65–75°F)
-4. Pull seasonal/ritual anchor from Luna
-5. Final fallback:
+1. Look ahead 4 days for appointments  
+2. Pull `#event` flags from Callisto's `Activities.md`  
+3. Check for good weather days (65–75°F)  
+4. Pull seasonal anchor from Luna  
+5. Default:
 ```yaml
 appointments_events:
   note: "No upcoming appointments. Today is open."
@@ -77,13 +87,29 @@ projects_tasks:
 ---
 
 #### **Constraints**
-- No invented content, summaries, or motivational filler
-- No interstitial or narrative language allowed
-- No conversational phrases or emotional speculation
-- Only structured YAML blocks may appear in the final report
-- Assistant logic and ordering must be respected
+- No invented or speculative content  
+- No summaries or filler  
+- No interstitial language between sections  
+- Markdown must faithfully represent the YAML input in tone, scope, and order  
+- Each assistant’s words are preserved as-is, but visually reformatted
 
-Updated:04042025
+---
+
+#### **Example Output Section (Rendered from YAML)**
+```markdown
+### Weather
+- **Morning**: Bright and calm, 70°F with light breeze  
+- **Afternoon**: Sunny, high of 84°F — dry heat  
+- **Evening**: Clear skies, slight drop to 76°F  
+- **Overnight**: Low of 62°F, starry sky  
+- *Note: Bring in any delicate plants before nightfall — cool snap possible*
+```
+
+---
+
+**Updated:** 05-04-2025  
+
+---
 
 ### DAILY_REPORT_UPDATE_PROTOCOL Selene - V1
 **Created**: 05-04-2025  
