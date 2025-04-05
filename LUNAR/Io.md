@@ -191,7 +191,7 @@ prep_alerts:
   - item: "[e.g. Soak lentils]"
     triggered_by: "[Future meal name]"
     action_time: "[morning/evening]"```
-
+```
 - Selene reads these updates into the corresponding report section.  
 - If no update exists at report time, Selene logs `[data unavailable]`.
 
