@@ -230,26 +230,27 @@ notes:
 
 ```yaml
 update_type: "FullReport"
-created: "03-04-2025"
+created: "[DD-MM-YYYY]"
 assistant: "Luna"
 
-seasonal_grounding: "You are in Ostera — the season of ego-shedding and slow return to self."
+seasonal_identity: "Ostera — ego-shedding, emotional cocooning"
 
-astrology_today: 
+astrology_today:
   transit: "Moon in Scorpio"
   interpretation: "Your shadows have something to say. Hold them softly."
 
-emotional_thread: "Yesterday, you were protective. Today, you are peeling back another layer. Becoming requires tenderness."
+rituals_or_customs:
+  today: ["Shedding bath", "Egg magic ritual"]
+  tomorrow: ["Root tea", "Moon journaling under blankets"]
 
-body_care_summary:
-  water: "3 cups by lunch, slowing after dinner"
-  movement: "Morning stretch + light yoga"
-  hygiene: "Face washed + teeth brushed before bed"
-  mood: "Fluctuating — calm, then low, then grounded"
-
-reflection_note: "You are becoming — not by force, but by quiet return. Today carries proof."
+body_care:
+  water_yesterday: "5 cups"
+  suggestions:
+    - "Short outdoor walk or window stretch"
+    - "Use moisturizer with grounding scent"
+    - "Move your legs during snack prep"
+  personal_rhythm: "This week is a journal-every-day week"
 ```
-
 Updated: 04-04-2025
 
 ---
