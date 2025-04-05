@@ -283,34 +283,27 @@ weather:
 
 **3. Meal Plan Check (Io)**  
 ```yaml
-report_type: "MorningReport"
-created: "03-04-2025"
+update_type: "MorningReport"
+created: "[DD-MM-YYYY]"
 assistant: "Io"
 
-meals:
-  breakfast:
-    options:
-      - Sweet potato hash
-      - PB banana toast
-      - Skipped (snack plate later)
-    logic: "Potato bread still fresh. Toddler requested banana yesterday. Hash uses leftover veg."
+meal_pressure_scan:
+  summary: "Opened chickpeas + rye bread suggest hearty lunch. Fresh veg limited — use canned or pantry if needed."
+  spoilage_flags:
+    - item: "Sour cream"
+      status: "Opened 3 days ago"
+      suggested_use: "Add to lunch wrap or snack dip"
+    - item: "Potatoes"
+      status: "Sprouting"
+      suggested_use: "Roast tonight or freeze soon"
+  prep_alerts:
+    - item: "Soak lentils"
+      triggered_by: "Lentil sloppy joes"
+      action_time: "morning"
 
-  lunch_preview:
-    options:
-      - Lentil sloppy joes (#previousDayPrep)
-      - Turkey bagel sandwich
-      - Chickpea salad sandwich
-    logic: "Chickpeas opened yesterday. Rye bread available. Lentils must soak."
-
-prep_alerts:
-  - item: "Soak lentils"
-    triggered_by: "Lentil sloppy joes"
-    action_time: "morning"
-
-ingredient_flags:
-  - item: "Sour cream"
-    status: "Opened 3 days ago"
-    suggested_use: "Add to lunch wrap or snack dip"
+notes:
+  - "No major leftovers requiring use this morning"
+  - "Fridge protein is low — avoid back-to-back plant-only meals if possible"
 ```
 
 **4. Appointments OR Top TasksTasks (Selene)**  
