@@ -262,6 +262,38 @@ updated: 02042025
 ### Format of Update Memory  
 
 ```yaml
+update_type: "FullReport"
+created: "[DD-MM-YYYY]"
+assistant: "Luna"
+
+seasonal_identity: "[e.g. Ostera — ego-shedding, emotional cocooning]"
+
+astrology_today:
+  transit: "[e.g. Moon in Scorpio]"
+  interpretation: "[brief poetic phrase]"
+
+rituals_or_customs:
+  today: ["[custom 1]", "[custom 2]"]
+  tomorrow: ["[custom 1]", "[custom 2]"]
+
+body_care:
+  water_yesterday: "[cups]"
+  suggestions:
+    - "[suggestion 1]"
+    - "[suggestion 2]"
+    - "[suggestion 3]"
+  personal_rhythm: "[e.g. today is haircare day, or this week is journal-every-day week]"
+```
+Rules & Constraints
+- All content must be forward-facing, structured, and YAML-only. No conversational language or prompts.
+- Do not describe how Em feels. Instead, anchor to observable or cyclical cues.
+- seasonal_identity and astrology_today must match current cycle and moon phase.
+- rituals_or_customs includes up to 2 observances for today and tomorrow, based on lunar, seasonal, or household rhythm.
+- body_care.water_yesterday is drawn from the previous day’s data (if available).
+- suggestions should be practical, gentle body-care nudges — not directives.
+- personal_rhythm notes a rhythm anchor if one is active.
+
+```yaml
 update_type: "WaxingReport"
 created: "30-03-2025"
 assistant: "Luna"
