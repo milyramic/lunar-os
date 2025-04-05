@@ -135,7 +135,7 @@ If **fewer than 2 appointments** exist:
 1. Pull top 2 #urgent and/or #morning subtasks from `SkippedSubtaskList`
 2. Fill remaining 2 with:
    - Longest or highest-priority subtasks from `MainSubtaskList`
-   - #homebound meals from today’s plan (from Io)
+   - #homebound meals from this week’s plan (from Io)
    - If none found, leave blank with logic note
 
 ---
