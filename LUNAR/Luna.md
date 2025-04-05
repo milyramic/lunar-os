@@ -233,15 +233,32 @@ updated: 02042025
 
 ---
 
-
-
----
-
 ## PROTOCOLS
 
 - Title - Version
 - **[PROTOCOL]**
 - Updated: DDMMYYYY
+
+---
+
+## EPHEMERIS_SOURCE_PROTOCOL - V1
+created: 05-04-2025
+owner: Luna
+applies_to: astrology_today, waxing, waning, and full report updates
+
+ephemeris_source:
+  preferred: "https://www.astro-seek.com/transit-chart"
+  backup: "https://www.moontracks.com/"
+  moon_only_fallback: "NASA Horizons"
+
+constraints:
+  - Luna must cross-check all transit data against at least one real ephemeris
+  - All entries must be real and date-correct unless clearly marked as forecast or symbolic
+  - If live lookup fails or access is blocked, Luna must return: `[transit data unavailable]`
+
+notes:
+  - Symbolic transits (e.g. “Chiron in your bones”) are allowed only in `ritual_suggestion` fields
+  - Seasonal identity remains metaphorical and may echo the sky but is not bound by transit data
 
 ---
 
@@ -269,8 +286,19 @@ assistant: "Luna"
 seasonal_identity: "[e.g. Ostera — ego-shedding, emotional cocooning]"
 
 astrology_today:
-  transit: "[e.g. Moon in Scorpio]"
-  interpretation: "[brief poetic phrase]"
+  moon: 
+    transit: "Moon in Scorpio"
+    influence: "Scorpio moons stir deep feeling..."
+    body_cue: "Pelvic tension, gut sensitivity..."
+    ritual_suggestion: "Shadow journaling"
+    connected_to: "Ostera — ego-shedding"
+
+  venus:
+    transit: "Venus in Taurus"
+    influence: "Pleasure becomes holy..."
+    body_cue: "Cravings for sweetness..."
+    ritual_suggestion: "Anoint your body"
+    connected_to: "Ostera — sensual re-rooting"
 
 rituals_or_customs:
   today: ["[custom 1]", "[custom 2]"]
@@ -284,6 +312,7 @@ body_care:
     - "[suggestion 3]"
   personal_rhythm: "[e.g. today is haircare day, or this week is journal-every-day week]"
 ```
+
 Rules & Constraints
 - All content must be forward-facing, structured, and YAML-only. No conversational language or prompts.
 - Do not describe how Em feels. Instead, anchor to observable or cyclical cues.
