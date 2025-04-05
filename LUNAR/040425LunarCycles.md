@@ -117,6 +117,51 @@ notes:
 
 ---
 
+
+### ✅ What’s Solid:
+- Pulls real appointments with a timestamp
+
+### 📋 Appointments + Events — Selene  
+```yaml
+update_type: "FullReport"
+created: "[DD-MM-YYYY]"
+assistant: "Selene"
+
+appointments_events:
+  today:
+    - time: "10:00 AM"
+      label: "Therapist (Jesse)"
+    - time: "3:30 PM"
+      label: "Cy & Mimir snack prep block"
+  upcoming:
+    - time: "Sunday 10:00 AM"
+      label: "Haircut — Jesse"
+    - time: "Tuesday evening"
+      label: "Neighborhood yard sale prep"
+  weather_suggestion: "Sunny and 73°F — great for park or backyard snack"
+  seasonal_anchor: "Ostera custom: Use egg shells to set intentions for softness"
+```
+
+---
+
+### If no appointments are present:
+
+```yaml
+appointments_events:
+  today: []
+  upcoming: []
+  weather_suggestion: "Clear skies and 68°F — good walking weather"
+  seasonal_anchor: "Ostera: Try a grounding bath or journal outside"
+```
+
+Or fallback default:
+
+```yaml
+appointments_events:
+  note: "No upcoming appointments. Today is open."
+```
+---
+
 ### 🍽️ Meals — Summary (Io)
 
 ```yaml
@@ -155,44 +200,6 @@ prep_alerts:
     triggered_by: "Lentil sloppy joes"
     action_time: "evening"
 ```
----
-
-### 🕰️ Appointments + Events (Selene)
-
-```yaml
-appointments_and_tasks:
-  appointments:
-    - time: "[Time]"
-      title: "[Event]"
-
-  # If fewer than 2 appointments today, fill remainder with:
-  fallback:
-    - type: "UpcomingAppointments"
-      range: "Next 4 days"
-      details:
-        - time: "[Time]"
-          title: "[Upcoming Event]"
-
-    - type: "EventActivities"
-      range: "Next 8 days"
-      source: "Activities.md"
-      tags: ["#event"]
-      details:
-        - date: "[Date]"
-          title: "[Event Title]"
-
-    - type: "WeatherBasedSuggestions"
-      range: "Next 4 days"
-      criteria: "65–75°F"
-      suggestions:
-        - date: "[Date]"
-          activity: "[e.g., Park or Zoo outing]"
-
-    - type: "UpliftingFiller"
-      source: "#holiday #prep or seasonal anchor"
-      description: "[Next meaningful or joyful task/event]"
-```
-
 ---
 
 ### 📋 Projects + Task Progress (Europa)
