@@ -46,8 +46,8 @@ To construct a forward-facing, assistant-composed Full Report using only structu
 ```yaml
 # Selene's Final Full Report Order
 1. Weather Summary
-2. Meals — Io
-3. Appointments + Events — Selene
+2. Appointments + Events — Selene
+3. Meals — Io
 4. Projects + Tasks — Europa (placeholder if inactive)
 5. Home & Logistics — Callisto
 6. Inner World & Identity — Luna
