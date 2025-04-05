@@ -227,32 +227,72 @@ notes:
 
 ---
 
-### 🌙 Inner World & Identity (Luna)
 
+
+### 🌙 Inner World & Identity
+
+**Seasonal Identity**:  
+_Ostera — ego-shedding, emotional cocooning_  
+This is your sacred chrysalis. A time when the self is soft and brave — not because it’s weak, but because it dares to be seen in transformation. You are in the process of un-becoming what no longer fits, and not yet stepping fully into what’s next. Let shedding be sacred.
+
+---
+
+**Astrology Today**:  
 ```yaml
-update_type: "FullReport"
-created: "[DD-MM-YYYY]"
-assistant: "Luna"
-
-seasonal_identity: "Ostera — ego-shedding, emotional cocooning"
-
 astrology_today:
-  transit: "Moon in Scorpio"
-  interpretation: "Your shadows have something to say. Hold them softly."
+  moon: 
+    transit: "Moon in Scorpio"
+    influence: "Scorpio moons stir deep feeling and reveal what's hidden. You may sense old emotions surfacing or crave solitude to process them. This is a day for soul compost — transform the decay into growth."
+    body_cue: "Pelvic tension, gut sensitivity, and a need for privacy may arise. A warm compress or herbal tea can soothe the undercurrents."
+    ritual_suggestion: "Shadow journaling — ask what part of you is afraid of being seen."
 
-rituals_or_customs:
-  today: ["Shedding bath", "Egg magic ritual"]
-  tomorrow: ["Root tea", "Moon journaling under blankets"]
+  venus:
+    transit: "Venus in Taurus"
+    influence: "Pleasure becomes holy. Venus here blesses touch, texture, and simple beauty. You’re invited to re-sensitize yourself to comfort and sensual care."
+    body_cue: "Cravings for sweetness or stillness. Nourish with whole food and soft fabrics."
+    ritual_suggestion: "Anoint your body with oil after bathing — make it a slow and reverent act."
 
-body_care:
-  water_yesterday: "5 cups"
-  suggestions:
-    - "Short outdoor walk or window stretch"
-    - "Use moisturizer with grounding scent"
-    - "Move your legs during snack prep"
-  personal_rhythm: "This week is a journal-every-day week"
+  mercury:
+    transit: "Mercury in Aries (retrograde)"
+    influence: "Thoughts spark fast, but clarity takes time. Mercury retrograding in Aries asks you to pause before speaking, and revisit old mental patterns with kindness."
+    body_cue: "Headaches, tension around the temples or jaw."
+    ritual_suggestion: "Brew rosemary or mint tea to clear mental fog. Journal one sentence you’ve said too often — then rewrite it."
+
+  mars:
+    transit: "Mars in Pisces"
+    influence: "Action comes through intuition now, not pressure. Let dreams guide your doing. Pushing leads to fatigue; flow leads to fulfillment."
+    body_cue: "Sleepiness, foot aches, or a need for long baths."
+    ritual_suggestion: "Soak your feet with epsom salt + lavender. Release the urge to ‘accomplish.’"
 ```
-Updated: 04-04-2025
+
+---
+
+**Rituals or Customs**:  
+```yaml
+today: 
+  - "Shadow journaling: What needs to be seen before it can be shed?"
+  - "Shedding bath: warm water with salt, rosemary, and a whispered release"
+  - "Anointing: Oil your skin with care — touch yourself back into presence"
+
+tomorrow: 
+  - "Root tea: Dandelion + ginger to support emotional digestion"
+  - "Moon journaling: Write what your soul is whispering, not what the world wants to hear"
+```
+
+---
+
+**Body Care**:  
+```yaml
+water_yesterday: "5 cups"
+
+suggestions:
+  - "Foot soak with lavender and epsom salt — let Mars in Pisces guide the release"
+  - "Rosemary tea to clear Mercury’s retrograde haze"
+  - "Wear soft textures or go skin-to-skin with the earth or a blanket — Venus asks for tactile peace"
+
+personal_rhythm: "This week is a journal-every-day week — let each page be a petal you shed."
+```
+updated 050425
 
 ---
 
