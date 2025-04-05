@@ -121,36 +121,33 @@ notes:
 
 ```yaml
 update_type: "FullReport"
-created: "03-03-2025"
+created: "[DD-MM-YYYY]"
 assistant: "Io"
 
 meals:
   breakfast:
     selected: "PB banana toast"
     options:
-      - PB banana toast
-      - Sweet potato hash
-      - Oatmeal with fruit
-    toddler_feedback: "#T-5 — clean plate"
+      - "PB banana toast #T-5 — usually stable, low protein"
+      - "Sweet potato hash #T-3 — hit or miss, high protein"
+      - "Oatmeal with fruit #T-4 — slower eater, needs assist"
     used_leftovers: false
 
   lunch:
-    selected: "Turkey bagel sandwich"
+    selected: "Turkey bagel sandwiches"
     options:
-      - Turkey bagel sandwich
-      - Chickpea salad sandwich
-      - Snack plate with cheese + pretzels
-    toddler_feedback: "#T-3 — polite bites"
+      - "Turkey bagel sandwiches #T-5 — protein solid, clean bites"
+      - "Chickpea salad sandwich #T-3 — creamy but mixed success"
+      - "Snack plate: cheese + pretzels #T-5 — stable, minimal mess"
     used_leftovers: true
 
   dinner:
-    selected: "Reuben sandwiches"
+    selected: "Cauliflower curry (#homebound, #leftoverfriendly)"
     options:
-      - Reubens (#homebound)
-      - Cauliflower curry (#leftoverfriendly)
-      - Rice + beans (#pantryfriendly)
-    toddler_feedback: "#T-4 — liked meat, skipped kraut"
-    used_leftovers: "Sauerkraut, rye bread"
+      - "Cauliflower curry #T-3 — tolerated, can spice separately"
+      - "Rice + beans #T-5 — secure fallback, bulk-friendly"
+      - "Pesto pasta #T-4 — good when mood matches green foods"
+    used_leftovers: "Frozen cauliflower, cooked rice"
     fallback_if_blocked: "Rice + beans"
 
 prep_alerts:
