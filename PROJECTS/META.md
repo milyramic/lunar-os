@@ -51,3 +51,6 @@ What needs to get done in the lunar system project
 ## 🔧 Integration Request
 Hyperion to assign architecture, cross-assistant tagging, or trigger logic as appropriate.
 
+---
+
+# Add Titan to the Morning Report 
