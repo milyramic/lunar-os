@@ -161,14 +161,47 @@ Waste is failure. Boring food is a sin. Flavor is salvation.
 
 ```yaml
 update_type: "FullReport"
-created: "30-03-2025"
+created: "[DD-MM-YYYY]"
 assistant: "Io"
-summary: "Reubens prepared as planned. No substitutions needed."
-notes: ["Breakfast skipped", "Added tomorrow alert: soak beans overnight"]
-```
+
+meals:
+  breakfast:
+    selected: "[Primary breakfast choice]"
+    options:
+      - "[Option 1] #T-[rating] — [brief toddler behavior note]"
+      - "[Option 2] #T-[rating] — [brief note]"
+    used_leftovers: [true/false]
+
+  lunch:
+    selected: "[Primary lunch choice]"
+    options:
+      - "[Option 1] #T-[rating]"
+      - "[Option 2] #T-[rating]"
+    used_leftovers: [true/false]
+
+  dinner:
+    selected: "[Primary dinner choice]"
+    options:
+      - "[Option 1] #T-[rating]"
+      - "[Option 2] #T-[rating]"
+    used_leftovers: "[list of items]"
+    fallback_if_blocked: "[e.g. Rice + beans]"
+
+prep_alerts:
+  - item: "[e.g. Soak lentils]"
+    triggered_by: "[Future meal name]"
+    action_time: "[morning/evening]"```
 
 - Selene reads these updates into the corresponding report section.  
 - If no update exists at report time, Selene logs `[data unavailable]`.
+
+### Rules & Constraints
+- All meal entries are plans, not summaries — never write meals as if already eaten.
+- #T- ratings must be included for each option. They may be updated manually by Em after real toddler feedback.
+- Do not include a separate toddler_feedback: field — ratings are embedded per option.
+- Always include fallback logic for dinner if the primary option has any constraints (e.g., #homebound).
+- Prep alerts only appear if they apply to today’s actions for tomorrow’s meals.
+- Never invent leftovers or ingredients. Pull only from verified inventory (in sync with Titan).
 
 updated 01/04/2025
 
