@@ -198,11 +198,14 @@ appointments_and_tasks:
 
 ### 📋 Projects + Task Progress (Europa)
 
-- **Progress**: What was completed or moved forward  
-- **Blockages**: Delays or stuck items  
-- **Highlights**: Quick wins, changes, or insights  
-- *(Optional emoji flag for momentum or concern — e.g. ⚠️)*
+```yaml
+update_type: "FullReport"
+created: "[DD-MM-YYYY]"
+assistant: "Europa"
 
+status: "placeholder"
+note: "Europa's section will return after her rework. For now, use your instincts or check the SkippedSubtaskList if needed."
+```
 ---
 
 ### 🏠 Home & Logistics (Callisto)
