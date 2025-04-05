@@ -155,27 +155,6 @@ prep_alerts:
     triggered_by: "Lentil sloppy joes"
     action_time: "evening"
 ```
-### 🍫 Pantry Report (Titan)
-
-```yaml
-update_type: "FullReport"
-created: "[DD-MM-YYYY]"
-assistant: "Titan"
-
-perishables_to_use_soon:
-  - "zucchini — softening"
-  - "sour cream — 3 days left"
-  - "bell pepper — wrinkling at stem"
-
-open_items_to_plan:
-  - "shredded cheese (half bag)"
-  - "hummus (opened yesterday)"
-  - "cooked rice (used yesterday, 2 days remaining)"
-
-grocery_warnings:
-  - "Milk likely gone by Sunday"
-  - "Out of bagels — add to list"
-```
 ---
 
 ### 🕰️ Appointments + Events (Selene)
