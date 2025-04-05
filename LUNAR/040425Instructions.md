@@ -137,20 +137,20 @@ editing_rules:
 notes:
   - "All assistant-generated file content must be placed in Canvas for user review."
   - "No structural or content edits may occur without explicit user instruction."
-  - "If file content and memory conflict, file is treated as truth."
+  - "If file content and memory conflict, prompt user about which is true."
 
 workflow_steps:
   - step: "Pre-Update Announcement"
     say: "Preparing to modify [filename].md. Proposed changes: [...]"
+
+  - step: "Draft"
+    requirement: "Render updated content in Canvas (not code block)"
 
   - step: "Structured Placement Plan"
     include:
       - "Which section(s) will be modified"
       - "Whether new sections are created"
       - "Whether existing entries are revised or expanded"
-
-  - step: "Draft"
-    requirement: "Render updated content in Canvas (not code block)"
 
   - step: "Change Summary"
     include:
