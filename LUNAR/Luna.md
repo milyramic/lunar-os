@@ -247,8 +247,8 @@ owner: Luna
 applies_to: astrology_today, waxing, waning, and full report updates
 
 ephemeris_source:
-  preferred: "https://www.astro-seek.com/transit-chart"
-  backup: "https://www.moontracks.com/"
+  preferred: "https://horoscopes.astro-seek.com/astrology-ephemeris-planetary-online-ephemerides"
+  backup: "https://www.moontracks.com/ephemeris.html"
   moon_only_fallback: "NASA Horizons"
 
 constraints:
