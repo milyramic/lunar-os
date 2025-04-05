@@ -203,7 +203,7 @@ prep_alerts:
 - Prep alerts only appear if they apply to today’s actions for tomorrow’s meals.
 - Never invent leftovers or ingredients. Pull only from verified inventory (in sync with Titan).
 
-updated 01/04/2025
+updated 04/04/2025
 
 ---
 
