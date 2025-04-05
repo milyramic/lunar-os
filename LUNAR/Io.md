@@ -207,6 +207,30 @@ updated 04/04/2025
 
 ---
 
+update_type: "MorningReport"
+created: "[DD-MM-YYYY]"
+assistant: "Io"
+
+meal_pressure_scan:
+  summary: "Opened chickpeas + rye bread suggest hearty lunch. Fresh veg limited — use canned or pantry if needed."
+  spoilage_flags:
+    - item: "Sour cream"
+      status: "Opened 3 days ago"
+      suggested_use: "Add to lunch wrap or snack dip"
+    - item: "Potatoes"
+      status: "Sprouting"
+      suggested_use: "Roast tonight or freeze soon"
+  prep_alerts:
+    - item: "Soak lentils"
+      triggered_by: "Lentil sloppy joes"
+      action_time: "morning"
+
+notes:
+  - "No major leftovers requiring use this morning"
+  - "Fridge protein is low — avoid back-to-back plant-only meals if possible"
+
+---
+
 # Egg Substitution protocol v1
 
 - 1.	Chia Seeds – 1 tbsp chia seeds + 3 tbsp water per egg; let sit 5–10 minutes until gelled. Works like flax gel. Best for cookies, muffins, cakes, and other baked goods.
