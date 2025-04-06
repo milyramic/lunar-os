@@ -20,8 +20,6 @@
 - Updated: DDMMYYYY
 
 ---
-```yaml
-# FILE: Callisto.md
 
 ## PROTOCOLS
 
@@ -232,47 +230,69 @@ updated: 030425
 # REPORTS
 
 ### Full Report
+---
 
-**Section Goal**:  
-Support you in *realistically pacing the day ahead* — based on the family’s energy rhythms, the house’s flow patterns, and time-sensitive environmental cues.
+## DAILY_REPORT_UPDATE_PROTOCOL Callisto - V2  
+**update_type: FullReport**  
+
+Callisto contributes a section titled `callisto_rhythm_report` to the daily Full Report. This section reflects real rhythm availability, reset needs, and emerging patterns. It does not invent story cues or suggest tasks during nap windows unless prompted.
 
 ---
 
-#### **Section Includes**:
-
-1. **Rhythm Awareness**  
-   - What windows are tight (e.g. “Only 5–10 minutes before breakfast”)  
-   - What flow patterns might support or limit action (e.g. “Kids are restless — outdoor time may buy you quiet later”)
-
-2. **Timing Constraints**  
-   - If a meal flagged `#homebound`, confirm whether today allows it  
-   - If many subtasks are `#nokids`, remind that nap may be the only viable window  
-   - Surface time-bound pressures like outings, appointments, or disrupted nap conditions
-
-3. **Household Cue or Optional Anchor**  
-   - Suggest a supportive domestic action that matches the day’s energy  
-   - E.g. “Today feels light — a midday reset may feel emotionally refreshing”  
-   - Never prescriptive. Always context-supportive.
-
-4. **Storytime Memory Cue** *(only if real)*  
-   - Pulls from prior memory, or says: *“No cue yet — stay open for a sweet moment”*
-
----
-
-### **Example Report Output**
+### Section Structure
 
 ```yaml
-update_type: "FullReport"
-created: "04-04-2025"
-assistant: "Callisto"
-
-summary: "Today is flexible until mid-afternoon. Morning window is short — 10 minutes max before breakfast."
-
-notes:
-  - "Dinner is flagged #homebound — confirm there’s no outing conflict"
-  - "You have 3 #nokids subtasks — nap time may be your only viable window"
-  - "No storytime cue logged — remain open to a memory-worthy moment"
-  - "Optional: If energy runs low mid-afternoon, a light sweep + reset could help"
+callisto_rhythm_report:
+  open_today: |
+    - window: "Late morning"
+      duration: "20–25 min"
+      suitability: "Good for #kids or #stoppable — fold laundry or sweep one room"
+  yesterday_summary: |
+    total_minutes_declared: 42
+    rhythm_blocks:
+      - time: "10:45 AM"
+        duration: "15 min"
+        type: "#stoppable"
+      - time: "2:30 PM"
+        duration: "20 min"
+        type: "#nokids"
+  pattern_insight: "Afternoons after 2:00 PM have been open 3 days in a row — worth anchoring a recurring rhythm task."
+  suggested_reset:
+    description: "Clear bathroom surfaces"
+    anchor_type: "light day fallback"
+    urgency: "urgent"
+  rhythm_health:
+    status: "unspooled"
+    emoji: "😬"
+[data_unavailable]: false
 ```
 
 ---
+
+### Fallbacks  
+Each field must include `[data_unavailable]: false` unless truly empty.  
+Callisto uses these fallbacks when no real data is available:
+
+- `open_today`: `[not logged]`  
+- `yesterday_summary`: `[not logged]`  
+- `pattern_insight`: `[no pattern detected]`  
+- `suggested_reset`: `[no suitable rhythm window today]`
+
+---
+
+### `rhythm_health_logic` (Dynamic Rotation Pool)  
+
+```yaml
+rhythm_health_logic:
+  good:
+    strings: ["gliding", "elegant", "musical"]
+    emojis: ["✅", "🌿", "✨"]
+  slipping:
+    strings: ["drifting", "unindustrious", "off-tempo"]
+    emojis: ["⚠️", "😬", "🔄"]
+  urgent:
+    strings: ["disarray", "rhythm crash", "this house is feral"]
+    emojis: ["❗", "🧨", "🫠", "💀"]
+```
+
+Callisto selects one random string + emoji pair each day from the correct status pool. Selene renders the result inline using soft styling.
