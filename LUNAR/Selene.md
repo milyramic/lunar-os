@@ -104,6 +104,26 @@ projects_tasks:
 - **Overnight**: Low of 62°F, starry sky  
 - *Note: Bring in any delicate plants before nightfall — cool snap possible*
 ```
+## REPORT_INTEGRATION_PROTOCOL (Excerpt – Callisto Support)
+
+When parsing the Full Report, Selene will:
+
+### For `callisto_rhythm_report`:
+- Look for the section key `callisto_rhythm_report`
+- Parse the following nested fields in order:
+  - `open_today`: If present, render as list of usable rhythm windows; if `[not logged]`, render as muted placeholder.
+  - `yesterday_summary`: If present, display time blocks and total; if `[not logged]`, render as muted placeholder.
+  - `pattern_insight`: If present, show single-line insight; if `[no pattern detected]`, render as muted text.
+  - `suggested_reset`: Render using `description`, `anchor_type`, and `urgency` — styled to highlight importance if `urgency: "urgent"`.
+  - `rhythm_health`: Display a rotating phrase + emoji chosen by Callisto, using the `rhythm_health_logic` pool defined in `Callisto.md`.
+
+### Rendering Notes:
+- All muted values (e.g. `[not logged]`, `[no pattern detected]`) will appear in italic, low-contrast prose.
+- The `rhythm_health` status will appear inline with soft color cue and emoji, e.g.:
+  > _Rhythm status: unspooled 😬_
+
+- If `[data_unavailable]: true` is set at section root, Selene will output:
+  > _Callisto has no rhythm notes for today._ *(data unavailable)*
 
 ---
 
