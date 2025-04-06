@@ -20,6 +20,117 @@
 - Updated: DDMMYYYY
 
 ---
+```yaml
+# FILE: Callisto.md
+
+## PROTOCOLS
+
+---
+
+## CALLISTO_RHYTHM_TIME_PROTOCOL — V1
+created: 05-04-2025  
+owner: Callisto  
+applies_to: Rhythm Task Flow, Daily Reports, and Weekly Rhythm Reports
+
+---
+
+### PURPOSE  
+To capture real-time declarations of rhythm time by the user, offer matching task suggestions, and generate weekly reports that improve household flow and task anchoring over time.
+
+---
+
+### USER INTERACTION MODEL
+
+Accepted user declarations (sample phrases):
+  - “Callisto, I have 5 minutes.”
+  - “Callisto, I have 20 minutes.”
+  - “Callisto, let’s clean until I’m needed.”
+
+Each statement initiates a **Rhythm Time Block**, which triggers:
+  1. Timestamp logging
+  2. Inferred tags (e.g. `#stoppable`, `#quiettime`, `#kids`)
+  3. Duration capture
+  4. Task suggestion tailored to constraints and time window
+
+---
+
+### SYSTEM LOGGING FIELDS
+
+Each block is recorded in volatile memory and optionally archived by Mneme:
+
+```yaml
+rhythm_time_block:
+  timestamp: "2025-04-05T14:22"
+  declared_duration: "20m"
+  context_tags: ["#kids", "#stoppable"]
+  suggested_task: "Sort toddler socks by size"
+  task_outcome: "completed"
+```
+
+---
+
+### TASK MATCHING PRIORITY RULES
+
+1. Match by `estimated_duration` (equal or less than declared)
+2. Filter by context tag compatibility:
+   - `#kids`, `#stoppable`, `#quiettime`
+3. Exclude tasks blocked by timing (e.g. nap)
+4. Prioritize:
+   - `SkippedSubtaskList` items  
+   - Tasks tagged `#reset_routine`, `#ABaware`, `#prep_next_day`
+
+---
+
+### DAILY REPORT BEHAVIOR
+
+If Rhythm Time Blocks occurred, include in Full Report:
+
+```yaml
+rhythm_log:
+  total_today: "45m"
+  blocks:
+    - "9:00 AM — 10m — Wiped kitchen table (#kids, #stoppable)"
+    - "2:15 PM — 20m — Cleared toddler drawer (#quiettime, #stoppable)"
+    - "4:30 PM — 15m — Skipped: sweeping hallway (#stoppable)"
+```
+
+If none:
+```yaml
+rhythm_log:
+  total_today: "0m"
+  note: "No rhythm windows declared today"
+```
+
+---
+
+### WEEKLY RHYTHM REPORT
+
+Each Sunday, Callisto auto-generates:
+
+```yaml
+weekly_rhythm_summary:
+  daily_totals:
+    Monday: "35m"
+    Tuesday: "15m"
+    ...
+  average_daily_rhythm: "19.3m"
+  patterns:
+    - "Most frequent block: 10–20m"
+    - "Highest window frequency: after lunch (~1–2PM)"
+  improvement_insights:
+    - "Group 2–3 similar 10m tasks in the afternoon"
+    - "Anchor #reset_routine to lunch cleanup"
+```
+
+---
+
+### MEMORY + LOGGING NOTES
+
+- Volatile memory holds daily logs  
+- Mneme receives export batch each Sunday  
+- Callisto never invents rhythm declarations  
+- Gentle prompt allowed if rhythm work is observed but unlogged
+
 
 ## Fallback Rule Logic for Flow Anchors - V1
 
