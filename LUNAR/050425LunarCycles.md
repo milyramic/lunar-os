@@ -213,19 +213,26 @@ note: "Europa's section will return after her rework. For now, use your instinct
 
 ```yaml
 update_type: "FullReport"
-created: "[DD-MM-YYYY]"
+created: "05-04-2025"
 assistant: "Callisto"
 
-summary: "Rhythm time declared in two windows today. Best block was post-nap — you moved through the drawer reset beautifully."
+callisto_rhythm_report:
+  open_today: "[not logged]"
 
-rhythm_log:
-  total_today: "35m"
-  blocks:
-    - "10:15 AM — 10m — Wiped down table (#kids)"
-    - "2:30 PM — 25m — Cleared toddler drawer (#quiettime)"
-notes:
-  - "Afternoon blocks trend strong — consider anchoring reset tasks here"
-  - "No missed tasks flagged"
+  yesterday_summary: "[not logged]"
+
+  pattern_insight: "[no pattern detected]"
+
+  suggested_reset:
+    description: "Clear bathroom surfaces"
+    anchor_type: "light day fallback"
+    urgency: "urgent"
+
+  rhythm_health:
+    status: "unspooled"
+    emoji: "😬"
+
+[data_unavailable]: false
 ```
 ---
 
