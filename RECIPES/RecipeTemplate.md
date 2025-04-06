@@ -1,8 +1,8 @@
 # Recipe Name
 
-**Meal Type**: Breakfast / Lunch / Dinner / Snack / Side / Misc\
-**Primary Category**: High Protein / High Fiber / Poultry / Egg / Vegetarian / etc.\
-**Tags**: #highprotein #snack #easy #mealprep
+**Meal Type**: Breakfast / Lunch / Dinner / Snack / Side / Misc  
+**Primary Category**: High Protein / High Fiber / Poultry / Egg / Vegetarian / etc.  
+**Tags**: #sweet #T-3 #pantryfriendly #mealprep #acid #BASSSSS  
 
 ---
 
@@ -33,23 +33,31 @@
 
 ## 🔁 Variations & Substitutions
 
-- Variation 1: briefly describe
+- Variation 1: briefly describe  
 - Variation 2: briefly describe
 
 ---
 
 ## 🧠 Cooking Notes
 
-- Best conditions or seasons to prepare.
-- Personal or mood-based suggestions.
+- Best conditions or seasons to prepare.  
+- Personal or mood-based suggestions.  
 - Adjustments tested and recommended.
 
 ---
 
 ## 📦 Storage Recommendations
 
-- Refrigerator: Duration and storage method (e.g., up to 3 days, airtight container).
+- Refrigerator: Duration and storage method (e.g., up to 3 days, airtight container).  
 - Freezer: Suitable for freezing? Include instructions if yes.
+
+---
+
+## 🍽️ Suggested Pairings
+
+**If this is a side dish, suggest 2–3 compatible main dishes.**  
+**If this is a main dish, suggest 2–3 appropriate side dishes.**  
+Pairings should reflect real flavor, tone, or balance logic — not oppositional or filler combinations.
 
 ---
 
