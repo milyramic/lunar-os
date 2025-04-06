@@ -212,31 +212,20 @@ note: "Europa's section will return after her rework. For now, use your instinct
 ### 🏠 Home & Logistics (Callisto)
 
 ```yaml
-update_type: "FullReport"
-created: "05-04-2025"
-assistant: "Callisto"
-
 callisto_rhythm_report:
   open_today: "[not logged]"
-
   yesterday_summary: "[not logged]"
-
   pattern_insight: "[no pattern detected]"
-
   suggested_reset:
     description: "Clear bathroom surfaces"
     anchor_type: "light day fallback"
     urgency: "urgent"
-
   rhythm_health:
     status: "unspooled"
     emoji: "😬"
-
 [data_unavailable]: false
 ```
 ---
-
-
 
 ### 🌙 Inner World & Identity
 
