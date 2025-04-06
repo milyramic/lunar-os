@@ -213,18 +213,20 @@ note: "Europa's section will return after her rework. For now, use your instinct
 
 ```yaml
 update_type: "FullReport"
-created: "04-04-2025"
+created: "[DD-MM-YYYY]"
 assistant: "Callisto"
 
-summary: "Today is flexible until mid-afternoon. Morning window is short — 10 minutes max before breakfast."
+summary: "Rhythm time declared in two windows today. Best block was post-nap — you moved through the drawer reset beautifully."
 
+rhythm_log:
+  total_today: "35m"
+  blocks:
+    - "10:15 AM — 10m — Wiped down table (#kids)"
+    - "2:30 PM — 25m — Cleared toddler drawer (#quiettime)"
 notes:
-  - "Dinner is flagged #homebound — confirm there’s no outing conflict"
-  - "You have 3 #nokids subtasks — nap time may be your only viable window"
-  - "No storytime cue logged — remain open to a memory-worthy moment"
-  - "Optional: If energy runs low mid-afternoon, a light sweep + reset could help"
+  - "Afternoon blocks trend strong — consider anchoring reset tasks here"
+  - "No missed tasks flagged"
 ```
-
 ---
 
 
