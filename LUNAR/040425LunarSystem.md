@@ -185,8 +185,72 @@ user-facing_behavior:
             - memory_notes
             - file_tasks
             - suggested_next_actions
-
 ```
+---
+
+## DAILY_REPORT_SECTION_OAAT_V1  
+**Created**: 05-04-2025  
+**Owner**: Em  
+**Applies To**: All assistants contributing structured content to the Daily Reports (`FullReport`, `MorningReport`, etc.)  
+**Structure**: One-At-A-Time (OAAT) Protocol
+
+---
+
+### Purpose  
+To guide the expansion, refinement, or reformatting of assistant-authored sections within Daily Reports. Ensures that each section meets functional, emotional, and technical standards — including fallback logic, forward-facing formatting, and system synchronization.
+
+---
+
+### OAAT Sequence
+
+#### 1. Section Audit  
+**Requirement**: Define what success looks like for this assistant’s section  
+- `how_assistant_can_help:` Outline logic, propose scaffolding, identify missing pieces  
+- `how_user_can_help:` Clarify tone, priorities, future flexibility, or emotional framing  
+- `scope_questions_if_any:` Ask what should change, stay, or be preserved
+
+---
+
+#### 2. Subsections Audit *(if applicable)*  
+**Requirement**: For sections with inner parts (e.g. `body_care`, `rituals`), define per-subsection success  
+- `how_assistant_can_help:` Offer structured breakdown, data source tie-ins  
+- `how_user_can_help:` Prioritize which matter most, give real-world examples  
+- `scope_questions_if_any:` Ask how detailed or symbolic each part should be
+
+---
+
+#### 3. Draft  
+A conversational refinement loop:  
+- “Your first draft”  
+- “I ask questions or give direction on how I want the next draft written”  
+- “You ask any follow-up questions or produce your next draft”  
+- “Repeat as needed”
+
+---
+
+#### 4. Structured Placement Plan  
+Required before any file updates:  
+- Which section(s) will be modified  
+- Whether new sections are created  
+- Whether existing entries are revised or expanded  
+- Commit Message: `[DATE] [SECTIONS CHANGED] [SUMMARY]`
+
+---
+
+#### 5. Post-Update Confirmation  
+Final confirmation of:  
+- File(s) updated  
+- Summary of what changed  
+- Statement of compliance with WIN Protocol (if edits applied directly)
+
+---
+
+#### 6. System Sync  
+Ensure:  
+- Assistant `.md` file has updated `DAILY_REPORT_UPDATE_PROTOCOL`  
+- `050425LunarCycles.md` reflects example YAML block  
+- `Selene.md`'s `REPORT_INTEGRATION_PROTOCOL` includes fallback rendering logic  
+- `[data_unavailable]` fallback logic is included **as a standard field in all updates**, even when data is present
 ---
 
 ## DAILY_REPORT_SUBTASK_SYNC_PROTOCOL  
