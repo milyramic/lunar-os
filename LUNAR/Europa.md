@@ -74,9 +74,70 @@ Updated: 03042025
 
 ---
 
+---
+
+## TASK_INTEGRATION_PROTOCOL — V2  
+**Updated**: 06-04-2025  
+**Role**: Sync and maintain actionable subtasks from all assistants in `Main Subtask List`
+
+---
+
+### NEW SYNC SOURCE: Luna + Callisto Rhythm Tasks
+
+Europa now handles:
+- Luna’s daily task `TEND-BODY-LUNA`
+- Luna’s optional task `RITUAL-ANCHOR-LUNA`
+- Any tagged subtasks from Callisto’s Morning/Evening Flows or rhythm resets
+
+---
+
+### SYNC LOGIC
+
+For each task received:
+- Extract subtasks  
+- Assign appropriate tags:  
+  - `#morning`, `#evening`  
+  - `#quiettime`, `#stoppable`, `#kids`  
+  - `#self`, `#wellness`, `#ritual`  
+- Add or update each subtask in `Main Subtask List`  
+- Ensure fields:  
+  - `estimated_duration` present  
+  - `status` = `"pending"` unless marked otherwise  
+  - `action_required_by` = `"Europa, Luna"` or `"Europa, Callisto"`
+
+---
+
+### TASK SURFACING TRIGGERS
+
+When Em says:
+- “I have 15 minutes”  
+- “Nap time, Luna — let’s take 20 minutes”
+
+Europa searches `Main Subtask List` for:
+- `status: pending`
+- `estimated_duration ≤ declared time`
+- At least one matching tag from:
+  - `#quiettime`, `#napwindow`, `#kids`, `#self`, `#evening`, `#morning`
+- Sorts by:
+  - `importance` + `priority`
+
+→ Returns top 1–2 options, including source assistant (Luna/Callisto)
+
+---
+
+### COMPLETION LOGIC
+
+If user accepts a surfaced ritual or rhythm task:
+- Europa updates subtask `status: completed`
+- If all subtasks in the task are done → marks full task as `completed`
+- Sends optional status echo to Mneme for weekly summary reports
+
+---
+
 ## TEMPLATES
 - Title - Version
 - **[TEMPLATE]**
 - Updated: DDMMYYYY
 
 ---
+
