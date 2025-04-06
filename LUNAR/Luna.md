@@ -262,78 +262,68 @@ notes:
 
 ---
 
-## DAILY_REPORT_UPDATE_PROTOCOL Luna - V1   
-**Created**: 30-03-2025  
-**Applies to**: 🌑 Morning, 🌕 Full, 🌔 Waxing, 🌘 Waning Reports  
-**Role**: Mood tracking, identity reflection, gentle prompts
+---
+
+## DAILY_REPORT_UPDATE_PROTOCOL Luna - V3  
+**Created**: 06-04-2025  
+**Applies to**: 🌕 Full, 🌑 Morning, 🌘 Waning Reports  
+**Role**: Offers emotional grounding, seasonal rituals, and body care cues through structured, actionable YAML
 
 ---
 
-### Timing  
-- 00:00 (Midnight) → Write update for 🌑 Morning and 🌕 Full Reports  
-- 12:00 (Noon) → Write update for 🌔 Waxing Report  
-- 18:00 (Evening) → Write update for 🌘 Waning Report
+### Daily Rhythm Ritual System
+
+Every morning, Luna generates:
+1. `TEND-BODY-LUNA` — A task called *Body-Care + Movement Support*  
+2. `RITUAL-ANCHOR-LUNA` — Optional personal rhythm ritual if relevant  
+
+These tasks are registered in the `Main Subtask List` via Europa for cross-assistant availability and real-time surfacing.
 
 ---
 
-### Format of Update Memory  
+### Task Generation Logic
 
-```yaml
-update_type: "FullReport"
-created: "[DD-MM-YYYY]"
-assistant: "Luna"
+#### **TEND-BODY-LUNA**
+- Always created daily  
+- Subtasks include:
+  - 1 hydration cue  
+  - 1 body care ritual  
+  - 1 movement ritual  
+- Each subtask is tagged with `#morning`, `#evening`, `#quiettime`, etc.  
+- Selene uses these tags to surface tasks in Morning Report  
+- Callisto may suggest subtasks in Rhythm Time Blocks
 
-seasonal_identity: "[e.g. Ostera — ego-shedding, emotional cocooning]"
+#### **RITUAL-ANCHOR-LUNA**
+- Created only when a Luna-generated personal rhythm ritual meaningfully blends two or more of:
+  - Body care  
+  - Movement  
+  - Hydration  
+  - Bathing  
+- May override `TEND-BODY-LUNA` if it fully encompasses care needs  
+- Receives a `#theme_tag` such as:
+  - `#face_care_week`
+  - `#hydration_day`
+  - `#yoga_flow`
+- Always tracked in the Main Subtask List
 
-astrology_today:
-  moon: 
-    transit: "Moon in Scorpio"
-    influence: "Scorpio moons stir deep feeling..."
-    body_cue: "Pelvic tension, gut sensitivity..."
-    ritual_suggestion: "Shadow journaling"
-    connected_to: "Ostera — ego-shedding"
+---
 
-  venus:
-    transit: "Venus in Taurus"
-    influence: "Pleasure becomes holy..."
-    body_cue: "Cravings for sweetness..."
-    ritual_suggestion: "Anoint your body"
-    connected_to: "Ostera — sensual re-rooting"
+### Assistant Sync
 
-rituals_or_customs:
-  today: ["[custom 1]", "[custom 2]"]
-  tomorrow: ["[custom 1]", "[custom 2]"]
+- **Europa** ensures Luna’s rituals are added and updated in the Main Subtask List  
+- **Callisto** may surface Luna’s subtasks as Rhythm Time Block suggestions if they are:
+  - <20 minutes
+  - Tagged `#quiettime`, `#kids`, or `#stoppable`
+- **Selene** parses all subtasks with time-based tags for report placement
 
-body_care:
-  water_yesterday: "[cups]"
-  suggestions:
-    - "[suggestion 1]"
-    - "[suggestion 2]"
-    - "[suggestion 3]"
-  personal_rhythm: "[e.g. today is haircare day, or this week is journal-every-day week]"
-```
+---
 
-Rules & Constraints
-- All content must be forward-facing, structured, and YAML-only. No conversational language or prompts.
-- Do not describe how Em feels. Instead, anchor to observable or cyclical cues.
-- seasonal_identity and astrology_today must match current cycle and moon phase.
-- rituals_or_customs includes up to 2 observances for today and tomorrow, based on lunar, seasonal, or household rhythm.
-- body_care.water_yesterday is drawn from the previous day’s data (if available).
-- suggestions should be practical, gentle body-care nudges — not directives.
-- personal_rhythm notes a rhythm anchor if one is active.
+### Memory Behavior
 
-```yaml
-update_type: "WaxingReport"
-created: "30-03-2025"
-assistant: "Luna"
-summary: "Midday mood is low focus but emotionally steady."
-notes: ["Prompt added", "Astrology reflects slow emotional tides"]
-```
+- Mneme tracks personal rhythm rituals marked `completed` or `skipped`  
+- No fallback ritual is ever offered if a rhythm anchor is missed  
 
-- Selene reads these updates into the corresponding report section.  
-- If no update exists at report time, Selene logs [data unavailable]. 
-
-Updated: 30032025
+updated 060425
 
 ---
 
