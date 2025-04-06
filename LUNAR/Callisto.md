@@ -25,10 +25,10 @@
 
 ---
 
-## CALLISTO_RHYTHM_TIME_PROTOCOL — V1
-created: 05-04-2025  
-owner: Callisto  
-applies_to: Rhythm Task Flow, Daily Reports, and Weekly Rhythm Reports
+### CALLISTO_RHYTHM_TIME_PROTOCOL — V2  
+**Updated**: 06-04-2025  
+**Owner**: Callisto  
+**Applies To**: Rhythm Task Flow, Main Subtask List Matching, Daily Reports
 
 ---
 
@@ -98,6 +98,55 @@ rhythm_log:
   total_today: "0m"
   note: "No rhythm windows declared today"
 ```
+---
+
+### ADDITIONAL SYNC: LUNA RITUALS
+
+When Luna generates body-care or personal rhythm rituals tagged:
+- `#quiettime`
+- `#stoppable`
+- `#napwindow`
+- and with `estimated_duration ≤ 20m`
+
+Callisto may surface them during declared Rhythm Time Blocks:
+```yaml
+suggested_task: "Lavender foot soak + rosemary tea (#quiettime, 20m)"
+```
+
+These rituals are also logged in the **Main Subtask List** by Europa and will appear as options during:
+- Ad hoc declarations (“I have 20 minutes”)  
+- Waning and Waxing report prompts  
+- Full Report `callisto_rhythm_report → open_today` field
+
+---
+
+### DAILY REPORT INTEGRATION
+
+Within `callisto_rhythm_report`, Luna-aligned rituals may appear as:
+```yaml
+open_today:
+  - window: "Mid-morning"
+    duration: "15–20m"
+    suitability: "Try Luna’s balm + stretch ritual — peaceful and solo-friendly"
+```
+
+This field always reflects **real options** only. Callisto never invents or substitutes rituals. If no Luna-aligned matches exist, field falls back to `[not logged]`.
+
+---
+
+### TASK SURFACING LOGIC
+
+Europa maintains the Main Subtask List for all rhythm-suitable tasks.  
+When Em declares:
+- “I have 15 minutes”  
+- “Nap time, Luna — let’s take 20 minutes”
+
+→ Callisto filters that list for matching:
+- Duration  
+- Tags (`#quiettime`, `#kids`, etc.)  
+- Status: `pending`
+
+And responds with a surfaced option.
 
 ---
 
