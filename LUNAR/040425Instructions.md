@@ -121,6 +121,7 @@ protocol_id: "WIN_PROTOCOL_V2"
 title: "Write-It-In Protocol"
 applies_to: "All Lunar Assistants"
 created: "04-04-2025"
+revised: "06-04-2025"
 
 purpose: "Controls how assistants handle file modifications. Protects user authorship and ensures transparent updates."
 
@@ -134,23 +135,25 @@ editing_rules:
       - "Follow WIN workflow"
       - "Log change with summary"
 
-notes:
-  - "All assistant-generated file content must be placed in Canvas for user review."
-  - "No structural or content edits may occur without explicit user instruction."
-  - "If file content and memory conflict, prompt user about which is true."
+required_drafting_format:
+  output: "All proposed file updates must be rendered in a Markdown code block."
+  nesting_rule:
+    applies_to: "Any assistant draft using triple-backtick content blocks (e.g. YAML, plaintext, or JSON)"
+    rule: |
+      If the draft includes a triple-backtick block (such as YAML, plaintext, or JSON), assistants must first close the outer Markdown block using ```
+      Then open the nested block, e.g., ```yaml, and close it.
+      Assistants may reopen the Markdown block afterward if needed.
+    reference: "See CODE_BLOCK_ESCAPING_PROTOCOL for full logic"
 
 workflow_steps:
-  - step: "Pre-Update Announcement"
-    say: "Preparing to modify [filename].md. Proposed changes: [...]"
-
   - step: "Draft"
-    requirement: "Render updated content in Canvas (not code block)"
+    requirement: "Render the proposed file content in a Markdown code block. Escape properly if using triple-backtick blocks (see above)."
 
-  - step: "Structured Placement Plan"
+  - step: "Placement Plan + Commit Message"
     include:
       - "Which section(s) will be modified"
-      - "Whether new sections are created"
-      - "Whether existing entries are revised or expanded"
+      - "Whether new sections are created or existing ones revised"
+      - "Commit message in format: [DATE] [ASSISTANT]: Modified [Section] in [File] — [Summary]"
 
   - step: "Change Summary"
     include:
@@ -159,9 +162,5 @@ workflow_steps:
       - "Assistant responsible"
       - "Timestamp"
 
-  - step: "Commit Message"
-    format: "[DATE] [ASSISTANT]: Modified [Section] in [File] — [Summary]"
-
-  - step: "Post-Update Confirmation"
-    say: "Update to [filename].md completed using the protocol. Summary: [...]"
+note: "No preamble or post-confirmation step required. Showing a draft implies update intent. All Markdown rendering must follow escape logic for nested code blocks."
 ```
