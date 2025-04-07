@@ -1,0 +1,303 @@
+subtask_list:
+- subtask_id: TASK-DISHES-SURFACE-RESET-06
+  added_by: Europa
+  description: Quick sweep of kitchen floor
+  estimated_duration: 5m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-LAUNDRY-DECLUTTER-01
+  added_by: Europa
+  description: "Remove all dirty laundry from Mimir\u2019s Room"
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"Urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-LAUNDRY-DECLUTTER-04
+  added_by: Europa
+  description: "Remove dirty laundry from Cy\u2019s Room"
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-LAUNDRY-DECLUTTER-06
+  added_by: Europa
+  description: Quick sweep/tidy of Laundry Hall floor
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BATHROOM-DEEP-CLEAN-02
+  added_by: Europa
+  description: "Sanitize Mimir\u2019s changing table"
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BATHROOM-DEEP-CLEAN-03
+  added_by: Europa
+  description: Wipe mirrors and remaining surfaces
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BATHROOM-DEEP-CLEAN-04
+  added_by: Europa
+  description: Remove clutter and dirty towels from bathroom
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BATHROOM-DEEP-CLEAN-05
+  added_by: Europa
+  description: Restock bathroom supplies
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BATHROOM-DEEP-CLEAN-06
+  added_by: Europa
+  description: Quick sweep/mop of bathroom floor
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-DISHES-SURFACE-RESET-02
+  added_by: Europa
+  description: Clear and sanitize kitchen counters
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-DISHES-SURFACE-RESET-03
+  added_by: Europa
+  description: Clean kitchen sink and wipe down stove
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-DISHES-SURFACE-RESET-04
+  added_by: Europa
+  description: Wipe washer/dryer surfaces
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-DISHES-SURFACE-RESET-05
+  added_by: Europa
+  description: Start trash/pantry/fridge scan for expired items
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"low"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-TOY-SORT-04
+  added_by: Europa
+  description: Consolidate sorted piles / prep donate bag or storage bin
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"medium"'
+  tags: []
+- subtask_id: TASK-BEDROOM-RESET-02
+  added_by: Europa
+  description: Remove loose laundry (clean or dirty)
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"high"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BEDROOM-RESET-03
+  added_by: Europa
+  description: Make the bed with fresh bedding
+  estimated_duration: 10m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-LAUNDRY-DECLUTTER-02
+  added_by: Europa
+  description: Sort all laundry piles in Laundry Hall (clean vs dirty)
+  estimated_duration: 15m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-LAUNDRY-DECLUTTER-03
+  added_by: Europa
+  description: Start first load of laundry (includes staging for next load)
+  estimated_duration: 15m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-LAUNDRY-DECLUTTER-05
+  added_by: Europa
+  description: Empty trash bins (bathroom, kitchen, diaper)
+  estimated_duration: 15m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BEDROOM-RESET-06
+  added_by: Europa
+  description: Vacuum/sweep the floor
+  estimated_duration: 15m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BEDROOM-RESET-01
+  added_by: Europa
+  description: Clear all floor clutter and visible trash
+  estimated_duration: 20m
+  status: pending
+  priority: medium
+  task_priority: '"high"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BEDROOM-RESET-04
+  added_by: Europa
+  description: Clear and wipe down all surfaces (nightstands, dressers, etc.)
+  estimated_duration: 20m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BEDROOM-RESET-07
+  added_by: Europa
+  description: Buffer for physical fatigue or emotional friction (clothing, memory
+    items)
+  estimated_duration: 20m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BATHROOM-DEEP-CLEAN-01
+  added_by: Europa
+  description: Sanitize bathroom sink, toilet, and tub
+  estimated_duration: 25m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-TOY-SORT-02
+  added_by: Europa
+  description: "Sort toys in Mimir\u2019s Room"
+  estimated_duration: 25m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"medium"'
+  tags: []
+- subtask_id: TASK-TOY-SORT-03
+  added_by: Europa
+  description: Sort toys in Living Room
+  estimated_duration: 25m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"medium"'
+  tags: []
+- subtask_id: TASK-BEDROOM-RESET-05
+  added_by: Europa
+  description: Sort miscellaneous items (bags, cords, papers)
+  estimated_duration: 25m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-TOY-SORT-01
+  added_by: Europa
+  description: "Sort toys in Cy\u2019s Room (keep/store/donate)"
+  estimated_duration: 30m
+  status: pending
+  priority: medium
+  task_priority: '"medium"'
+  importance: '"medium"'
+  tags: []
+- subtask_id: TASK-DISHES-SURFACE-RESET-01
+  added_by: Europa
+  description: Wash and put away all dishes
+  estimated_duration: 35m
+  status: pending
+  priority: medium
+  task_priority: '"urgent"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-TOY-SORT-05
+  added_by: Europa
+  description: Restore function and peace to the bedroom by clearing floor clutter,
+    surface buildup, and bedding mess. Emotional buffer included.
+  estimated_duration: 2h
+  status: pending
+  priority: medium
+  task_priority: '"high"'
+  importance: '"medium"'
+  tags: []
+- subtask_id: TASK-LAUNDRY-DECLUTTER-07
+  added_by: Europa
+  description: "Sanitize core hygiene areas, reset Mimir\u2019s changing station,\
+    \ and restore surface clarity in the bathroom."
+  estimated_duration: 1h30m
+  status: pending
+  priority: medium
+  task_priority: '"low"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-BATHROOM-DEEP-CLEAN-07
+  added_by: Europa
+  description: Clear out backlog of dishes, sanitize kitchen surfaces, and perform
+    a fast visual refresh of food prep zones.
+  estimated_duration: 1h30m
+  status: pending
+  priority: medium
+  task_priority: '"low"'
+  importance: '"high"'
+  tags: []
+- subtask_id: TASK-DISHES-SURFACE-RESET-07
+  added_by: Europa
+  description: "Declutter and organize toys across Cy\u2019s Room, Mimir\u2019s Room,\
+    \ and Living Room to reduce floor mess and decision fatigue."
+  estimated_duration: 1h45m
+  status: pending
+  priority: medium
+  task_priority: '"low"'
+  importance: '"high"'
+  tags: []
