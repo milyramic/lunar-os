@@ -1,0 +1,64 @@
+  # TASK-MORNING-002 — Morning Reset Routine
+  - title: "Start first laundry load (non-diaper unless B Day diaper reschedule)"
+    tags: ["#morning", "#reset_routine", "#laundry", "#home", "#ABaware"]
+    estimated_duration: "8m"
+    priority: "high"
+    status: "pending"
+    source_task_id: "TASK-MORNING-002"
+
+  - title: "Clear drying rack"
+    tags: ["#morning", "#reset_routine", "#home"]
+    estimated_duration: "10m"
+    priority: "high"
+    status: "pending"
+    source_task_id: "TASK-MORNING-002"
+
+  - title: "Wash or load remaining dishes"
+    tags: ["#morning", "#reset_routine", "#kitchen"]
+    estimated_duration: "20m"
+    priority: "high"
+    status: "pending"
+    source_task_id: "TASK-MORNING-002"
+
+  - title: "Sweep kitchen and living room paths"
+    tags: ["#morning", "#floors", "#reset_routine"]
+    estimated_duration: "7m"
+    priority: "medium"
+    status: "pending"
+    source_task_id: "TASK-MORNING-002"
+
+  - title: "Light room reset — A Day: clean toys + tidy living room; B Day: clear boys’ room floors"
+    tags: ["#morning", "#reset_routine", "#ABaware", "#kids"]
+    estimated_duration: "15m"
+    priority: "medium"
+    status: "pending"
+    source_task_id: "TASK-MORNING-002"
+
+  # TASK-EVENING-003 — Evening Prep Flow
+  - title: "Clear all floors for robot vacuum"
+    tags: ["#evening", "#reset_routine", "#robo_vac_prep"]
+    estimated_duration: "7m"
+    priority: "high"
+    status: "pending"
+    source_task_id: "TASK-EVENING-003"
+
+  - title: "Quick fridge scan (note anything for tomorrow’s groceries)"
+    tags: ["#evening", "#reset_routine", "#prep_next_day"]
+    estimated_duration: "5m"
+    priority: "medium"
+    status: "pending"
+    source_task_id: "TASK-EVENING-003"
+
+  - title: "Reset dining table for breakfast ease"
+    tags: ["#evening", "#reset_routine", "#prep_next_day"]
+    estimated_duration: "5m"
+    priority: "medium"
+    status: "pending"
+    source_task_id: "TASK-EVENING-003"
+
+  - title: "Brush both boys’ teeth after dinner"
+    tags: ["#evening", "#hygiene", "#kids", "#reset_routine"]
+    estimated_duration: "5m"
+    priority: "high"
+    status: "pending"
+    source_task_id: "TASK-EVENING-003"
