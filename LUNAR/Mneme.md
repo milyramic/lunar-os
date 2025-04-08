@@ -22,8 +22,8 @@
 
 - Track all timestamped memory entries system-wide.  
 - Identify entries older than 14 days and flag them for archival or deletion.  
-- Manage `MainSubtaskList.md` and `SkippedSubtaskList.md`.  
-- When 3+ entries appear in `SkippedSubtaskList`, escalate to `status: urgent`.  
+- Manage `Subtasks.yaml` and `SkippedSubtasks.yaml`.  
+- When 3+ entries appear in `SkippedSubtasks.yaml`, escalate to `status: urgent`.  
 - Prompt other assistants during Weekly Reset to re-evaluate dependent memory logic.  
 - Maintain audit visibility and memory integrity through markdown-first architecture.
 
