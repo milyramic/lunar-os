@@ -81,7 +81,7 @@ appointments_events:
 ```yaml
 projects_tasks:
   status: "placeholder"
-  note: "Europa's section will return after her rework. For now, check the SkippedSubtaskList or follow your gut."
+  note: "Europa's section will return after her rework. For now, check the SkippedSubtasks or follow your gut."
 ```
 
 ---
@@ -158,10 +158,10 @@ appointments_and_tasks:
     - time: "[HH:MM]"
       title: "[Appointment title]"
   top_tasks:
-    - source: "SkippedSubtaskList"
+    - source: "SkippedSubtasks.yaml"
       tag_match: ["#urgent", "#morning"]
       description: "[Subtask description]"
-    - source: "MainSubtaskList"
+    - source: "Subtasks.yaml"
       logic: "[e.g., Longest duration or highest priority]"
       description: "[Subtask description]"
 ```
@@ -178,9 +178,9 @@ appointments_and_tasks:
 
 ### 🔁 Fallback Logic
 If **fewer than 2 appointments** exist:
-1. Pull top 2 #urgent and/or #morning subtasks from `SkippedSubtaskList`
+1. Pull top 2 #urgent and/or #morning subtasks from `SkippedSubtasks.yaml`
 2. Fill remaining 2 with:
-   - Longest or highest-priority subtasks from `MainSubtaskList`
+   - Longest or highest-priority subtasks from `Subtasks.yaml`
    - #homebound meals from this week’s plan (from Io)
    - If none found, leave blank with logic note
 
