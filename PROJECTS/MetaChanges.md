@@ -67,3 +67,75 @@ Hyperion to assign architecture, cross-assistant tagging, or trigger logic as ap
 > These aren't required, but may be missing if part of your future flow:
 **File	Status	Note**
 - OAATQueue.md	🔍 Not uploaded	If you're tracking OAAT task lists in external files, this is where they'd go.
+---
+
+# 🗺️ External Task Extraction Plan (Nested OAAT)
+_Last updated: 08-04-2025  
+Owner: Europa (logic), Mneme (audit), Moon GPT (reflection only)_
+
+## GOAL
+Find and format all tasks and subtasks embedded in external documents.  
+This includes rituals, fallback routines, daily anchors, and checklist-style flows.
+
+---
+
+## 📘 1 — File Selection
+
+Identify target documents for scanning:
+- Luna.md
+- Callisto.md
+- Selene.md
+- Activities.yaml
+- 050425LunarCycles.md
+- Any holiday/seasonal logic files
+- [Future: Recipes.md, TopTasks.md, etc.]
+
+---
+
+## 🔍 2 — Extraction Pass (per file)
+
+For each selected document:
+- Scan for checklists, bullet lists, and actionable items  
+- Search for embedded rituals, fallback triggers, or “do this now” logic  
+- Flag anything that appears serial, repeated, or triage-worthy
+
+---
+
+## 🧠 3 — Classification
+
+Label each extracted item as one of:
+- `task` — standalone, multi-subtask or longform action
+- `subtask` — atomic or support step under a parent action
+- `ritual` — symbolic or emotional anchor (may be excluded)
+- `report_logic_only` — used for Selene's prose only, not system tasks
+
+---
+
+## 🧱 4 — Structure the Output
+
+Use formal templates:
+- **Task →** Task Template V1  
+- **Subtask →** Subtask Template V1  
+
+Apply:
+- `estimated_duration`
+- `tags` (e.g. #quiettime, #kids, #reset_routine)
+- `assistant_owner`
+- `parent_task_id` if applicable
+
+---
+
+## 📂 5 — Assign Destination
+
+- Structured tasks → `MainTaskList.yaml`
+- Subtasks → `Subtasks.yaml`
+- Excluded but significant → `ARCHIVE.md`
+- Unclear → Hold for manual review by Em
+
+---
+
+## Optional Enhancements
+
+- Add `source_file` and `line_reference` for traceability  
+- Use `OAAT-label: [source-name]` for grouped imports
+- Validate with Mneme for archival sync
