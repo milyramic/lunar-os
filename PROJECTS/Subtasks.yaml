@@ -1,64 +1,101 @@
-  # TASK-MORNING-002 — Morning Reset Routine
-  - title: "Start first laundry load (non-diaper unless B Day diaper reschedule)"
-    tags: ["#morning", "#reset_routine", "#laundry", "#home", "#ABaware"]
-    estimated_duration: "8m"
-    priority: "high"
-    status: "pending"
-    source_task_id: "TASK-MORNING-002"
+# SUBTASKS.yaml
+# Main Subtask List (Europa-managed)
+# Last updated: 08-04-2025
 
-  - title: "Clear drying rack"
-    tags: ["#morning", "#reset_routine", "#home"]
-    estimated_duration: "10m"
-    priority: "high"
-    status: "pending"
-    source_task_id: "TASK-MORNING-002"
+subtasks:
 
-  - title: "Wash or load remaining dishes"
-    tags: ["#morning", "#reset_routine", "#kitchen"]
-    estimated_duration: "20m"
-    priority: "high"
+  - subtask_id: "TASK-DR-0001-A"
+    parent_task_id: "TASK-DR-0001"
+    description: "Wash all dishes or run/load dishwasher in batches"
     status: "pending"
-    source_task_id: "TASK-MORNING-002"
+    tags: ["#home", "#urgent"]
+    estimated_duration: "30–45m"
+    visibility_scope: ["Europa", "Callisto"]
+    logged_by: "Europa"
+    completion_notes: null
 
-  - title: "Sweep kitchen and living room paths"
-    tags: ["#morning", "#floors", "#reset_routine"]
-    estimated_duration: "7m"
-    priority: "medium"
+  - subtask_id: "TASK-DR-0001-B"
+    parent_task_id: "TASK-DR-0001"
+    description: "Wipe down kitchen counters, stove, and sink"
     status: "pending"
-    source_task_id: "TASK-MORNING-002"
-
-  - title: "Light room reset — A Day: clean toys + tidy living room; B Day: clear boys’ room floors"
-    tags: ["#morning", "#reset_routine", "#ABaware", "#kids"]
+    tags: ["#home", "#urgent"]
     estimated_duration: "15m"
-    priority: "medium"
-    status: "pending"
-    source_task_id: "TASK-MORNING-002"
 
-  # TASK-EVENING-003 — Evening Prep Flow
-  - title: "Clear all floors for robot vacuum"
-    tags: ["#evening", "#reset_routine", "#robo_vac_prep"]
-    estimated_duration: "7m"
-    priority: "high"
+  - subtask_id: "TASK-DR-0001-C"
+    parent_task_id: "TASK-DR-0001"
+    description: "Take out trash and start kitchen reset"
     status: "pending"
-    source_task_id: "TASK-EVENING-003"
+    estimated_duration: "10m"
 
-  - title: "Quick fridge scan (note anything for tomorrow’s groceries)"
-    tags: ["#evening", "#reset_routine", "#prep_next_day"]
+  - subtask_id: "TASK-DR-0001-D"
+    parent_task_id: "TASK-DR-0001"
+    description: "Sort and start 2–3 loads of laundry"
+    status: "pending"
+    estimated_duration: "30–45m"
+
+  - subtask_id: "TASK-DR-0001-E"
+    parent_task_id: "TASK-DR-0001"
+    description: "Fold and put away at least one completed load"
+    status: "pending"
+    estimated_duration: "20–30m"
+
+  - subtask_id: "TASK-DR-0001-F"
+    parent_task_id: "TASK-DR-0001"
+    description: "Wipe down laundry machines and surrounding surfaces"
+    status: "pending"
+    estimated_duration: "10–15m"
+
+  - subtask_id: "TASK-DR-0001-G"
+    parent_task_id: "TASK-DR-0001"
+    description: "Tidy clutter and quick vacuum of main areas"
+    status: "pending"
+    estimated_duration: "20m"
+
+  - subtask_id: "TASK-DR-0001-H"
+    parent_task_id: "TASK-DR-0001"
+    description: "Mental reset — acknowledge completion of catch-up phase"
+    status: "pending"
     estimated_duration: "5m"
-    priority: "medium"
-    status: "pending"
-    source_task_id: "TASK-EVENING-003"
+    tags: ["#self", "#ritual"]
 
-  - title: "Reset dining table for breakfast ease"
-    tags: ["#evening", "#reset_routine", "#prep_next_day"]
-    estimated_duration: "5m"
-    priority: "medium"
+  - subtask_id: "TASK-DR-0002-A"
+    parent_task_id: "TASK-DR-0002"
+    description: "Deep clean fridge — remove items and wipe shelves"
     status: "pending"
-    source_task_id: "TASK-EVENING-003"
+    estimated_duration: "30m"
 
-  - title: "Brush both boys’ teeth after dinner"
-    tags: ["#evening", "#hygiene", "#kids", "#reset_routine"]
-    estimated_duration: "5m"
-    priority: "high"
+  - subtask_id: "TASK-DR-0002-B"
+    parent_task_id: "TASK-DR-0002"
+    description: "Scrub bathrooms — shower, tub, toilet, sink"
     status: "pending"
-    source_task_id: "TASK-EVENING-003"
+    estimated_duration: "45m"
+
+  - subtask_id: "TASK-DR-0002-C"
+    parent_task_id: "TASK-DR-0002"
+    description: "Vacuum furniture and dust all surfaces in living room"
+    status: "pending"
+    estimated_duration: "30m"
+
+  - subtask_id: "TASK-DR-0002-D"
+    parent_task_id: "TASK-DR-0002"
+    description: "Deep clean two bedrooms — rotate bedding and declutter"
+    status: "pending"
+    estimated_duration: "1h"
+
+  - subtask_id: "TASK-DR-0002-E"
+    parent_task_id: "TASK-DR-0002"
+    description: "Clean pet areas and wash toys"
+    status: "pending"
+    estimated_duration: "30–45m"
+
+  - subtask_id: "TASK-DR-0002-F"
+    parent_task_id: "TASK-DR-0002"
+    description: "Use buffer days for skipped rooms, windows, behind appliances"
+    status: "pending"
+    estimated_duration: "1.5–2h"
+
+  - subtask_id: "TASK-DR-0002-G"
+    parent_task_id: "TASK-DR-0002"
+    description: "Final reset: vacuum, refresh linens, light scent or candle"
+    status: "pending"
+    estimated_duration: "30–45m"
