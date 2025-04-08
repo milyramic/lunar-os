@@ -1,76 +1,119 @@
-Phase 1: Catch-Up Mode (Days 1–3)
-Let’s focus on clearing the backlog of dishes and laundry so you’re not cleaning around clutter.
+# DISASTER_RECOVERY_TASKS_V1
+# Reformatted from DisasterRecovery.md
+# Last updated: [08-04-2025]
+# Owner: Europa
 
+tasks:
 
-Day 1: Dishes & Kitchen Reset
-* Wash all dishes or run/load dishwasher in batches (1–2 rounds if needed)
-* Wipe down counters/stove/sink
-* Take out trash & start a fresh kitchen reset
-* Bonus (if time): Start a load of laundry
-* Estimated time: 60–90 mins
+  - task_id: "TASK-DR-0001"
+    title: "Catch-Up Mode (Days 1–3)"
+    description: "Clear the immediate backlog of dishes and laundry to reset functional space."
+    status: "pending"
+    deadline: null
+    tags: ["#urgent", "#home"]
+    importance: "critical"
+    estimated_duration: "3h+"
+    assistant_owner: "Europa"
+    created_on: "2025-04-08"
+    last_updated: "2025-04-08"
+    subtasks:
+      - subtask_id: "TASK-DR-0001-A"
+        parent_task_id: "TASK-DR-0001"
+        description: "Wash all dishes or run/load dishwasher in batches"
+        status: "pending"
+        tags: ["#home", "#urgent"]
+        estimated_duration: "30–45m"
+        visibility_scope: ["Europa", "Callisto"]
+        logged_by: "Europa"
+        completion_notes: null
 
-Day 2: Laundry Reset
-* Sort and start laundry (aim for 2–3 loads today)
-* Fold and put away at least one completed load
-* Wipe down laundry machines/surfaces
-* Estimated time: Active time ~45–60 mins, spread throughout day
+      - subtask_id: "TASK-DR-0001-B"
+        parent_task_id: "TASK-DR-0001"
+        description: "Wipe down kitchen counters, stove, and sink"
+        status: "pending"
+        tags: ["#home", "#urgent"]
+        estimated_duration: "15m"
 
-Day 3: Overflow/Buffer
-* Finish any dishes/laundry left
-* Tidy up clutter around the house
-* Quick vacuum or sweep main areas
-* Mentally reset—you’re prepped for deep cleaning!
+      - subtask_id: "TASK-DR-0001-C"
+        parent_task_id: "TASK-DR-0001"
+        description: "Take out trash and start kitchen reset"
+        status: "pending"
+        estimated_duration: "10m"
 
-Phase 2: Deep Clean Blitz (Days 4–12)
-Let’s break your house into zones and hit each one methodically. Each day includes focused tasks and a quick tidy of daily-use areas (kitchen/living room).
+      - subtask_id: "TASK-DR-0001-D"
+        parent_task_id: "TASK-DR-0001"
+        description: "Sort and start 2–3 loads of laundry"
+        status: "pending"
+        estimated_duration: "30–45m"
 
+      - subtask_id: "TASK-DR-0001-E"
+        parent_task_id: "TASK-DR-0001"
+        description: "Fold and put away at least one completed load"
+        status: "pending"
+        estimated_duration: "20–30m"
 
-Day 4: Kitchen Deep Clean
-* Clean fridge (remove items, wipe shelves)
-* Wipe all cabinets, appliances, backsplash
-* Scrub sink, mop floors
-* Estimated time: 1.5–2 hrs
+      - subtask_id: "TASK-DR-0001-F"
+        parent_task_id: "TASK-DR-0001"
+        description: "Wipe down laundry machines and surrounding surfaces"
+        status: "pending"
+        estimated_duration: "10–15m"
 
-Day 5: Bathrooms
-* Scrub shower, tub, toilet, sinks
-* Clean mirrors, sanitize surfaces
-* Mop floors
-* Estimated time: 1–1.5 hrs
+      - subtask_id: "TASK-DR-0001-G"
+        parent_task_id: "TASK-DR-0001"
+        description: "Tidy clutter and quick vacuum of main areas"
+        status: "pending"
+        estimated_duration: "20m"
 
-Day 6: Living Room
-* Dust all surfaces, baseboards, fan/light fixtures
-* Vacuum furniture (pet hair!)
-* Mop/sweep floors
-* Declutter
-* Estimated time: 1–1.5 hrs
+      - subtask_id: "TASK-DR-0001-H"
+        parent_task_id: "TASK-DR-0001"
+        description: "Mental reset — acknowledge completion of catch-up phase"
+        status: "pending"
+        estimated_duration: "5m"
+        tags: ["#self", "#ritual"]
 
+  - task_id: "TASK-DR-0002"
+    title: "Deep Clean Blitz (Days 4–12)"
+    description: "Systematic room-by-room cleaning phase to restore deep cleanliness."
+    status: "pending"
+    importance: "critical"
+    tags: ["#urgent", "#home"]
+    estimated_duration: "10h+"
+    assistant_owner: "Europa"
+    created_on: "2025-04-08"
+    last_updated: "2025-04-08"
+    subtasks:
+      - subtask_id: "TASK-DR-0002-A"
+        parent_task_id: "TASK-DR-0002"
+        description: "Deep clean fridge — remove items and wipe shelves"
+        status: "pending"
+        estimated_duration: "30m"
 
-Day 7: Bedrooms (Master + 1 Kid’s Room)
-* Dust all surfaces, baseboards, furniture
-* Vacuum/mop
-* Rotate bedding, declutter
-* Estimated time: 1.5–2 hrs
+      - subtask_id: "TASK-DR-0002-B"
+        description: "Scrub bathrooms — shower, tub, toilet, sink"
+        status: "pending"
+        estimated_duration: "45m"
 
-Day 8: Other Bedroom + Laundry Room
-* Same as above for bedroom
-* Wipe down machines, sanitize handles
-* Organize supplies/shelves
-* Estimated time: 1.5 hrs
+      - subtask_id: "TASK-DR-0002-C"
+        description: "Vacuum furniture and dust all surfaces in living room"
+        status: "pending"
+        estimated_duration: "30m"
 
-Day 9: Pet Areas + Toys
-* Deep clean litter box area
-* Wash pet bedding
-* Wipe down or soak toys in Dawn solution
-* Estimated time: 1–1.5 hrs
+      - subtask_id: "TASK-DR-0002-D"
+        description: "Deep clean two bedrooms — rotate bedding and declutter"
+        status: "pending"
+        estimated_duration: "1h"
 
-Day 10–11: Catch-Up/Extras
-* Anything skipped or unfinished
-* Clean under furniture, behind appliances
-* Wash windows, curtains, etc.
-* Estimated time: 1.5–2 hrs total per day
+      - subtask_id: "TASK-DR-0002-E"
+        description: "Clean pet areas and wash toys"
+        status: "pending"
+        estimated_duration: "30–45m"
 
-Day 12: Whole-House Touch-Up + Reset
-* Light dust, vacuum, mop
-* Refresh linens if needed
-* Light candle or spray scent—your clean home moment!
-* Estimated time: 1–1.5 hrs
+      - subtask_id: "TASK-DR-0002-F"
+        description: "Use buffer days for skipped rooms, windows, behind appliances"
+        status: "pending"
+        estimated_duration: "1.5–2h"
+
+      - subtask_id: "TASK-DR-0002-G"
+        description: "Final reset: vacuum, refresh linens, light scent or candle"
+        status: "pending"
+        estimated_duration: "30–45m"
