@@ -68,7 +68,7 @@ To compile a forward-facing, assistant-authored **Markdown report** using struct
 #### **Fallback Logic**
 **Appointments & Events fallback**:
 1. Look ahead 4 days for appointments  
-2. Pull `#event` flags from Callisto's `Activities.md`  
+2. Pull `#event` flags from Callisto's `Activities.yaml`  
 3. Check for good weather days (65–75°F)  
 4. Pull seasonal anchor from Luna  
 5. Default:
