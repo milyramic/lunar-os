@@ -1,4 +1,4 @@
-What needs to get done in the lunar system project
+What needs to get done in the lunar system - Moon GPT
 ---
 
 # Figure out what needs to be human vs computer-readable
