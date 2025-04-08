@@ -210,7 +210,7 @@ To ensure consistency in the user’s daily rhythm, fallback rules are applied w
      - 🌑 Morning Report
      - 🌔 Waxing Report
      - 🌘 Waning Report  
-   - Logic is embedded in each template (see `LunarReports.md`)
+   - Logic is embedded in each template (see `LunarCycles.md`)
 
 4. **Memory Tracking**
    - Completion timestamps for each anchor subtask must be logged to determine if fallback trigger applies
