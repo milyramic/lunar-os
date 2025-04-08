@@ -1,0 +1,111 @@
+# Activities.yaml
+
+activities:
+
+  - title: "Visit the Zoo"
+    description: "Great for both ages — includes shaded paths, petting zoo, splash areas"
+    tags: ["#outdoor", "#toddler_safe", "#water_fun"]
+    duration: "2–3h"
+    location: "Phoenix Zoo"
+    age_notes: "Good for both toddler and preschooler"
+    access_notes: "Paid admission; water features are open in warm months"
+    source: "user-defined"
+
+  - title: "Botanical Gardens — Free Day"
+    description: "Free admission on the second Tuesday of every month"
+    tags: ["#event", "#outdoor", "#toddler_safe"]
+    recurrence: "2nd Tuesday monthly"
+    duration: "1–2h"
+    location: "Desert Botanical Garden, Phoenix, AZ"
+    access_notes: "Open to public during event; check seasonal hours"
+    source: "Desert Botanical Garden via visitphoenix.com"
+
+  - title: "Children’s Museum — Free First Friday Night"
+    description: "Free admission on the first Friday of each month from 5pm–9pm"
+    tags: ["#event", "#inside", "#toddler_safe"]
+    recurrence: "1st Friday monthly, 5–9pm"
+    duration: "1.5–2h"
+    location: "Children’s Museum of Phoenix"
+    access_notes: "Part of the Every Child Program — equitable access for all"
+    source: "childrensmuseumofphoenix.org"
+
+  - title: "Painting at Home"
+    description: "Mess-friendly creative time — use washable paints on paper or cardboard"
+    tags: ["#inside", "#creative", "#toddler_safe"]
+    duration: "30–45m"
+    location: "Home"
+    age_notes: "Works well for both ages with supervision"
+    access_notes: "Tape paper down, provide smocks or go shirtless"
+    source: "user-defined"
+
+  - title: "Water Play in Backyard"
+    description: "Sprinklers, buckets, and water table on warm days"
+    tags: ["#water_fun", "#outdoor", "#toddler_safe"]
+    duration: "45–60m"
+    location: "Home"
+    access_notes: "Best if 80°F+, shaded area recommended"
+    source: "user-defined"
+
+  - title: "Visit the Local Library"
+    description: "Children’s section with toys, puzzles, and storytime blocks"
+    tags: ["#inside", "#free", "#toddler_safe"]
+    duration: "1h"
+    location: "Phoenix Public Library branches"
+    access_notes: "Check local calendar for toddler events"
+    source: "user-defined"
+
+  - title: "Splash Pad Visit"
+    description: "Local park splash pads — open April through September"
+    tags: ["#event", "#water_fun", "#outdoor", "#toddler_safe"]
+    seasonal: "Spring–Summer"
+    duration: "1h"
+    location: "Various Phoenix parks"
+    access_notes: "Free access; bring towel, water bottle, sun hat"
+    source: "user-defined"
+
+  - title: "Indoor Obstacle Course"
+    description: "Use pillows, boxes, and blankets for a mini climbing path"
+    tags: ["#inside", "#gross_motor", "#toddler_safe"]
+    duration: "30m"
+    location: "Home"
+    access_notes: "Rotate layout weekly"
+    source: "user-defined"
+
+  - title: "Nature Walk at Nearby Park"
+    description: "Slow loop for stroller or walking toddler; bring snack and shade"
+    tags: ["#outdoor", "#toddler_safe"]
+    duration: "30–60m"
+    location: "Any nearby park"
+    access_notes: "Early morning or sunset preferred in heat"
+    source: "user-defined"
+
+  - title: "Swim Day at Local Pool"
+    description: "Toddler splash zone + shaded lounge areas"
+    tags: ["#event", "#water_fun", "#toddler_safe", "#outdoor"]
+    recurrence: "Check weather and pool hours"
+    duration: "1.5–2h"
+    location: "Local public pool"
+    access_notes: "Bring swim diapers, snacks, sun protection"
+    source: "user-defined"
+
+  - title: "Heard Museum — Free Admission Events"
+    description: "Free first Friday of the month (except March) from 6pm–10pm; also free on 3rd Saturdays from 11am–5pm (June–August)"
+    tags: ["#event", "#inside"]
+    recurrence: 
+      - "1st Friday monthly, 6–10pm"
+      - "3rd Saturday monthly, Jun–Aug only, 11am–5pm"
+    duration: "1.5–2h"
+    location: "Heard Museum, Phoenix, AZ"
+    access_notes: "Indigenous art, interactive exhibits for older toddlers"
+    source: "visitphoenix.com"
+
+  - title: "Phoenix Art Museum — Free Admission"
+    description: "Free every Wednesday from 3–8pm and first Fridays from 5–8pm"
+    tags: ["#event", "#inside"]
+    recurrence: 
+      - "Every Wednesday, 3–8pm"
+      - "1st Friday monthly, 5–8pm"
+    duration: "1.5h"
+    location: "Phoenix Art Museum, Phoenix, AZ"
+    access_notes: "Open areas and rotating exhibits; quieter after 6pm"
+    source: "phxart.org"
