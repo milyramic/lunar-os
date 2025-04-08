@@ -11,6 +11,86 @@
 
 ## INFO DUMP
 
+## FILE INDEX CHANGELOG — Atlas Authority  
+_Last updated: 08-04-2025_  
+_All canonical file names and structural role clarifications are documented below._
+
+---
+
+### 🔁 Renamed File
+
+- **Old Name**: `MainTaskList.yaml`  
+- **New Name**: `Subtasks.yaml`  
+- **Effective Date**: 08-04-2025  
+- **Reason**: Task and subtask records have been unified into a single YAML schema.  
+  This change streamlines assistant lookup, task filtering, and OAAT integration logic.
+
+---
+
+### 🧾 Notes for Assistant Reference
+
+- **Europa** now reads and writes directly to `Subtasks.yaml` for both tasks and subtasks.
+- **Callisto** uses `Subtasks.yaml` to surface matches during rhythm declarations.
+- **Selene** sources `just_do_this`, `skipped_subtasks`, and `task highlights` from this file.
+- **Mneme** tracks status changes and logs archival-worthy items from `Subtasks.yaml`.
+
+---
+
+### ✅ Schema Compatibility
+
+- Fully supports: `Task Template V1` and `Subtask Template V1`  
+- Tag filter logic remains unchanged (`#urgent`, `#reset_routine`, etc.)
+- Supports both parent and child structure in YAML using `parent_task_id` field
+
+## 🔖 ATLAS SYSTEM FILE INDEX  
+_Last updated: 08-04-2025_  
+_All YAML files currently in use within the Lunar System architecture_
+
+---
+
+### 🗂️ Core Task & Subtask Management
+
+- **Subtasks.yaml**  
+  > Unified source of all structured tasks and subtasks.  
+  > Replaces previous `MainTaskList.yaml`.  
+  > Used by: Europa, Callisto, Selene, Mneme  
+  > Supports: OAAT flows, daily reports, rhythm matching, archival sync
+
+- **SkippedSubtaskList.yaml**  
+  > Auto-logged by Europa when subtasks are marked skipped in reports.  
+  > Mneme monitors for urgency escalation.  
+  > Used in: Waning + Full Reports, task surfacing logic
+
+---
+
+### 🧹 Specialized Task Sets
+
+- **DisasterRecovery.yaml**  
+  > Rebuilt from Markdown as formal YAML task structure.  
+  > Contains urgent + important phases with embedded subtasks  
+  > Referenced by: Europa, Callisto during recovery blocks
+
+- **Activities.yaml**  
+  > Event and activity catalog used by Callisto for playdate matching and Selene for fallback appointments.  
+  > Not structured as tasks, but may be converted in future OAAT steps
+
+---
+
+### 🛑 Deprecated or Replaced
+
+- `MainTaskList.yaml` → replaced by `Subtasks.yaml`  
+  (All logic rerouted; this file should no longer be used or referenced.)
+
+---
+
+### 💾 Archive Candidates
+
+- `ARCHIVE.md`  
+  > Receives past-dated or completed memory exports during Weekly Reset  
+  > Populated via Mneme and Europa
+
+
+
 ---
 
 ## PROTOCOLS
