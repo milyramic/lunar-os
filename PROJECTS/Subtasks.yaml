@@ -100,3 +100,102 @@ subtasks:
     description: "Final reset: vacuum, refresh linens, light scent or candle"
     status: "pending"
     estimated_duration: "30–45m"
+
+
+- subtask_id: "TASK-CALL-0001-A"
+  parent_task_id: "TASK-CALL-0001"
+  description: "Start first laundry load"
+  status: "pending"
+  estimated_duration: "10–15m"
+  tags: ["#home", "#laundry", "#anchor"]
+  created_on: "2025-04-08"
+  last_updated: "2025-04-08"
+  visibility_scope: ["Callisto", "Selene", "Europa"]
+  logged_by: "Callisto"
+  completion_notes: null
+
+- subtask_id: "TASK-CALL-0001-B"
+  parent_task_id: "TASK-CALL-0001"
+  description: "Reset toys in shared zones"
+  status: "pending"
+  estimated_duration: "10–15m"
+  tags: ["#kids", "#reset_routine", "#stoppable"]
+  created_on: "2025-04-08"
+  last_updated: "2025-04-08"
+  visibility_scope: ["Callisto", "Europa"]
+  logged_by: "Callisto"
+  completion_notes: null
+
+- subtask_id: "TASK-CALL-0001-C"
+  parent_task_id: "TASK-CALL-0001"
+  description: "Check toddler fruit inventory and prep notes"
+  status: "pending"
+  estimated_duration: "5m"
+  tags: ["#stoppable", "#kitchen"]
+  visibility_scope: ["Callisto", "Selene"]
+  logged_by: "Callisto"
+  completion_notes: null
+
+- subtask_id: "TASK-CALL-0001-D"
+  parent_task_id: "TASK-CALL-0001"
+  description: "Wipe bathroom mirror (if skipped > 7 days)"
+  status: "pending"
+  estimated_duration: "5m"
+  tags: ["#fallback", "#reset_routine"]
+  visibility_scope: ["Callisto"]
+  logged_by: "Callisto"
+  completion_notes: null
+
+- subtask_id: "TASK-CALL-0001-E"
+  parent_task_id: "TASK-CALL-0001"
+  description: "Check diaper/toddler drawer for refills"
+  status: "pending"
+  estimated_duration: "5–10m"
+  tags: ["#kids", "#stoppable"]
+  visibility_scope: ["Callisto", "Europa"]
+  logged_by: "Callisto"
+  completion_notes: null
+
+# SUBTASKS_MAIN_LIST_V1 — Additions from Callisto.md (Evening Flow)
+
+- subtask_id: "TASK-EVENING-003-A"
+  parent_task_id: "TASK-EVENING-003"
+  description: "Clear all floors for robot vacuum"
+  status: "pending"
+  estimated_duration: "7m"
+  tags: ["#evening", "#reset_routine", "#robo_vac_prep"]
+  created_on: "2025-04-08"
+  last_updated: "2025-04-08"
+  visibility_scope: ["Callisto", "Europa", "Selene"]
+  logged_by: "Callisto"
+  completion_notes: null
+
+- subtask_id: "TASK-EVENING-003-B"
+  parent_task_id: "TASK-EVENING-003"
+  description: "Quick fridge scan (note anything for tomorrow’s groceries)"
+  status: "pending"
+  estimated_duration: "5m"
+  tags: ["#evening", "#prep_next_day", "#kitchen"]
+  visibility_scope: ["Callisto", "Selene"]
+  logged_by: "Callisto"
+  completion_notes: null
+
+- subtask_id: "TASK-EVENING-003-C"
+  parent_task_id: "TASK-EVENING-003"
+  description: "Reset dining table for breakfast ease"
+  status: "pending"
+  estimated_duration: "5m"
+  tags: ["#evening", "#prep_next_day", "#stoppable"]
+  visibility_scope: ["Callisto", "Europa"]
+  logged_by: "Callisto"
+  completion_notes: null
+
+- subtask_id: "TASK-EVENING-003-D"
+  parent_task_id: "TASK-EVENING-003"
+  description: "Brush both boys’ teeth after dinner"
+  status: "pending"
+  estimated_duration: "5m"
+  tags: ["#evening", "#kids", "#hygiene"]
+  visibility_scope: ["Callisto", "Selene"]
+  logged_by: "Callisto"
+  completion_notes: null
