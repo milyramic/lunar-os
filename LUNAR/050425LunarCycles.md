@@ -368,7 +368,7 @@ notes:
       description: "Start cauliflower curry (oven-roast component)"
 
 # If fewer than 4 items are available, fill remaining with:
-# - #messy or #fieldtrip items from Callisto’s Activities.md
+# - #messy or #fieldtrip items from Callisto’s Activities.yaml
 # - Otherwise, leave slot blank or flag “No additional items found”
 ```
 
