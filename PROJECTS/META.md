@@ -66,5 +66,4 @@ Hyperion to assign architecture, cross-assistant tagging, or trigger logic as ap
 # ❓ Missing or Ambiguous (Optional)
 > These aren't required, but may be missing if part of your future flow:
 **File	Status	Note**
-- LunarReports.md	🔍 Not uploaded	Some fallback logic references this. Possibly merged into 040425LunarCycles.md.
 - OAATQueue.md	🔍 Not uploaded	If you're tracking OAAT task lists in external files, this is where they'd go.
