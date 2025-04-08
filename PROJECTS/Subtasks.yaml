@@ -1,6 +1,7 @@
-# SUBTASKS.yaml
-# Main Subtask List (Europa-managed)
+# SUBTASKS_MAIN_LIST_V1
+# Generated from: DisasterRecovery.yaml
 # Last updated: 08-04-2025
+# Owner: Europa
 
 subtasks:
 
@@ -18,7 +19,7 @@ subtasks:
     parent_task_id: "TASK-DR-0001"
     description: "Wipe down kitchen counters, stove, and sink"
     status: "pending"
-    tags: ["#home", "#urgent"]
+    tags: ["#home"]
     estimated_duration: "15m"
 
   - subtask_id: "TASK-DR-0001-C"
