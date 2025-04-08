@@ -56,3 +56,18 @@ linked_reports: ["FullReport_080425", "Subtasks.yaml", "SkippedSubtasks.yaml"]
 visibility_scope: ["Europa", "Selene", "Callisto"]
 completion_notes: null # optional reflections, archived later by Mneme
 
+# SUBTASK_TEMPLATE_V1
+# Last updated: [DD-MM-YYYY]
+# Owner: Europa (curated), Atlas (stored), Mneme (archived)
+
+subtask_id: "TASK-2025-0001-A"
+parent_task_id: "TASK-2025-0001"
+description: "Fold and store last clean laundry load"
+status: "pending" # options: pending, in_progress, completed, skipped, blocked, deferred
+tags: ["#quiettime", "#kids", "#stoppable"]
+estimated_duration: "15m"
+created_on: "2025-04-06"
+last_updated: "2025-04-08"
+visibility_scope: ["Europa", "Callisto", "Selene"]
+logged_by: "Europa"
+completion_notes: null
