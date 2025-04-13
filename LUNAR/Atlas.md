@@ -111,7 +111,7 @@ _All YAML files currently in use within the Lunar System architecture_
 # TASK_TEMPLATE_V1
 # Last updated: [DD-MM-YYYY]
 # Owner: Europa (curated), Atlas (stored), Selene (referenced)
-
+```yaml
 task_id: "TASK-2025-0001"
 title: "Clear Disaster Overflow"
 description: "Finish any remaining laundry or dishes left from Catch-Up phase"
@@ -135,11 +135,12 @@ subtasks:
 linked_reports: ["FullReport_080425", "Subtasks.yaml", "SkippedSubtasks.yaml"]
 visibility_scope: ["Europa", "Selene", "Callisto"]
 completion_notes: null # optional reflections, archived later by Mneme
+```
 
 # SUBTASK_TEMPLATE_V1
 # Last updated: [DD-MM-YYYY]
 # Owner: Europa (curated), Atlas (stored), Mneme (archived)
-
+```yaml
 subtask_id: "TASK-2025-0001-A"
 parent_task_id: "TASK-2025-0001"
 description: "Fold and store last clean laundry load"
@@ -151,3 +152,5 @@ last_updated: "2025-04-08"
 visibility_scope: ["Europa", "Callisto", "Selene"]
 logged_by: "Europa"
 completion_notes: null
+```
+
